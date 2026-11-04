@@ -1,0 +1,1000 @@
+proveedor_id,proveedor,contacto,email,telefono,saldo_pendiente,ultima_compra,categoria_asignada,dias_sin_compra,estado_actividad,email_duplicado,pedidos_asignados,coste_asignado
+P0001,So Factive,Lorenzo Cantón Galan,fluffy@verizon.net,(394) 406-8708,63.0,2018-09-04,Alimento infantil,1526,Dormido (>3 años),False,0.0,0.0
+P0002,Kontroller,Adelina Valls Canet,fraterk@me.com,(923) 207-3871,4250.0,2012-06-08,Bebida,3805,Dormido (>3 años),False,0.0,0.0
+P0003,Finance Api,Eulalia del Galindo,animats@mac.com,(904) 363-2261,2412.0,2017-08-06,Cereales,1920,Dormido (>3 años),False,2.0,861812.49
+P0004,Biomotivate,Tania Catalán Galván,tbeck@icloud.com,(923) 671-4117,3348.0,2017-05-22,Cosméticos,1996,Dormido (>3 años),False,0.0,0.0
+P0005,Deltavita,Abraham Girón-Soler,mallanmba@yahoo.ca,(841) 798-8943,570.0,2022-01-17,Cuidado personal,295,Activo (<1 año),False,2.0,484245.15
+P0006,Metta Statu_cru_lumarn,Erasmo Gibert Quevedo,kosact@sbcglobal.net,(559) 515-6369,261.0,2014-09-02,Cárnicos,2989,Dormido (>3 años),False,3.0,1780781.27
+P0007,Town Of Abus Road,Ana Belén Mayo Correa,bastian@aol.com,(715) 328-4811,4733.0,2021-02-26,Doméstico,620,Inactivo (1-3 años),False,1.0,1500584.4400000002
+P0008,Player,Valentina Enríquez Montalbán,lukka@mac.com,(953) 242-4312,18254.0,2019-01-06,Frutas,1402,Dormido (>3 años),False,1.0,19334.48
+P0009,Team Esports,Pastor Querol Verdugo,sjava@yahoo.com,(429) 355-6554,2128.0,2018-04-28,Material de oficina,1655,Dormido (>3 años),False,1.0,128615.20000000001
+P0010,Team Impact,Andrés Saavedra Castelló,shawnce@me.com,(399) 380-2112,310.0,2012-08-11,Ropa,3741,Dormido (>3 años),False,2.0,326179.84
+P0011,Alliancestudios,Juliana Márquez Huguet,moinefou@hotmail.com,(242) 702-4300,3536.0,2020-11-02,Snacks,736,Inactivo (1-3 años),False,3.0,2036885.76
+P0012,Modgugh,África Fernandez Calatayud,bebing@att.net,(479) 987-5028,71.14,2018-10-14,Verduras,1486,Dormido (>3 años),False,0.0,0.0
+P0013,Team Software,Carlito Domínguez Cortes,afifi@yahoo.com,(669) 494-0889,5258.0,2017-05-08,Alimento infantil,2010,Dormido (>3 años),False,0.0,0.0
+P0014,Bayesa,Heliodoro Baños Sainz,zavadsky@gmail.com,(495) 936-2371,8121.0,2015-03-13,Bebida,2797,Dormido (>3 años),True,2.0,469570.08999999997
+P0015,Pubsearch,Arturo Ferrán Terrón,neonatus@yahoo.ca,(901) 585-8039,211.0,2022-02-01,Cereales,280,Activo (<1 año),False,2.0,779718.38
+P0016,Teknosystems,Serafina Marcela Solano Alfaro,nichoj@yahoo.com,(243) 646-8371,3391.0,2017-06-09,Cosméticos,1978,Dormido (>3 años),False,0.0,0.0
+P0017,Companyreo,María Pilar Jódar Gómez,kwilliams@icloud.com,(577) 722-8909,5752.0,2021-01-10,Cuidado personal,667,Inactivo (1-3 años),False,0.0,0.0
+P0018,Upstream,Verónica Carmina Riba Criado,presoff@aol.com,(965) 536-3236,4332.0,2014-04-01,Cárnicos,3143,Dormido (>3 años),False,0.0,0.0
+P0019,Zenitcom Solutions,Bernardita Royo León,samavati@yahoo.com,(970) 954-6303,7601.0,2012-08-05,Doméstico,3747,Dormido (>3 años),False,0.0,0.0
+P0020,Vuevitas,Carlito Peñas Prado,philen@verizon.net,(988) 713-8842,607.0,2021-10-17,Frutas,387,Inactivo (1-3 años),False,1.0,47602.68
+P0021,2gm Fuji,Inmaculada Aurora Cantero Peralta,sacraver@aol.com,(618) 384-8498,8231.0,2012-07-22,Material de oficina,3761,Dormido (>3 años),False,1.0,3944549.4400000004
+P0022,Wembo Mobile,Sebastian Carnero Uriarte,seano@hotmail.com,(727) 291-1259,2203.0,2016-11-13,Ropa,2186,Dormido (>3 años),False,1.0,320517.12000000005
+P0023,Ijmall,Eusebia Peñalver Abellán,fudrucker@aol.com,(620) 870-4407,1635.0,2018-10-20,Snacks,1480,Dormido (>3 años),False,0.0,0.0
+P0024,Goautomatch,Fermín Amor Piña,burns@aol.com,(588) 599-4372,5861.0,2016-12-11,Verduras,2158,Dormido (>3 años),False,2.0,1264381.6500000001
+P0025,Myvichco,Joaquín Duarte Lerma,jdhedden@live.com,(225) 424-7303,2021.0,2011-12-25,Alimento infantil,3971,Dormido (>3 años),False,3.0,3465471.96
+P0026,Every Good Good After Logo,Vilma de Rosado,maratb@att.net,(386) 943-6501,351.0,2013-08-03,Bebida,3384,Dormido (>3 años),False,1.0,247612.31
+P0027,Grupo Labora,Gaspar Alsina Orozco,darin@hotmail.com,(253) 267-0135,7806.0,2012-05-23,Cereales,3821,Dormido (>3 años),False,2.0,963698.19
+P0028,The Other Side,Maricruz Tejedor Pons,alastair@verizon.net,(818) 803-6439,1089.0,2021-10-26,Cosméticos,378,Inactivo (1-3 años),False,2.0,2071090.45
+P0029,Myrgy,Maximino del Prada,dunstan@verizon.net,(458) 694-0732,8065.0,2016-03-17,Cuidado personal,2427,Dormido (>3 años),False,2.0,605802.3
+P0030,Madrid,Ruth Guardia Sevillano,bhtower@msn.com,(594) 738-2085,747.0,2012-07-16,Cárnicos,3767,Dormido (>3 años),False,1.0,722815.58
+P0031,Robotank Home,Fermín Gimeno Aguirre,yenya@aol.com,(621) 889-1552,352.0,2017-11-05,Doméstico,1829,Dormido (>3 años),False,2.0,7543627.9399999995
+P0032,Phoenix Payroll,Selena Nebot Montes,guialbu@me.com,(789) 438-6462,2036.0,2017-12-09,Frutas,1795,Dormido (>3 años),False,1.0,8124.08
+P0033,Generite Labs,Daniel Soriano-Mesa,adamk@live.com,(876) 988-8149,3546.0,2018-05-26,Material de oficina,1627,Dormido (>3 años),False,1.0,1275652.8
+P0034,Optimization Logic,Leoncio Yáñez Grau,temmink@gmail.com,(474) 585-5295,7444.0,2013-08-29,Ropa,3358,Dormido (>3 años),False,0.0,0.0
+P0035,Caron Management,Macaria de Santamaría,mavilar@msn.com,(969) 346-7723,8474.0,2019-09-27,Snacks,1138,Dormido (>3 años),False,1.0,776499.36
+P0036,Aerovans,Tere Alberto Urrutia,ajohnson@yahoo.ca,(221) 271-5402,849.0,2022-02-28,Verduras,253,Activo (<1 año),False,0.0,0.0
+P0037,Iacm,Adriana Salvà,jkegl@icloud.com,(424) 740-7029,2929.0,2015-01-29,Alimento infantil,2840,Dormido (>3 años),False,0.0,0.0
+P0038,Catr,Adán Bernad,hakim@yahoo.com,(604) 786-5700,1062.0,2017-05-09,Bebida,2009,Dormido (>3 años),False,2.0,445791.17
+P0039,2cv Factory,Roberta Villegas Ibañez,mlewan@mac.com,(979) 293-4899,2836.0,2019-02-03,Cereales,1374,Dormido (>3 años),False,0.0,0.0
+P0040,New Culture,Odalys García Roma,dhwon@verizon.net,(937) 737-8674,5403.0,2016-11-17,Cosméticos,2182,Dormido (>3 años),False,0.0,0.0
+P0041,Windy Forest,Mar Millán Pons,themer@me.com,(942) 814-8944,4510.0,2012-02-04,Cuidado personal,3930,Dormido (>3 años),False,1.0,80414.73
+P0042,The Rotary Club,Poncio Osorio Pujol,jaffe@hotmail.com,(559) 957-3199,5287.0,2013-12-03,Cárnicos,3262,Dormido (>3 años),False,3.0,7369655.5200000005
+P0043,Online Transport,Susanita Gargallo Domingo,bachmann@comcast.net,(436) 749-5800,3707.0,2015-11-02,Doméstico,2563,Dormido (>3 años),False,2.0,7764745.54
+P0044,Good City Mobility,Heriberto Velasco,frode@mac.com,(845) 334-6783,1640.0,2012-03-13,Frutas,3892,Dormido (>3 años),False,1.0,51062.68
+P0045,Bt North,Diego Almansa Morata,hyper@optonline.net,(689) 268-4318,5497.0,2019-04-11,Material de oficina,1307,Dormido (>3 años),False,2.0,7363088.960000001
+P0046,Isll Consulting,Cosme Ros Manzanares,martyloo@optonline.net,(647) 206-3077,2561.0,2016-01-20,Ropa,2484,Dormido (>3 años),False,2.0,278512.64
+P0047,Rail Transit,Teo Velázquez Mas,anicolao@aol.com,(789) 832-3505,5261.0,2012-09-14,Snacks,3707,Dormido (>3 años),False,1.0,655478.88
+P0048,Carglo Carlo,Cayetana del Menendez,ralamosm@me.com,(540) 287-1678,1184.0,2017-01-29,Verduras,2109,Dormido (>3 años),False,1.0,8274.630000000001
+P0049,Beads Eyed,Bernarda Simó Vendrell,khris@me.com,(509) 591-3937,5977.0,2019-07-04,Alimento infantil,1223,Dormido (>3 años),False,3.0,1483721.94
+P0050,Saatchi Labs,Marcio Ropero Vila,preneel@verizon.net,(657) 740-8843,3599.0,2012-10-27,Bebida,3664,Dormido (>3 años),False,0.0,0.0
+P0051,March Outbre,Jordana Téllez Gallo,slanglois@yahoo.com,(487) 758-3577,938.0,2014-08-08,Cereales,3014,Dormido (>3 años),False,0.0,0.0
+P0052,Csw Resources,Pepita Prats Torrens,fudrucker@mac.com,(568) 979-5050,685.0,2012-10-18,Cosméticos,3673,Dormido (>3 años),False,3.0,5715840.9799999995
+P0053,Intercities,Clarisa Abril Tudela,jbarta@comcast.net,(402) 453-5695,5603.0,2014-09-16,Cuidado personal,2975,Dormido (>3 años),False,1.0,261872.07
+P0054,Servicenet,Miguel Alvarado Goñi,jbearp@comcast.net,(329) 568-2249,4006.0,2017-07-24,Cárnicos,1933,Dormido (>3 años),False,2.0,944547.1
+P0055,Clearcad,Tecla Cerdán Novoa,matthijs@gmail.com,(611) 600-2978,2151.0,2014-03-11,Doméstico,3164,Dormido (>3 años),False,0.0,0.0
+P0056,Career By Space,Brígida Rocamora Calvo,mglee@hotmail.com,(439) 619-2527,1172.0,2016-11-21,Frutas,2178,Dormido (>3 años),False,1.0,53353.2
+P0057,Walna Dynamics,Jesús Abad Lago,chaikin@optonline.net,(465) 470-3259,8455.0,2020-03-09,Material de oficina,974,Inactivo (1-3 años),False,0.0,0.0
+P0058,Trammys Australia,Vera Salmerón Montoya,ateniese@hotmail.com,(570) 455-8363,4118.0,2013-11-11,Ropa,3284,Dormido (>3 años),True,2.0,505093.12000000005
+P0059,Claris,Marcial Carbajo Lorenzo,snunez@me.com,(886) 207-9485,6443.0,2017-11-24,Snacks,1810,Dormido (>3 años),False,0.0,0.0
+P0060,Ez Roads,Octavia del Álvaro,jmorris@mac.com,(248) 371-2298,3392.0,2018-08-21,Verduras,1540,Dormido (>3 años),False,0.0,0.0
+P0061,Clever Ride,Quique Seguí-Amador,yzheng@mac.com,(281) 734-3321,1437.0,2017-12-04,Alimento infantil,1800,Dormido (>3 años),False,2.0,1485156.7199999997
+P0062,Lbr Engineers,Aarón Aparicio Becerra,madler@gmail.com,(615) 502-3945,6440.0,2019-04-27,Bebida,1291,Dormido (>3 años),False,3.0,372737.75
+P0063,Sabre Auto Repair,Bárbara de Bru,sravani@me.com,(541) 274-1193,7879.0,2020-05-10,Cereales,912,Inactivo (1-3 años),False,3.0,1029045.57
+P0064,Island Impacex,Palmira Solís Murcia,sacraver@outlook.com,(440) 290-5840,5092.0,2012-10-24,Cosméticos,3667,Dormido (>3 años),False,1.0,1097559.44
+P0065,We Are Yours,Rufina Marti-Baena,emmanuel@icloud.com,(808) 840-3996,1496.0,2016-07-05,Cuidado personal,2317,Dormido (>3 años),False,2.0,533548.05
+P0066,Anti Systems,Lorenzo Cuéllar Huertas,csilvers@optonline.net,(285) 608-7285,4562.0,2019-06-05,Cárnicos,1252,Dormido (>3 años),False,0.0,0.0
+P0067,Startup Europe,Danilo Hervia,wildfire@comcast.net,(282) 971-1586,2993.0,2018-08-28,Doméstico,1533,Dormido (>3 años),False,0.0,0.0
+P0068,Jack Donnelly Hyundai,Nazario Diego Pallarès Benavides,darin@live.com,(881) 628-7284,2227.0,2016-07-29,Frutas,2293,Dormido (>3 años),False,0.0,0.0
+P0069,Maxlight Motorsports,Matilde del Catalá,enintend@comcast.net,(730) 474-4521,6922.0,2015-07-30,Material de oficina,2658,Dormido (>3 años),False,1.0,2779138.24
+P0070,Maverick Auto Parts,Amador Bonilla Fonseca,duchamp@optonline.net,(560) 388-7690,4602.0,2017-07-05,Ropa,1952,Dormido (>3 años),False,0.0,0.0
+P0071,Terrible Herbst,Caridad Mendizábal,bjoern@msn.com,(654) 623-3400,4563.0,2018-12-13,Snacks,1426,Dormido (>3 años),False,0.0,0.0
+P0072,Bluedrilled,Flora Vila Cardona,carroll@yahoo.ca,(811) 794-2093,2456.0,2014-07-16,Verduras,3037,Dormido (>3 años),False,1.0,204865.29
+P0073,City Of Revelstoke,Rico Mayo,roamer@verizon.net,(848) 852-4024,4254.0,2018-09-12,Alimento infantil,1518,Dormido (>3 años),False,2.0,1712808.48
+P0074,Garage Services,Mónica Molina-Pérez,reeds@me.com,(649) 971-1589,6908.0,2014-04-20,Bebida,3124,Dormido (>3 años),False,1.0,262839.72
+P0075,Toytha,Malena Olivera Ropero,boein@msn.com,(415) 786-5209,8151.0,2016-12-27,Cereales,2142,Dormido (>3 años),False,0.0,0.0
+P0076,Mrzio Management,Buenaventura Vallejo Camacho,drhyde@aol.com,(477) 828-9575,3999.0,2016-07-09,Cosméticos,2313,Dormido (>3 años),False,1.0,724420.83
+P0077,Admins,Julia Chaves Nieto,jkegl@live.com,(837) 909-8679,3279.0,2017-04-04,Cuidado personal,2044,Dormido (>3 años),False,0.0,0.0
+P0078,Bee Auto Agency,Camilo Gutiérrez Soto,madler@comcast.net,(479) 253-7790,7858.0,2019-03-30,Cárnicos,1319,Dormido (>3 años),False,0.0,0.0
+P0079,Carriere,Pascual Aurelio Cañas Ponce,gommix@comcast.net,(612) 688-9292,3446.0,2016-09-24,Doméstico,2236,Dormido (>3 años),False,0.0,0.0
+P0080,Vision Sports,Nilda Torralba Leon,jigsaw@outlook.com,(238) 635-8141,1309.0,2017-06-24,Frutas,1963,Dormido (>3 años),False,0.0,0.0
+P0081,Batch,Bautista Dani Talavera Simó,kosact@gmail.com,(442) 286-6384,6202.0,2012-08-30,Material de oficina,3722,Dormido (>3 años),False,1.0,697146.88
+P0082,Game Flip (ateler Systems),Álvaro Cortina Peralta,juliano@att.net,(821) 321-1326,5704.0,2012-04-08,Ropa,3866,Dormido (>3 años),False,1.0,27704.320000000003
+P0083,Crius.ai,Manu Fernandez,raides@yahoo.com,(650) 990-3292,715.0,2021-07-26,Snacks,470,Inactivo (1-3 años),False,1.0,655478.88
+P0084,Ginezoft,Natalia Muñoz Anaya,baveja@outlook.com,(367) 878-4745,2676.0,2016-04-08,Verduras,2405,Dormido (>3 años),False,2.0,1547446.7400000002
+P0085,Tsexex.ai,Tatiana Morales Palomares,gboss@me.com,(969) 236-0495,6536.0,2015-01-22,Alimento infantil,2847,Dormido (>3 años),False,0.0,0.0
+P0086,Talentplan,Imelda Navas,sinkou@me.com,(622) 347-3826,5457.0,2017-05-01,Bebida,2017,Dormido (>3 años),False,0.0,0.0
+P0087,New Vr,Guadalupe de Andreu,okroeger@sbcglobal.net,(756) 446-1210,811.0,2018-11-30,Cereales,1439,Dormido (>3 años),False,0.0,0.0
+P0088,Road Bike Sports,Gabriela Nuñez,matsn@optonline.net,(500) 650-6099,781.0,2012-03-18,Cosméticos,3887,Dormido (>3 años),False,0.0,0.0
+P0089,Iti Technical,Candelas Romero,kourai@gmail.com,(742) 734-1819,6005.0,2013-07-18,Cuidado personal,3400,Dormido (>3 años),True,0.0,0.0
+P0090,Crowdpool - Fse Cx,Flor Cabrera Casares,boftx@me.com,(361) 648-9813,2054.0,2013-07-04,Cárnicos,3414,Dormido (>3 años),False,3.0,6548738.33
+P0091,Ives Ives Ives,Maite Vargas Roldan,erynf@sbcglobal.net,(814) 244-3554,8367.0,2021-08-27,Doméstico,438,Inactivo (1-3 años),False,0.0,0.0
+P0092,Thinkshift,Octavio Clemente,mwandel@hotmail.com,(271) 522-4588,3322.0,2021-06-22,Frutas,504,Inactivo (1-3 años),False,0.0,0.0
+P0093,Nucleus,Balduino Pastor Luque,chinthaka@att.net,(595) 208-0611,4970.0,2017-01-06,Material de oficina,2132,Dormido (>3 años),False,1.0,1213707.52
+P0094,Siacsafe,Luís de Barrena,gfxguy@outlook.com,(882) 993-7396,1379.0,2014-07-22,Ropa,3031,Dormido (>3 años),False,1.0,257474.56000000003
+P0095,Podc,Hector Prat-Río,gknauss@mac.com,(948) 301-7736,2211.0,2019-12-31,Snacks,1043,Inactivo (1-3 años),True,0.0,0.0
+P0096,Siiniin,Dionisio Cervantes Barranco,microfab@live.com,(292) 370-9721,863.0,2021-04-25,Verduras,562,Inactivo (1-3 años),False,2.0,800729.5800000001
+P0097,Lewiskraft,Remedios Estefanía Montesinos Ponce,tsuruta@verizon.net,(611) 450-1767,7118.0,2016-09-19,Alimento infantil,2241,Dormido (>3 años),False,0.0,0.0
+P0098,Nestens,Chelo Acedo-Corominas,heroine@live.com,(394) 225-8488,8172.0,2012-09-01,Bebida,3720,Dormido (>3 años),False,2.0,181616.27
+P0099,Crosstraining,Tecla de Manuel,curly@icloud.com,(526) 975-2687,7446.0,2015-09-13,Cereales,2613,Dormido (>3 años),False,0.0,0.0
+P0100,Genrali,Victor Manuel del Castilla,duchamp@sbcglobal.net,(253) 506-2793,3660.0,2016-06-24,Cosméticos,2328,Dormido (>3 años),False,5.0,6685685.369999999
+P0101,Toombit,Noa Ballesteros Pozo,dbrobins@hotmail.com,(922) 886-2008,4164.0,2020-08-16,Cuidado personal,814,Inactivo (1-3 años),False,3.0,896972.76
+P0102,Recode Global,Nicodemo Humberto Fuster Pina,madanm@comcast.net,(898) 272-0195,2421.0,2016-01-17,Cárnicos,2487,Dormido (>3 años),False,0.0,0.0
+P0103,Admitabi,Clotilde Pinilla,gozer@outlook.com,(346) 568-2922,1705.0,2021-01-23,Doméstico,654,Inactivo (1-3 años),False,0.0,0.0
+P0104,Ai Systems,Paloma Boada-Arnal,jguyer@hotmail.com,(937) 604-0130,3993.0,2015-07-04,Frutas,2684,Dormido (>3 años),True,1.0,33070.68
+P0105,Chameleon,Jose Antonio Moles,samavati@verizon.net,(897) 610-0241,4810.0,2018-12-09,Material de oficina,1430,Dormido (>3 años),False,1.0,174811.68000000002
+P0106,Transgate,Vera Daza Taboada,jandrese@yahoo.com,(374) 232-0419,415.0,2014-05-27,Ropa,3087,Dormido (>3 años),False,0.0,0.0
+P0107,Ouma Technologies,Ale Talavera Soto,seano@me.com,(446) 718-0842,6362.0,2020-08-31,Snacks,799,Inactivo (1-3 años),True,1.0,400673.27999999997
+P0108,Bluefin Systems,Odalys Zoraida Vázquez Peiró,studyabr@live.com,(352) 445-0012,4451.0,2012-09-08,Verduras,3713,Dormido (>3 años),False,1.0,673791.3
+P0109,Psi Engineering,Basilio Esteve-Llopis,adillon@icloud.com,(823) 574-1419,6462.0,2013-09-26,Alimento infantil,3330,Dormido (>3 años),False,2.0,1255432.5
+P0110,Webbi,Eloísa Parejo Donaire,ijackson@live.com,(455) 515-7886,861.0,2017-08-31,Bebida,1895,Dormido (>3 años),False,2.0,222021.36
+P0111,Teutorm,Bruno Giménez Luz,sassen@outlook.com,(266) 971-9674,3939.0,2018-04-17,Cereales,1666,Dormido (>3 años),False,2.0,320178.74
+P0112,Omp Consulting,Matilde Suarez Coronado,hahsler@sbcglobal.net,(316) 508-9614,7740.0,2012-11-11,Cosméticos,3649,Dormido (>3 años),False,0.0,0.0
+P0113,Logicba,Claudia Valderrama Cerro,pappp@comcast.net,(420) 732-4769,4230.0,2013-11-12,Cuidado personal,3283,Dormido (>3 años),False,0.0,0.0
+P0114,Home Automation,Ruperta Diéguez Rosales,carroll@live.com,(601) 439-6030,4634.0,2016-04-09,Cárnicos,2404,Dormido (>3 años),False,0.0,0.0
+P0115,Eilis Enterprises,Rafa Giner Bastida,munson@gmail.com,(937) 741-3314,4061.0,2016-03-08,Doméstico,2436,Dormido (>3 años),False,2.0,9133664.5
+P0116,Sequential Ai,Luciana Josefina Castilla Rebollo,murty@verizon.net,(859) 274-5984,7349.0,2021-08-12,Frutas,453,Inactivo (1-3 años),False,1.0,68397.28
+P0117,Olabram,Teodosio Carbó-Cruz,barnett@sbcglobal.net,(408) 285-3935,5774.0,2022-02-27,Material de oficina,254,Activo (<1 año),False,0.0,0.0
+P0118,Connectlab,Rebeca de Grande,bartak@att.net,(520) 736-2628,2261.0,2016-08-05,Ropa,2286,Dormido (>3 años),False,1.0,154506.24000000002
+P0119,Core Solution,Anita del Borja,nelson@me.com,(710) 869-5396,1659.0,2015-04-20,Snacks,2759,Dormido (>3 años),False,2.0,827168.1599999999
+P0120,Westwise Systems,Erasmo Cándido Vilar Villar,markjugg@comcast.net,(568) 539-1043,7054.0,2018-05-19,Verduras,1634,Dormido (>3 años),False,1.0,510662.88000000006
+P0121,Orman Art Furniture,Chita Barco-Aguilera,mirod@live.com,(479) 870-9842,3738.0,2017-12-28,Alimento infantil,1776,Dormido (>3 años),False,0.0,0.0
+P0122,Aiswad,María Teresa Hernando-Cepeda,chronos@msn.com,(259) 463-1445,7630.0,2013-08-01,Bebida,3386,Dormido (>3 años),False,0.0,0.0
+P0123,Srlan,Adora Bastida Uría,treit@comcast.net,(468) 616-4221,6453.0,2013-12-10,Cereales,3255,Dormido (>3 años),False,0.0,0.0
+P0124,City Of Lyon,Juan Bautista Jesús Gibert Alcázar,drolsky@hotmail.com,(205) 367-3867,8430.0,2015-05-15,Cosméticos,2734,Dormido (>3 años),False,3.0,5256066.8
+P0125,Master Key,Yésica Porcel Peláez,ralamosm@msn.com,(660) 795-3790,3614.0,2012-12-16,Cuidado personal,3614,Dormido (>3 años),False,4.0,869487.81
+P0126,Ph5 Platform,Graciana Guardiola Melero,yruan@yahoo.ca,(399) 724-3168,1833.0,2015-04-15,Cárnicos,2764,Dormido (>3 años),False,1.0,2731163.41
+P0127,Cathexc,Ricarda Alarcón Barco,dimensio@optonline.net,(624) 576-2749,565.0,2019-12-08,Doméstico,1066,Inactivo (1-3 años),False,1.0,3902223.1
+P0128,Century Associates,Ariel Guerrero Torrent,scitext@msn.com,(711) 582-0718,837.0,2021-07-01,Frutas,495,Inactivo (1-3 años),False,2.0,39001.12
+P0129,Deboovers,Desiderio Balaguer Bartolomé,uraeus@gmail.com,(797) 904-1991,280.0,2015-05-04,Material de oficina,2745,Dormido (>3 años),False,2.0,5302096.0
+P0130,Vitalwagens,Roberto Ribes-Marco,jmorris@outlook.com,(280) 622-5156,343.0,2020-11-24,Ropa,714,Inactivo (1-3 años),False,1.0,129704.96
+P0131,Shook 4 Kids,Marita Pilar Losa Alonso,matloff@hotmail.com,(445) 852-4974,2508.0,2016-03-21,Snacks,2423,Dormido (>3 años),False,0.0,0.0
+P0132,Ncube,Hugo Martí,jschauma@outlook.com,(881) 863-9461,3508.0,2021-11-19,Verduras,354,Activo (<1 año),False,0.0,0.0
+P0133,Fercussir,Epifanio Roldán Bautista,firstpr@att.net,(504) 730-3023,8346.0,2016-06-24,Alimento infantil,2328,Dormido (>3 años),False,3.0,3118574.04
+P0134,Key Technology,Leocadio Ramírez Segarra,parrt@optonline.net,(514) 791-8993,3979.0,2012-01-22,Bebida,3943,Dormido (>3 años),False,0.0,0.0
+P0135,Orron,Juliana del Cano,andersbr@icloud.com,(287) 956-0147,8037.0,2018-01-13,Cereales,1760,Dormido (>3 años),False,2.0,710272.1499999999
+P0136,Key Security,María Dolores Aguilar Silva,linuxhack@att.net,(966) 692-2071,5100.0,2012-11-05,Cosméticos,3655,Dormido (>3 años),False,1.0,1904402.5599999998
+P0137,Heate,Fabricio Barrera Nuñez,msherr@me.com,(876) 218-8211,2001.0,2020-01-23,Cuidado personal,1020,Inactivo (1-3 años),False,0.0,0.0
+P0138,Alzheimers Solicitors,Nydia Anguita,bryanw@hotmail.com,(882) 953-9260,4987.0,2013-03-11,Cárnicos,3529,Dormido (>3 años),False,1.0,3013433.47
+P0139,Kingkenny Hire,Nazaret del Nieto,mugwump@verizon.net,(258) 824-3888,6927.0,2017-06-08,Doméstico,1979,Dormido (>3 años),False,1.0,1597072.12
+P0140,Bezahnli,Piedad Camino Manso,pjacklam@live.com,(950) 358-4673,7974.0,2016-07-03,Frutas,2319,Dormido (>3 años),False,1.0,34025.64
+P0141,Xplentycom,Paulina del Gonzalo,paulv@verizon.net,(907) 363-6305,7178.0,2022-01-21,Material de oficina,291,Activo (<1 año),False,2.0,4170282.24
+P0142,Superhome Fashions,Benito Pi Pedraza,simone@att.net,(794) 588-1941,8184.0,2017-06-23,Ropa,1964,Dormido (>3 años),False,0.0,0.0
+P0143,Everything Beddbfty,Plinio Garcia,kosact@hotmail.com,(581) 781-6055,1107.0,2011-12-28,Snacks,3968,Dormido (>3 años),False,1.0,412755.83999999997
+P0144,Premier International,Dionisia Castañeda Abad,codex@mac.com,(244) 941-2269,7125.0,2020-05-08,Verduras,914,Inactivo (1-3 años),False,1.0,153853.56
+P0145,Clapbon,Rosaura Sans Peñas,madanm@mac.com,(628) 605-5467,1916.0,2013-06-27,Alimento infantil,3421,Dormido (>3 años),False,0.0,0.0
+P0146,Modern Clothesopolis,Eliseo Ródenas Llabrés,jimmichie@hotmail.com,(713) 545-9434,8386.0,2019-04-12,Bebida,1306,Dormido (>3 años),False,0.0,0.0
+P0147,Urban Furniture,Mateo Coll,adhere@verizon.net,(425) 780-9794,3304.0,2020-07-12,Cereales,849,Inactivo (1-3 años),False,1.0,393372.49
+P0148,Cherrywood,Regina Blanca-Rico,sinkou@optonline.net,(380) 524-7754,3943.0,2020-04-07,Cosméticos,945,Inactivo (1-3 años),True,3.0,3078327.6999999997
+P0149,Woodside Rental,Juan Luis Alba Tejero,rhialto@hotmail.com,(360) 861-8107,6488.0,2019-11-04,Cuidado personal,1100,Dormido (>3 años),False,1.0,108636.39
+P0150,World Of Matsuri,Julián Hernando Peñas,bjoern@aol.com,(808) 822-1969,7832.0,2021-07-07,Cárnicos,489,Inactivo (1-3 años),False,2.0,3437932.63
+P0151,Seems Furniture,Fabricio Heredia Acero,horrocks@sbcglobal.net,(925) 518-4651,5512.0,2013-03-08,Doméstico,3532,Dormido (>3 años),False,0.0,0.0
+P0152,Brante Glass,Candelas Mena Llabrés,michiel@icloud.com,(731) 583-7006,888.0,2015-01-19,Frutas,2850,Dormido (>3 años),False,0.0,0.0
+P0153,One Off Roll,Salomón Mas Rico,geeber@hotmail.com,(587) 241-5488,7718.0,2013-09-18,Material de oficina,3338,Dormido (>3 años),False,2.0,3797560.64
+P0154,Saaanu,Teófilo Palacios-Coronado,citadel@gmail.com,(252) 374-2954,783.0,2018-09-23,Ropa,1507,Dormido (>3 años),False,0.0,0.0
+P0155,Dc Furniture,Jeremías de Amor,scottlee@icloud.com,(617) 798-1631,335.0,2021-09-25,Snacks,409,Inactivo (1-3 años),False,2.0,988139.04
+P0156,Furniture Cafe,Trini Quirós Ferrero,mjewell@mac.com,(337) 320-8139,7562.0,2022-02-09,Verduras,272,Activo (<1 año),False,1.0,631781.64
+P0157,Maple Raguarta,Benigno Viña-Camacho,sartak@comcast.net,(485) 259-0963,3385.0,2021-01-10,Alimento infantil,667,Inactivo (1-3 años),False,1.0,1553069.64
+P0158,Frilly Pillows,Benigna Berenguer Palacio,valdez@me.com,(343) 410-7273,4936.0,2022-01-14,Bebida,298,Activo (<1 año),False,1.0,153291.38
+P0159,Labochair,Amor Blázquez Pizarro,ehood@msn.com,(820) 810-0778,348.0,2013-08-14,Cereales,3373,Dormido (>3 años),False,1.0,736739.01
+P0160,Goykay Builders,Luisina Flores Olivé,msusa@outlook.com,(565) 671-8348,1439.0,2021-07-13,Cosméticos,483,Inactivo (1-3 años),False,1.0,76365.7
+P0161,Eyerainloop,Ester Llanos Sanmartín,agolomsh@me.com,(960) 816-1949,4590.0,2013-10-02,Cuidado personal,3324,Dormido (>3 años),False,1.0,245154.42
+P0162,Atenastic Systems,Leandro Sancho Gil,naoya@mac.com,(918) 296-3965,7353.0,2013-03-18,Cárnicos,3522,Dormido (>3 años),False,0.0,0.0
+P0163,Bremco,Ciro Cayetano Tolosa Miralles,atmarks@outlook.com,(324) 252-3532,762.0,2019-12-01,Doméstico,1073,Inactivo (1-3 años),False,0.0,0.0
+P0164,The Home It Service,Corona Escalona Alfonso,kronvold@aol.com,(303) 961-2715,4103.0,2018-02-25,Frutas,1717,Dormido (>3 años),True,1.0,40260.56
+P0165,Limitless Science,Onofre Caro Guillen,bryam@icloud.com,(348) 497-4577,5911.0,2021-08-19,Material de oficina,446,Inactivo (1-3 años),False,0.0,0.0
+P0166,Goggynet,Prudencio Río Rodríguez,shrapnull@optonline.net,(712) 904-7285,3841.0,2015-09-18,Ropa,2608,Dormido (>3 años),False,1.0,236472.32000000004
+P0167,Datapulse,Eva Renata Domínguez Gabaldón,enintend@att.net,(904) 718-6459,4413.0,2012-01-26,Snacks,3939,Dormido (>3 años),True,1.0,118389.59999999999
+P0168,Ahiyo Development,Aitor Gallo Gaya,eabrown@mac.com,(462) 631-1572,7013.0,2020-08-05,Verduras,825,Inactivo (1-3 años),False,2.0,1279566.96
+P0169,Working Loop,Samu Galvez Frutos,fudrucker@live.com,(235) 238-0872,2412.0,2017-05-04,Alimento infantil,2014,Dormido (>3 años),False,1.0,938027.2799999999
+P0170,Brimstone,Modesta de Corominas,druschel@optonline.net,(449) 245-1828,2195.0,2013-11-03,Bebida,3292,Dormido (>3 años),False,0.0,0.0
+P0171,Chromatica,Eleuterio Torres,tattooman@icloud.com,(509) 214-3320,4807.0,2013-01-30,Cereales,3569,Dormido (>3 años),False,1.0,823634.63
+P0172,Vannini House,Daniela Aragonés Aparicio,jfriedl@outlook.com,(778) 773-3924,6810.0,2013-09-20,Cosméticos,3336,Dormido (>3 años),False,0.0,0.0
+P0173,Lbdoocommerce,Inmaculada Céspedes,chrwin@yahoo.com,(358) 968-1125,832.0,2013-10-20,Cuidado personal,3306,Dormido (>3 años),False,0.0,0.0
+P0174,Jam Factory Industrial,Marcelino Núñez Tolosa,neuffer@optonline.net,(296) 349-7865,2955.0,2021-03-30,Cárnicos,588,Inactivo (1-3 años),False,0.0,0.0
+P0175,Itchlo Digital,Aarón Cesar Posada Pintor,gward@me.com,(815) 475-9038,873.0,2017-07-31,Doméstico,1926,Dormido (>3 años),False,1.0,378412.62
+P0176,Tambore Project,Jordi Meléndez Camps,eabrown@comcast.net,(744) 716-3718,4950.0,2016-07-28,Frutas,2294,Dormido (>3 años),False,2.0,59332.08
+P0177,Ais Efficient,Godofredo Piña-Nadal,forsberg@yahoo.ca,(301) 876-1529,4779.0,2012-06-04,Material de oficina,3809,Dormido (>3 años),False,0.0,0.0
+P0178,Joyance,Heraclio Franco Vila,jorgb@aol.com,(752) 738-1233,8370.0,2016-04-30,Ropa,2383,Dormido (>3 años),False,0.0,0.0
+P0179,Manicuri Lee,Macaria Vallejo Folch,carmena@hotmail.com,(217) 468-2259,661.0,2016-10-07,Snacks,2223,Dormido (>3 años),False,1.0,143626.56
+P0180,Banco Loop,Sabas Lerma Martín,codex@yahoo.ca,(244) 358-6594,1109.0,2017-04-06,Verduras,2042,Dormido (>3 años),False,0.0,0.0
+P0181,Big Backup Space,Chita Pazos Revilla,zeller@msn.com,(274) 873-8430,4125.0,2018-09-11,Alimento infantil,1519,Dormido (>3 años),False,0.0,0.0
+P0182,Grokzeer,Victor Puente,ilial@gmail.com,(530) 631-9558,3408.0,2012-10-12,Bebida,3679,Dormido (>3 años),False,1.0,123663.09999999999
+P0183,Beethoven,Domitila de Galvez,ccohen@yahoo.com,(456) 925-7058,5116.0,2020-08-01,Cereales,829,Inactivo (1-3 años),False,0.0,0.0
+P0184,Dynamical Digital,Esperanza Pareja Puente,grady@mac.com,(975) 608-7817,7117.0,2013-03-06,Cosméticos,3534,Dormido (>3 años),False,2.0,2917433.07
+P0185,Infocus Digital,Teresita Pol Escalona,mallanmba@me.com,(890) 815-5287,403.0,2021-05-22,Cuidado personal,535,Inactivo (1-3 años),False,0.0,0.0
+P0186,Digital Tactics,Ruth Cifuentes Sevilla,farber@comcast.net,(688) 516-3513,8172.0,2018-01-22,Cárnicos,1751,Dormido (>3 años),False,1.0,261118.04
+P0187,Wappify,Ámbar Sáenz Agustí,eidac@aol.com,(862) 530-2812,922.0,2016-08-22,Doméstico,2269,Dormido (>3 años),False,0.0,0.0
+P0188,Buzz Digital,Rodrigo Lastra Arco,rasca@mac.com,(867) 940-3189,1661.0,2017-07-29,Frutas,1928,Dormido (>3 años),False,2.0,20054.16
+P0189,Digital Newsframe,Ainara Feijoo Monreal,overbom@icloud.com,(392) 474-1823,2756.0,2012-11-05,Material de oficina,3655,Dormido (>3 años),False,2.0,5865903.04
+P0190,Great Designs,Luís Bárcena Navas,ranasta@aol.com,(455) 994-7453,6214.0,2015-03-21,Ropa,2789,Dormido (>3 años),False,0.0,0.0
+P0191,Smartworld Software,Jimena Frías,pontipak@aol.com,(970) 781-3387,4845.0,2018-11-05,Snacks,1464,Dormido (>3 años),False,2.0,1242749.76
+P0192,Calibratorsmith,Inocencio Bejarano Mármol,wmszeliga@mac.com,(388) 665-5159,3747.0,2018-07-31,Verduras,1561,Dormido (>3 años),False,0.0,0.0
+P0193,Thinkit360,Miriam Pelayo Salazar,kosact@live.com,(547) 637-9235,657.0,2014-02-05,Alimento infantil,3198,Dormido (>3 años),False,1.0,853056.4199999999
+P0194,Adview Designs,Rodolfo Méndez Alonso,keijser@me.com,(842) 848-0436,7593.0,2012-04-24,Bebida,3850,Dormido (>3 años),False,2.0,359417.74
+P0195,Avantive,Celestino Vidal,rnewman@gmail.com,(586) 930-7723,5192.0,2020-06-06,Cereales,885,Inactivo (1-3 años),False,0.0,0.0
+P0196,Tecnologico Periazzo,Jose Miguel Busquets Mate,jaesenj@yahoo.ca,(311) 520-9447,3423.0,2015-09-22,Cosméticos,2604,Dormido (>3 años),False,1.0,1093609.49
+P0197,Cq It In Qatar,Heliodoro Luís-Poza,sarahs@verizon.net,(341) 860-1976,665.0,2017-09-22,Cuidado personal,1873,Dormido (>3 años),False,2.0,1017906.54
+P0198,Dv Consulting,Lorenza Badía Calvet,miltchev@live.com,(888) 368-8749,4531.0,2012-09-05,Cárnicos,3716,Dormido (>3 años),False,0.0,0.0
+P0199,Doso,Zaira Tamarit Atienza,kwilliams@gmail.com,(810) 288-4068,318.0,2016-08-04,Doméstico,2287,Dormido (>3 años),False,0.0,0.0
+P0200,Outsource It Development,Salomé Sales-Torres,petersen@comcast.net,(736) 945-6678,7139.0,2017-04-06,Frutas,2042,Dormido (>3 años),False,2.0,87759.44
+P0201,Tellement Factif,María José Jessica Bas Hernandez,morain@comcast.net,(301) 801-5871,4210.0,2015-03-16,Material de oficina,2794,Dormido (>3 años),False,1.0,1275652.8
+P0202,Contrôleur,Viviana Constanza Morante Mateo,pizza@gmail.com,(414) 345-0815,1876.0,2021-12-04,Ropa,339,Activo (<1 año),False,2.0,141066.24
+P0203,API Finance,Cruz Barroso-Flor,bmorrow@icloud.com,(275) 422-3938,5388.0,2014-09-27,Snacks,2964,Dormido (>3 años),False,3.0,1433829.6
+P0204,Biomotiver,Estefanía Ángel,thassine@icloud.com,(806) 217-3832,7924.0,2019-07-22,Verduras,1205,Dormido (>3 años),False,0.0,0.0
+P0205,Route de la ville d'Abus,Jose Antonio Frías-Campos,ahuillet@msn.com,(712) 928-3735,5436.0,2016-12-04,Alimento infantil,2165,Dormido (>3 años),False,3.0,3100878.42
+P0206,Joueur,Francisco Jose Carranza,mglee@gmail.com,(345) 760-4389,1803.0,2019-03-18,Bebida,1331,Dormido (>3 años),False,2.0,401030.85
+P0207,Esports d'équipe,Cayetano Palau Niño,lamky@optonline.net,(667) 459-1978,7318.0,2018-05-25,Cereales,1628,Dormido (>3 años),False,1.0,665653.24
+P0208,Impact d'équipe,Macaria Benito Armengol,ebassi@msn.com,(290) 976-0868,8380.0,2021-02-27,Cosméticos,619,Inactivo (1-3 años),False,1.0,208030.69999999998
+P0209,Logiciel d'équipe,Rosalva Tenorio Carmona,jeteve@outlook.com,(821) 978-0410,7332.0,2022-03-25,Cuidado personal,228,Activo (<1 año),False,1.0,480561.60000000003
+P0210,Recherche de pub,Julián Méndez Barroso,scottzed@aol.com,(264) 298-6094,8113.0,2017-04-16,Cárnicos,2032,Dormido (>3 años),False,0.0,0.0
+P0211,Entreprisereo,Saturnina Ribas Jimenez,amcuri@yahoo.com,(806) 457-2901,3216.0,2018-03-13,Doméstico,1701,Dormido (>3 años),False,0.0,0.0
+P0212,En amont,Jose Antonio Saturnino Castilla Castelló,ilyaz@verizon.net,(397) 262-0865,4089.0,2013-10-21,Frutas,3305,Dormido (>3 años),False,0.0,0.0
+P0213,Solutions Zénitcom,Patricia Pinilla-Esparza,sfoskett@aol.com,(566) 798-8666,8420.0,2017-03-23,Material de oficina,2056,Dormido (>3 años),False,0.0,0.0
+P0214,Fuji 2g,Pánfilo Olmo-Segura,dsowsy@live.com,(810) 397-4766,5917.0,2014-04-24,Ropa,3120,Dormido (>3 años),False,1.0,265825.28
+P0215,Chaque bon bon après Logo,Hilda Mesa Maldonado,gknauss@icloud.com,(269) 777-2686,7883.0,2021-03-10,Snacks,608,Inactivo (1-3 años),False,0.0,0.0
+P0216,Groupe Labora,Gerardo Pellicer Montserrat,pkplex@gmail.com,(743) 745-6963,925.0,2019-06-21,Verduras,1236,Dormido (>3 años),False,1.0,134212.68000000002
+P0217,L'autre côté,León Cuadrado Perales,stomv@outlook.com,(250) 505-5438,2642.0,2016-10-16,Alimento infantil,2214,Dormido (>3 años),False,1.0,255709.68
+P0218,Myrgie,Julie Niño Pellicer,boftx@outlook.com,(260) 827-6778,8203.0,2022-04-05,Bebida,217,Activo (<1 año),False,1.0,306074.12
+P0219,Accueil Robotank,Lucila Viñas Delgado,gward@msn.com,(593) 401-8793,4899.0,2013-08-16,Cereales,3371,Dormido (>3 años),False,2.0,628295.15
+P0220,Paie Phénix,Teófila Solé-Bosch,mbswan@msn.com,(529) 737-9350,5740.0,2012-09-28,Cosméticos,3693,Dormido (>3 años),False,1.0,2417106.07
+P0221,Logique d'optimisation,Benigno Montalbán-Mascaró,aprakash@outlook.com,(241) 628-3119,6196.0,2014-04-01,Cuidado personal,3143,Dormido (>3 años),False,2.0,578940.72
+P0222,Gestion Caron,Xiomara Cabrero Suárez,dkeeler@comcast.net,(281) 431-2732,6793.0,2020-12-13,Cárnicos,695,Inactivo (1-3 años),False,2.0,5557875.6
+P0223,Aérovans,Evita Torrents Aparicio,dburrows@verizon.net,(647) 650-8903,784.0,2015-07-21,Doméstico,2667,Dormido (>3 años),False,0.0,0.0
+P0224,Usine 2cv,Régulo Plaza Jerez,salesgeek@mac.com,(876) 215-3650,8023.0,2015-06-12,Frutas,2706,Dormido (>3 años),False,0.0,0.0
+P0225,Nouvelle culture,Laura Jaén Álvarez,jgmyers@yahoo.com,(991) 989-8445,8167.0,2016-10-17,Material de oficina,2213,Dormido (>3 años),False,2.0,7401936.0
+P0226,Forêt venteuse,Agapito Figueroa-Pavón,temmink@att.net,(204) 375-4432,1242.0,2016-09-19,Ropa,2241,Dormido (>3 años),False,0.0,0.0
+P0227,Le Rotary club,Nilda Ana Bejarano Bernad,philb@mac.com,(673) 330-7138,1029.0,2020-02-25,Snacks,987,Inactivo (1-3 años),False,0.0,0.0
+P0228,Transport en ligne,Onofre Calvo-Pascual,policies@yahoo.com,(312) 546-7032,913.0,2020-06-17,Verduras,874,Inactivo (1-3 años),False,0.0,0.0
+P0229,Bonne mobilité urbaine,Eric de Briones,timlinux@icloud.com,(697) 809-9730,2386.0,2017-06-09,Alimento infantil,1978,Dormido (>3 años),True,1.0,110159.21999999999
+P0230,Bt Nord,Morena Gordillo-Franco,moinefou@yahoo.ca,(257) 951-4617,7056.0,2017-10-01,Bebida,1864,Dormido (>3 años),False,1.0,268561.92
+P0231,Ill Consulting,Ramona Riquelme Cuenca,offthelip@outlook.com,(461) 514-9369,5074.0,2016-08-16,Cereales,2275,Dormido (>3 años),False,1.0,320764.29
+P0232,Transport ferroviaire,Jose Manuel Hernandez Huerta,weidai@icloud.com,(815) 800-1748,7070.0,2016-06-11,Cosméticos,2341,Dormido (>3 años),False,2.0,2029220.98
+P0233,Perles aux yeux,Felipa Abril Vargas,kramulous@optonline.net,(389) 598-6020,7372.0,2018-01-04,Cuidado personal,1769,Dormido (>3 años),False,2.0,808454.22
+P0234,Laboratoires Saatchi,Macarena Eufemia Llanos Herrera,tezbo@aol.com,(274) 237-7556,5800.0,2018-07-26,Cárnicos,1566,Dormido (>3 años),False,0.0,0.0
+P0235,Mars Outbre,Porfirio Peinado García,jmmuller@gmail.com,(308) 689-1510,1184.0,2015-11-15,Doméstico,2550,Dormido (>3 años),False,0.0,0.0
+P0236,Ressources CSW,Andrés del Olivera,jrkorson@comcast.net,(283) 383-6823,359.0,2021-09-14,Frutas,420,Inactivo (1-3 años),False,3.0,90831.92
+P0237,Intercités,Marisela Girón Exposito,greear@att.net,(426) 843-1426,3003.0,2015-06-21,Material de oficina,2697,Dormido (>3 años),False,1.0,4724640.0
+P0238,Carrière par espace,Ruy Íñigo Olmedo Domínguez,bjornk@hotmail.com,(543) 397-7882,7796.0,2015-09-15,Ropa,2611,Dormido (>3 años),False,0.0,0.0
+P0239,Dynamique Walna,Ibán Barceló Álamo,sekiya@yahoo.com,(486) 472-8855,6076.0,2016-08-13,Snacks,2278,Dormido (>3 años),False,0.0,0.0
+P0240,Trammys Australie,Samanta Olmedo Bayón,flavell@sbcglobal.net,(704) 377-8172,420.0,2016-08-21,Verduras,2270,Dormido (>3 años),False,2.0,590681.28
+P0241,Clarisse,Ulises Valero Clemente,eabrown@sbcglobal.net,(238) 272-8069,6778.0,2020-02-21,Alimento infantil,991,Inactivo (1-3 años),False,2.0,1960866.0
+P0242,Routes Ez,Tiburcio Ovidio Jover Castelló,mugwump@outlook.com,(729) 742-2034,5947.0,2020-04-25,Bebida,927,Inactivo (1-3 años),False,1.0,279338.73
+P0243,Balade intelligente,Isa Moll Prats,mugwump@aol.com,(905) 903-7118,403.0,2011-12-23,Cereales,3973,Dormido (>3 años),False,2.0,1196629.98
+P0244,Ingénieurs Lbr,Abilio Feliciano Carrillo Lerma,fglock@gmail.com,(645) 482-8037,472.0,2017-01-01,Cosméticos,2137,Dormido (>3 años),False,1.0,930871.5499999999
+P0245,Réparation automobile Sabre,Catalina Guerra Pavón,moinefou@gmail.com,(541) 938-1407,1363.0,2020-03-08,Cuidado personal,975,Inactivo (1-3 años),False,2.0,745040.49
+P0246,Impacex de l'île,Ruth Cano Casanova,scarolan@yahoo.ca,(690) 645-8157,7899.0,2017-07-26,Cárnicos,1931,Dormido (>3 años),True,0.0,0.0
+P0247,Nous sommes à vous,Anastasio Iglesias Flores,ijackson@comcast.net,(711) 541-2186,5955.0,2021-01-27,Doméstico,650,Inactivo (1-3 años),False,1.0,4015797.14
+P0248,Anti-systèmes,Abilio Feliu Gelabert,tezbo@sbcglobal.net,(913) 738-6726,3565.0,2022-01-21,Frutas,291,Activo (<1 año),False,3.0,66397.40000000001
+P0249,Start-up européenne,Luis Cervantes-Pont,ebassi@yahoo.com,(449) 929-6055,6449.0,2017-11-06,Material de oficina,1828,Dormido (>3 años),False,0.0,0.0
+P0250,Pièces d'auto Maverick,Teo Sastre Moya,xtang@sbcglobal.net,(466) 688-9765,5045.0,2021-11-17,Ropa,356,Activo (<1 año),False,0.0,0.0
+P0251,Terrible herbe,Virginia Puga Prado,noticias@hotmail.com,(608) 306-6897,6756.0,2022-04-20,Snacks,202,Activo (<1 año),False,1.0,813721.44
+P0252,Ville de Revelstoke,Inés Castrillo Merino,wonderkid@optonline.net,(462) 215-9471,7408.0,2012-04-17,Verduras,3857,Dormido (>3 años),False,1.0,287520.66000000003
+P0253,Services de garage,Amarilis Torrent Trillo,mhoffman@comcast.net,(600) 310-6478,7753.0,2012-04-23,Alimento infantil,3851,Dormido (>3 años),True,1.0,1182577.5599999998
+P0254,Toyta,Marisa María Fernanda Téllez Barranco,frode@optonline.net,(842) 633-6426,326.0,2019-03-13,Bebida,1336,Dormido (>3 años),False,1.0,293199.17
+P0255,Administrateurs,Nayara Adoración Carnero Somoza,keutzer@sbcglobal.net,(641) 423-7450,3973.0,2020-08-01,Cereales,829,Inactivo (1-3 años),False,3.0,2276618.4
+P0256,Agence Abeille Auto,Gaspar Solano,lridener@me.com,(789) 940-7559,5200.0,2013-07-10,Cosméticos,3408,Dormido (>3 años),False,0.0,0.0
+P0257,Carrière,Mauricio Cuervo Lluch,catalog@optonline.net,(757) 447-7689,8437.0,2013-04-24,Cuidado personal,3485,Dormido (>3 años),False,1.0,234840.48
+P0258,Lot,Juan Pablo Castro Rius,munge@outlook.com,(882) 327-7053,5080.0,2012-01-07,Cárnicos,3958,Dormido (>3 años),False,2.0,3792411.3099999996
+P0259,Game Flip (systèmes d'atelier),Gustavo Oliva Tamarit,biglou@yahoo.com,(247) 355-4462,5387.0,2018-11-22,Doméstico,1447,Dormido (>3 años),False,1.0,2822264.64
+P0260,Plan de talents,Alex Mayol Aparicio,bulletin@mac.com,(319) 203-1876,2780.0,2017-03-28,Frutas,2051,Dormido (>3 años),False,0.0,0.0
+P0261,Nouvelle réalité virtuelle,María Belén Arenas-Solís,rohitm@live.com,(647) 461-7519,4873.0,2019-12-16,Material de oficina,1058,Inactivo (1-3 años),False,1.0,3218004.8000000003
+P0262,Sports de vélo de route,Toño Jenaro Sainz Martí,webinc@aol.com,(993) 340-7107,3735.0,2020-11-16,Ropa,722,Inactivo (1-3 años),False,1.0,187801.6
+P0263,Iti technique,Marc Canales Monreal,evans@yahoo.com,(682) 544-2871,3174.0,2012-07-03,Snacks,3780,Dormido (>3 años),False,0.0,0.0
+P0264,Noyau,Amada Boada Linares,scottzed@hotmail.com,(946) 681-8464,3801.0,2018-03-27,Verduras,1687,Dormido (>3 años),False,2.0,532577.01
+P0265,Général,Piedad Quesada Mancebo,rmcfarla@att.net,(990) 927-0907,1254.0,2017-12-24,Alimento infantil,1780,Dormido (>3 años),False,0.0,0.0
+P0266,Toombbit,Andrés Felipe Gárate Armas,dkeeler@yahoo.com,(525) 639-9955,680.0,2020-07-22,Bebida,839,Inactivo (1-3 años),False,2.0,323908.31
+P0267,Recoder Global,Reyes Andrés Perales,greear@me.com,(269) 953-9661,5804.0,2016-12-13,Cereales,2156,Dormido (>3 años),False,1.0,174728.12
+P0268,Systèmes IA,Tito del Arrieta,jrkorson@hotmail.com,(226) 441-2336,5272.0,2016-08-13,Cosméticos,2278,Dormido (>3 años),False,0.0,0.0
+P0269,Caméléon,Che del Yáñez,druschel@live.com,(327) 689-3717,2034.0,2018-12-06,Cuidado personal,1433,Dormido (>3 años),False,1.0,432108.75
+P0270,Systèmes de thon rouge,Anunciación Adán Arroyo,martink@sbcglobal.net,(717) 551-7169,7103.0,2016-03-02,Cárnicos,2442,Dormido (>3 años),False,1.0,1740665.3699999999
+P0271,Ingénierie psi,Feliciano del Huguet,hstiles@optonline.net,(673) 541-2550,2541.0,2017-08-17,Doméstico,1909,Dormido (>3 años),False,2.0,3401693.2600000002
+P0272,Conseils Omp,Soledad Ros Agustín,seanq@hotmail.com,(492) 282-0730,5138.0,2013-01-05,Frutas,3594,Dormido (>3 años),False,0.0,0.0
+P0273,Logique,Octavia Arnau Rosales,bmorrow@hotmail.com,(345) 245-7163,4923.0,2017-03-04,Material de oficina,2075,Dormido (>3 años),False,0.0,0.0
+P0274,Automatisation de la maison,Pedro Torrijos,rande@live.com,(855) 355-3174,6504.0,2012-01-29,Ropa,3936,Dormido (>3 años),False,1.0,150958.08000000002
+P0275,Entreprises Eilis,Eloísa Baró,dwendlan@sbcglobal.net,(406) 573-4342,4839.0,2014-09-28,Snacks,2963,Dormido (>3 años),False,0.0,0.0
+P0276,Ai séquentielle,Francisca de Solano,lstaf@comcast.net,(782) 724-8017,2409.0,2019-06-28,Verduras,1229,Dormido (>3 años),False,0.0,0.0
+P0277,Connect Lab,Almudena Barragán Valentín,josephw@mac.com,(931) 406-9063,1669.0,2012-04-04,Alimento infantil,3870,Dormido (>3 años),False,0.0,0.0
+P0278,Solution de base,Gilberto Arenas Zapata,druschel@comcast.net,(308) 327-2200,3592.0,2021-01-19,Bebida,658,Inactivo (1-3 años),False,0.0,0.0
+P0279,Systèmes Westwise,Alonso Martí,gward@icloud.com,(409) 652-4229,3226.0,2012-09-24,Cereales,3697,Dormido (>3 años),False,1.0,364446.32
+P0280,Mobilier d'art d'Orman,Godofredo Marti Bermudez,kronvold@aol.com,(783) 770-4043,3964.0,2021-01-28,Cosméticos,649,Inactivo (1-3 años),True,0.0,0.0
+P0281,Aïswad,Elba Taboada Polo,syrinx@icloud.com,(539) 630-3518,1084.0,2017-02-08,Cuidado personal,2099,Dormido (>3 años),False,1.0,59956.86
+P0282,Ville de Lyon,Carmela de Pulido,mddallara@optonline.net,(294) 658-2744,5175.0,2015-01-01,Cárnicos,2868,Dormido (>3 años),False,0.0,0.0
+P0283,Passe-partout,Balduino Elorza Morera,presoff@mac.com,(851) 622-3038,4593.0,2013-10-27,Doméstico,3299,Dormido (>3 años),False,1.0,251772.54
+P0284,Plateforme Ph5,Humberto de Escrivá,hampton@yahoo.ca,(298) 751-6838,6753.0,2020-05-20,Frutas,902,Inactivo (1-3 años),False,2.0,79773.76
+P0285,investissementc,Merche Arenas-Pareja,ntegrity@gmail.com,(522) 844-6774,1788.0,2021-12-04,Material de oficina,339,Activo (<1 año),False,0.0,0.0
+P0286,Associés du siècle,Wilfredo Jacinto Ballester Feijoo,rohitm@gmail.com,(249) 751-4442,2779.0,2013-10-22,Ropa,3304,Dormido (>3 años),False,2.0,433664.0
+P0287,A secoué 4 enfants,Gisela Berta Benítez Ballesteros,wildfire@msn.com,(870) 412-0760,8146.0,2012-07-02,Snacks,3781,Dormido (>3 años),True,2.0,894694.08
+P0288,Technologie clé,Sonia Prudencia Sola Cuadrado,kingma@hotmail.com,(611) 908-6776,1413.0,2021-05-05,Verduras,552,Inactivo (1-3 años),False,2.0,590226.6300000001
+P0289,Orrón,Esmeralda Company,smcnabb@live.com,(796) 644-1329,1003.0,2017-11-08,Alimento infantil,1826,Dormido (>3 años),False,0.0,0.0
+P0290,Clé de sécurité,Perlita de Moraleda,brickbat@live.com,(757) 945-3590,1951.0,2018-05-12,Bebida,1641,Dormido (>3 años),False,4.0,675569.29
+P0291,Il a mangé,Benita Elorza-Leal,clkao@aol.com,(357) 693-7492,5251.0,2013-07-18,Cereales,3400,Dormido (>3 años),False,1.0,1022370.3
+P0292,Avocats Alzheimer,Tiburcio Sebastian Vigil Poza,wsnyder@yahoo.ca,(421) 297-7603,6617.0,2017-03-30,Cosméticos,2049,Dormido (>3 años),False,1.0,867935.6799999999
+P0293,Location Kingkenny,Tadeo Tomas Aller,bader@me.com,(486) 370-8803,3761.0,2012-09-22,Cuidado personal,3699,Dormido (>3 años),False,1.0,304884.60000000003
+P0294,Modes Superhome,Agustín Moliner Fernandez,eidac@mac.com,(411) 346-9952,611.0,2021-08-22,Cárnicos,443,Inactivo (1-3 años),False,3.0,4645785.91
+P0295,Tout Beddbfty,Ezequiel Bayón-Berrocal,gator@yahoo.ca,(973) 201-0917,5603.0,2013-09-11,Doméstico,3345,Dormido (>3 años),False,0.0,0.0
+P0296,Première Internationale,Martirio Lourdes Vaquero Piña,zavadsky@gmail.com,(860) 386-4483,7088.0,2016-05-07,Frutas,2376,Dormido (>3 años),True,1.0,9051.36
+P0297,Vêtements modernesopolis,Herminia Lastra Galiano,dialworld@mac.com,(973) 343-9990,7229.0,2019-09-03,Material de oficina,1162,Dormido (>3 años),False,1.0,3519331.8400000003
+P0298,Mobilier Urbain,Xiomara Fuente Vergara,hllam@aol.com,(858) 700-8069,2162.0,2016-06-22,Ropa,2330,Dormido (>3 años),False,2.0,137088.0
+P0299,Merisier,Fabián Perea Gelabert,johnh@msn.com,(997) 460-8399,3818.0,2018-12-25,Snacks,1414,Dormido (>3 años),False,2.0,786730.5599999999
+P0300,Location de bois,Adán Vilanova,rfisher@outlook.com,(360) 394-5097,2209.0,2014-04-04,Verduras,3140,Dormido (>3 años),False,1.0,183496.74000000002
+P0301,Monde de Matsuri,Beatriz Acosta Chico,aegreene@yahoo.com,(438) 538-0767,5272.0,2012-01-20,Alimento infantil,3945,Dormido (>3 años),False,1.0,558926.5199999999
+P0302,Semble Meubles,Calixto Borrego,tsuruta@optonline.net,(889) 796-0357,8217.0,2021-03-25,Bebida,593,Inactivo (1-3 años),False,0.0,0.0
+P0303,Verre Brante,Cirino Cueto-Burgos,wetter@verizon.net,(366) 633-7684,4978.0,2013-11-04,Cereales,3291,Dormido (>3 años),False,0.0,0.0
+P0304,Un seul rouleau,Calixta Mena Matas,pspoole@yahoo.ca,(582) 235-8233,7359.0,2018-02-05,Cosméticos,1737,Dormido (>3 años),False,0.0,0.0
+P0305,Meubles DC,Jesusa de Cabrero,godeke@aol.com,(779) 385-2301,4124.0,2017-10-14,Cuidado personal,1851,Dormido (>3 años),False,1.0,308341.47000000003
+P0306,Meubles Café,Gonzalo Villar Pujol,grady@optonline.net,(435) 482-8834,1200.0,2015-06-15,Cárnicos,2703,Dormido (>3 años),False,1.0,2257066.41
+P0307,Raguarta à l'érable,Inocencio Ovidio Galiano Moll,cgarcia@gmail.com,(468) 951-9364,2208.0,2013-06-09,Doméstico,3439,Dormido (>3 años),False,0.0,0.0
+P0308,Oreillers à froufrous,Nayara Leal,jyoliver@me.com,(276) 811-3773,2348.0,2021-10-01,Frutas,403,Inactivo (1-3 años),False,3.0,42793.28
+P0309,Constructeurs Goykay,Tiburcio Ramón Salom,hampton@att.net,(631) 464-9774,7354.0,2020-09-09,Material de oficina,790,Inactivo (1-3 años),False,0.0,0.0
+P0310,Systèmes aténastiques,Griselda Toledo-Sala,satishr@sbcglobal.net,(877) 772-0326,2190.0,2021-06-30,Ropa,496,Inactivo (1-3 años),False,0.0,0.0
+P0311,Le service informatique à domicile,Elba Candela Galindo Solís,frikazoyd@aol.com,(666) 301-0269,680.0,2020-05-13,Snacks,909,Inactivo (1-3 años),False,4.0,1421162.4
+P0312,Science illimitée,Amor Escolano Gargallo,geeber@aol.com,(796) 447-4861,3357.0,2020-11-12,Verduras,726,Inactivo (1-3 años),False,2.0,1452788.61
+P0313,Impulsion de données,Nacho Cerdán-Vilalta,subir@aol.com,(665) 718-2042,6733.0,2014-11-26,Alimento infantil,2904,Dormido (>3 años),False,3.0,3543428.34
+P0314,Développement Ahiyo,Rufino Adrián Reina Gordillo,andersbr@yahoo.com,(296) 740-8874,3134.0,2019-03-31,Bebida,1318,Dormido (>3 años),False,1.0,239633.02
+P0315,Boucle de travail,Anselma Orozco-Pujadas,dvdotnet@comcast.net,(518) 408-1514,2588.0,2015-02-08,Cereales,2830,Dormido (>3 años),False,0.0,0.0
+P0316,Soufre,Ciro Valera Ródenas,rkobes@gmail.com,(497) 838-1157,7894.0,2019-09-07,Cosméticos,1158,Dormido (>3 años),False,0.0,0.0
+P0317,Chromatique,Consuela Bas Solera,guialbu@att.net,(318) 269-2381,6319.0,2016-04-30,Cuidado personal,2383,Dormido (>3 años),False,1.0,522610.74
+P0318,Maison Vanini,Oriana Revilla Perez,shazow@mac.com,(713) 647-1170,526.0,2021-10-29,Cárnicos,375,Inactivo (1-3 años),False,2.0,3649452.83
+P0319,Usine de Confiture Industrielle,Candelas Ríos,dhwon@outlook.com,(933) 597-1256,4036.0,2020-07-03,Doméstico,858,Inactivo (1-3 años),False,0.0,0.0
+P0320,Itchlo numérique,Leandra Olivia Leal Maza,lcheng@att.net,(700) 450-5572,3951.0,2012-01-30,Frutas,3935,Dormido (>3 años),False,0.0,0.0
+P0321,Projet Tamboré,Pastora Arce Coloma,tsuruta@yahoo.com,(350) 625-5420,4970.0,2012-12-27,Material de oficina,3603,Dormido (>3 años),False,0.0,0.0
+P0322,Ais Efficace,Damián Palomares Lledó,mfburgo@hotmail.com,(408) 227-4835,4250.0,2016-12-13,Ropa,2156,Dormido (>3 años),False,1.0,143718.40000000002
+P0323,joie,Maristela Ponce,zyghom@aol.com,(294) 591-8743,7513.0,2012-05-03,Snacks,3841,Dormido (>3 años),False,2.0,1578430.56
+P0324,Manucure Lee,Melania Chaves Corbacho,ullman@me.com,(855) 736-4308,6191.0,2018-08-09,Verduras,1552,Dormido (>3 años),False,2.0,507207.54000000004
+P0325,Boucle Banco,Edelmira Robledo-Urrutia,vertigo@icloud.com,(763) 793-7870,6749.0,2013-03-23,Alimento infantil,3517,Dormido (>3 años),False,2.0,2075648.4
+P0326,Grand espace de sauvegarde,Clímaco Teobaldo Fuente Cobos,jelmer@me.com,(499) 275-6735,1334.0,2013-01-28,Bebida,3571,Dormido (>3 años),False,0.0,0.0
+P0327,Numérique dynamique,Noa de Córdoba,sinkou@optonline.net,(476) 398-7010,2867.0,2013-12-01,Cereales,3264,Dormido (>3 años),True,1.0,118046.88
+P0328,Mise au point numérique,Leonel Jara Torrijos,tjensen@hotmail.com,(632) 843-4688,2333.0,2017-04-06,Cosméticos,2042,Dormido (>3 años),False,0.0,0.0
+P0329,Tactiques numériques,Estrella Badía-Amo,grdschl@sbcglobal.net,(686) 935-7569,7831.0,2012-04-05,Cuidado personal,3869,Dormido (>3 años),False,1.0,282839.97000000003
+P0330,Wappifier,Mayte Bou Cabezas,duncand@optonline.net,(908) 507-7774,8110.0,2019-03-05,Cárnicos,1344,Dormido (>3 años),False,0.0,0.0
+P0331,Buzz numérique,Ainoa Haro,dprice@verizon.net,(236) 228-8236,286.0,2013-05-05,Doméstico,3474,Dormido (>3 años),False,0.0,0.0
+P0332,Cadre d'actualité numérique,Julián del Guitart,drhyde@live.com,(670) 435-1970,5554.0,2018-03-08,Frutas,1706,Dormido (>3 años),False,1.0,8504.68
+P0333,Grands dessins,Ricarda de Mayoral,atmarks@verizon.net,(251) 837-9664,3519.0,2022-05-01,Material de oficina,191,Activo (<1 año),False,0.0,0.0
+P0334,Logiciel Smartworld,Salud Llorens-Carro,mthurn@comcast.net,(357) 359-7575,3474.0,2017-08-21,Ropa,1905,Dormido (>3 años),False,1.0,52111.36000000001
+P0335,Calibrateurforgeron,Jacobo Gomez Hernández,bmidd@sbcglobal.net,(313) 267-1606,2612.0,2016-03-17,Snacks,2427,Dormido (>3 años),False,0.0,0.0
+P0336,Avantage,Aurelia Lozano,seasweb@icloud.com,(250) 609-3136,1615.0,2014-06-17,Verduras,3066,Dormido (>3 años),False,0.0,0.0
+P0337,Cq It Au Qatar,Angélica Purificación Vallejo Huerta,jguyer@hotmail.com,(738) 251-8951,5769.0,2021-12-04,Alimento infantil,339,Activo (<1 año),True,0.0,0.0
+P0338,Conseil DV,Zoraida Cuesta Peiró,jgoerzen@me.com,(349) 340-5368,2008.0,2013-03-09,Bebida,3531,Dormido (>3 años),False,1.0,301782.47
+P0339,Externaliser le développement informatique,Gabino Iglesias Mínguez,delpino@hotmail.com,(552) 241-4591,3171.0,2013-06-28,Cereales,3420,Dormido (>3 años),False,2.0,830661.23
+P0340,Also Faktiv,Leocadia Galiano Barroso,pjacklam@verizon.net,(603) 693-5115,2011.0,2021-01-21,Cosméticos,656,Inactivo (1-3 años),False,2.0,2971679.05
+P0341,Kontrolleur,Felix Sola,raides@outlook.com,(596) 738-5897,581.0,2020-04-06,Cuidado personal,946,Inactivo (1-3 años),True,0.0,0.0
+P0342,Finanz-API,Ramón Tomé Pont,jgmyers@verizon.net,(246) 447-6483,6478.0,2014-12-07,Cárnicos,2893,Dormido (>3 años),False,0.0,0.0
+P0343,Biomotivieren,Gil Martin,eminence@sbcglobal.net,(478) 915-6300,269.0,2019-01-01,Doméstico,1407,Dormido (>3 años),False,2.0,5640006.42
+P0344,Stadt Abus Road,Lucas Sáenz Uriarte,ajlitt@outlook.com,(997) 438-1883,6023.0,2012-06-13,Frutas,3800,Dormido (>3 años),False,0.0,0.0
+P0345,Spieler,Sancho Llabrés Gallo,ribet@icloud.com,(268) 963-1280,8114.0,2021-10-19,Material de oficina,385,Inactivo (1-3 años),False,1.0,1847859.2000000002
+P0346,Team-Esport,Jose Manuel Juárez Moreno,cumarana@yahoo.com,(217) 485-6799,277.0,2021-05-24,Ropa,533,Inactivo (1-3 años),False,0.0,0.0
+P0347,Team-Auswirkung,Micaela de Fuentes,flakeg@gmail.com,(931) 717-4342,4916.0,2020-01-23,Snacks,1020,Inactivo (1-3 años),False,1.0,294171.36
+P0348,Allianzstudios,Aurelio León Campoy,eimear@me.com,(927) 495-3991,1737.0,2020-10-31,Verduras,738,Inactivo (1-3 años),False,1.0,760811.31
+P0349,Team-Software,Noé de Borrego,cderoove@comcast.net,(570) 922-5871,1956.0,2014-02-17,Alimento infantil,3186,Dormido (>3 años),False,1.0,1413577.14
+P0350,Teknosysteme,Gastón Méndez,eegsa@optonline.net,(732) 289-7179,6806.0,2019-05-18,Bebida,1270,Dormido (>3 años),False,1.0,205363.4
+P0351,Firmareo,Sara del Lastra,matty@aol.com,(488) 631-5624,634.0,2014-03-18,Cereales,3157,Dormido (>3 años),False,2.0,1932783.44
+P0352,Stromaufwärts,Amarilis Acedo Rosales,hikoza@gmail.com,(904) 451-1938,5250.0,2016-07-13,Cosméticos,2309,Dormido (>3 años),False,1.0,1135742.29
+P0353,Zenitcom-Lösungen,Ale Cerezo,tangsh@live.com,(806) 989-4481,3711.0,2016-05-05,Cuidado personal,2378,Dormido (>3 años),False,1.0,410744.16000000003
+P0354,2 g Fuji,Ruy del Seguí,wikinerd@msn.com,(681) 893-1883,3090.0,2012-12-10,Cárnicos,3620,Dormido (>3 años),False,0.0,0.0
+P0355,Wembo-Mobil,Olalla Avilés Nieto,ismail@gmail.com,(906) 321-3564,3333.0,2019-05-27,Doméstico,1261,Dormido (>3 años),False,0.0,0.0
+P0356,Jedes gute gute nach dem Logo,Juanita del Falcón,nicktrig@verizon.net,(541) 415-2083,6432.0,2012-10-25,Frutas,3666,Dormido (>3 años),False,1.0,10469.96
+P0357,Die andere Seite,Antonio Herberto Carrera Zapata,brickbat@optonline.net,(239) 524-9171,6836.0,2012-05-03,Material de oficina,3841,Dormido (>3 años),False,2.0,6045439.36
+P0358,Robotank nach Hause,Pedro Armengol Múgica,floxy@verizon.net,(266) 724-3616,7662.0,2019-10-18,Ropa,1117,Dormido (>3 años),False,2.0,272921.60000000003
+P0359,Phoenix Gehaltsabrechnung,Eulalia Águila,aracne@hotmail.com,(550) 523-9164,7904.0,2021-05-14,Snacks,543,Inactivo (1-3 años),False,0.0,0.0
+P0360,Optimierungslogik,Pepita Vendrell Rosado,bester@live.com,(259) 824-1957,8056.0,2020-02-01,Verduras,1011,Inactivo (1-3 años),False,2.0,982953.3
+P0361,Caron-Management,Lorenza Jódar Gascón,boser@yahoo.ca,(813) 519-5909,2044.0,2015-03-08,Alimento infantil,2802,Dormido (>3 años),False,0.0,0.0
+P0362,Kat,Juana Mínguez-Bertrán,harpes@mac.com,(481) 929-3366,1753.0,2018-09-06,Bebida,1524,Dormido (>3 años),False,1.0,239633.02
+P0363,2cv-Fabrik,Reina Emiliana Acero Arellano,hellfire@verizon.net,(817) 490-1344,7755.0,2016-06-23,Cereales,2329,Dormido (>3 años),False,2.0,1092519.19
+P0364,Neue Kultur,Natalio de Aroca,ubergeeb@att.net,(877) 906-2373,5029.0,2017-11-02,Cosméticos,1832,Dormido (>3 años),False,0.0,0.0
+P0365,Windiger Wald,Magdalena del Peñas,mrobshaw@mac.com,(546) 431-7260,3452.0,2016-10-04,Cuidado personal,2226,Dormido (>3 años),False,1.0,470701.02
+P0366,Der Rotary-Club,Débora Arroyo Pastor,barnett@comcast.net,(248) 338-4237,8017.0,2012-12-25,Cárnicos,3605,Dormido (>3 años),False,0.0,0.0
+P0367,Online-Transport,José Mari Esteban Torres,feamster@yahoo.com,(607) 539-3060,3404.0,2015-04-22,Doméstico,2757,Dormido (>3 años),False,1.0,3582607.66
+P0368,Gute Stadtmobilität,Roberta Nicolás,danzigism@mac.com,(850) 611-3354,3513.0,2015-12-18,Frutas,2517,Dormido (>3 años),False,2.0,121487.52
+P0369,Schienenverkehr,Amada Conde Rosselló,wojciech@hotmail.com,(983) 225-5505,725.0,2014-01-14,Material de oficina,3220,Dormido (>3 años),False,0.0,0.0
+P0370,Carlo Carlo,Celso de Somoza,wildfire@msn.com,(694) 585-1115,2765.0,2017-05-15,Ropa,2003,Dormido (>3 años),True,1.0,10752.000000000002
+P0371,Perlen gemustert,Virgilio Rios Moreno,cmdrgravy@comcast.net,(884) 717-7192,4284.0,2018-08-29,Snacks,1532,Dormido (>3 años),False,1.0,881734.5599999999
+P0372,März Outbre,Cruz Donoso Román,zavadsky@msn.com,(781) 649-8364,6632.0,2016-04-16,Verduras,2397,Dormido (>3 años),False,0.0,0.0
+P0373,Csw-Ressourcen,Édgar Bautista Hervia,isotopian@yahoo.ca,(480) 956-2597,8066.0,2021-08-29,Alimento infantil,436,Inactivo (1-3 años),False,1.0,1301345.46
+P0374,Zwischenstädte,Natividad Aguirre Gual,ardagna@sbcglobal.net,(633) 836-6616,5806.0,2014-08-10,Bebida,3012,Dormido (>3 años),False,0.0,0.0
+P0375,Servicenetz,Maximino Isern Alonso,parrt@gmail.com,(352) 803-0170,7202.0,2021-10-04,Cereales,400,Inactivo (1-3 años),False,0.0,0.0
+P0376,Karriere durch Raum,Carina Pacheco Roma,forsberg@yahoo.com,(803) 722-3445,6585.0,2014-09-26,Cosméticos,2965,Dormido (>3 años),False,0.0,0.0
+P0377,Walna Dynamik,Ovidio de Cabanillas,stakasa@optonline.net,(693) 848-8607,2028.0,2018-11-28,Cuidado personal,1441,Dormido (>3 años),False,3.0,1404849.3
+P0378,Trammys Australien,Santos Alemán Garmendia,oneiros@me.com,(854) 379-2781,1091.0,2016-04-04,Cárnicos,2409,Dormido (>3 años),False,0.0,0.0
+P0379,Ez-Straßen,Victor Manuel Anguita Cabrero,benits@gmail.com,(903) 949-4059,1180.0,2017-06-10,Doméstico,1977,Dormido (>3 años),False,1.0,1037745.1000000001
+P0380,Clevere Fahrt,Gerónimo Escrivá Riba,kramulous@live.com,(235) 321-4806,1485.0,2012-03-05,Frutas,3900,Dormido (>3 años),False,1.0,54294.32
+P0381,Lbr Ingenieure,Calisto Enríquez Galván,monkeydo@comcast.net,(532) 611-4998,759.0,2014-03-17,Material de oficina,3158,Dormido (>3 años),False,0.0,0.0
+P0382,Säbel Autoreparatur,Gracia de Sarabia,makarow@yahoo.com,(424) 871-1009,7842.0,2017-07-27,Ropa,1930,Dormido (>3 años),False,0.0,0.0
+P0383,Insel Impacex,Hernán Duque,munge@mac.com,(477) 246-0094,8155.0,2022-04-24,Snacks,198,Activo (<1 año),False,3.0,1287084.96
+P0384,Wir gehören Ihnen,Marina Iniesta Franch,jimmichie@aol.com,(612) 989-2040,4584.0,2020-01-09,Verduras,1034,Inactivo (1-3 años),False,3.0,583134.09
+P0385,Anti-Systeme,Isidro Múgica Marquez,raides@att.net,(969) 222-7509,1373.0,2012-08-29,Alimento infantil,3723,Dormido (>3 años),False,0.0,0.0
+P0386,Startup Europa,Ricarda Aparicio Prieto,rgarton@comcast.net,(297) 787-6009,2345.0,2019-01-07,Bebida,1401,Dormido (>3 años),False,3.0,563509.54
+P0387,Maxlight-Motorsport,Lope Casanova Aragonés,kildjean@live.com,(714) 696-7638,3956.0,2019-12-28,Cereales,1046,Inactivo (1-3 años),False,1.0,883477.84
+P0388,Maverick Autoteile,Bartolomé Dan Lago Corbacho,parrt@msn.com,(809) 930-2751,4006.0,2017-08-05,Cosméticos,1921,Dormido (>3 años),True,1.0,1994724.7499999998
+P0389,Schrecklicher Herbst,Socorro Cordero Salas,kmiller@icloud.com,(706) 512-3468,2249.0,2019-01-31,Cuidado personal,1377,Dormido (>3 años),False,1.0,497505.93
+P0390,Blaugebohrt,Dionisia Peinado,graham@att.net,(917) 389-5749,8119.0,2012-05-14,Cárnicos,3830,Dormido (>3 años),False,1.0,2726422.44
+P0391,Stadt Revelstoke,Íngrid Garmendia-Niño,jorgb@hotmail.com,(462) 780-6564,514.0,2014-06-03,Doméstico,3080,Dormido (>3 años),False,2.0,2289069.7
+P0392,Garagendienste,Celso Carranza Lillo,yfreund@me.com,(622) 728-2813,5997.0,2022-05-04,Frutas,188,Activo (<1 año),True,1.0,23998.56
+P0393,Mrzio-Management,Jose Manuel Parra Vara,martink@outlook.com,(686) 761-0539,396.0,2013-07-26,Material de oficina,3392,Dormido (>3 años),False,1.0,4146134.08
+P0394,Biene Autoagentur,Noemí Nogués Carrillo,quantaman@icloud.com,(971) 384-8678,7539.0,2016-05-11,Ropa,2372,Dormido (>3 años),False,2.0,604800.0
+P0395,Visionssport,Lupe Guerra-Huguet,thomasj@att.net,(741) 322-3722,8465.0,2019-03-18,Snacks,1331,Dormido (>3 años),False,1.0,633457.44
+P0396,Stapel,Julián Llorente Sainz,mahbub@yahoo.ca,(801) 886-2778,4419.0,2021-05-01,Verduras,556,Inactivo (1-3 años),False,0.0,0.0
+P0397,Neue VR,Dionisia de Amaya,wainwrig@yahoo.com,(652) 909-5556,8227.0,2014-08-14,Alimento infantil,3008,Dormido (>3 años),False,0.0,0.0
+P0398,Rennradsport,Lalo Bolaños Rios,uncle@comcast.net,(506) 395-8350,6993.0,2018-06-26,Bebida,1596,Dormido (>3 años),False,1.0,278321.45
+P0399,Es ist technisch,Otilia Manso,budinger@att.net,(832) 620-9943,2913.0,2018-12-04,Cereales,1435,Dormido (>3 años),True,4.0,2994971.14
+P0400,Denkverschiebung,Genoveva Tello,improv@msn.com,(423) 997-8014,3567.0,2019-04-03,Cosméticos,1315,Dormido (>3 años),False,0.0,0.0
+P0401,Kern,Augusto Toro Santamaria,notaprguy@comcast.net,(514) 789-8027,1232.0,2017-11-23,Cuidado personal,1811,Dormido (>3 años),True,1.0,323529.03
+P0402,Sicher,Chuy José María Rosales Márquez,martyloo@aol.com,(355) 486-5483,3222.0,2019-01-18,Cárnicos,1390,Dormido (>3 años),False,0.0,0.0
+P0403,Cross-Training,Hermenegildo Barranco Iriarte,eminence@msn.com,(803) 760-5690,1215.0,2013-06-30,Doméstico,3418,Dormido (>3 años),False,3.0,2995640.94
+P0404,Allgemein,Lucila Losada,smpeters@icloud.com,(776) 768-7137,8495.0,2012-09-23,Frutas,3698,Dormido (>3 años),False,1.0,39326.36
+P0405,Tombit,Galo Alonso Bermejo,johnh@verizon.net,(809) 599-3994,2480.0,2017-07-27,Material de oficina,1930,Dormido (>3 años),False,2.0,3237953.2800000003
+P0406,Global neu codieren,Leticia del Toro,arandal@icloud.com,(493) 756-2630,1609.0,2017-07-25,Ropa,1932,Dormido (>3 años),False,2.0,488104.9600000001
+P0407,KI-Systeme,Fernando Alemán-Alcalá,sbmrjbr@live.com,(376) 459-8149,5269.0,2018-08-18,Snacks,1543,Dormido (>3 años),False,0.0,0.0
+P0408,Chamäleon,Adriana Llanos Posada,kjetilk@me.com,(687) 599-9064,6116.0,2014-04-18,Verduras,3126,Dormido (>3 años),False,1.0,332167.29000000004
+P0409,Übersetzen,Chita Valentina Lopez Ibáñez,gfxguy@hotmail.com,(200) 606-4317,3579.0,2017-07-28,Alimento infantil,1929,Dormido (>3 años),False,2.0,1599460.8599999999
+P0410,Ouma-Technologien,Nicolás Roldán Higueras,yamla@optonline.net,(248) 491-2849,4541.0,2015-02-10,Bebida,2828,Dormido (>3 años),False,1.0,309634.6
+P0411,Bluefin-Systeme,Iris Quevedo Piquer,chunzi@optonline.net,(340) 399-7481,770.0,2015-05-02,Cereales,2747,Dormido (>3 años),False,0.0,0.0
+P0412,Psi-Technik,Lino Clavero Diez,duchamp@icloud.com,(697) 227-2914,2701.0,2015-01-24,Cosméticos,2845,Dormido (>3 años),False,0.0,0.0
+P0413,Omp-Beratung,Nicanor Pla Mora,kildjean@hotmail.com,(220) 968-0001,2683.0,2013-01-04,Cuidado personal,3595,Dormido (>3 años),False,3.0,1284028.8599999999
+P0414,Logikba,Celestino Adadia Serna,cantu@comcast.net,(842) 658-5551,6902.0,2021-02-22,Cárnicos,624,Inactivo (1-3 años),False,1.0,362501.86
+P0415,Heimautomatisierung,Ascensión Borrego Perea,wenzlaff@comcast.net,(313) 285-5103,3962.0,2016-07-25,Doméstico,2297,Dormido (>3 años),False,1.0,329666.24
+P0416,Eilis Unternehmen,Sonia Macias Palomares,nogin@live.com,(715) 670-1931,5208.0,2020-08-24,Frutas,806,Inactivo (1-3 años),False,1.0,18483.32
+P0417,Sequentielle Ai,Gil Durán Álvarez,pkplex@yahoo.ca,(404) 406-7492,3761.0,2019-12-16,Material de oficina,1058,Inactivo (1-3 años),False,0.0,0.0
+P0418,Kernlösung,Marisol Cuesta Aguilar,dobey@live.com,(662) 735-2843,2021.0,2012-06-20,Ropa,3793,Dormido (>3 años),False,0.0,0.0
+P0419,Westwise-Systeme,Tamara Echeverría Castelló,klaudon@yahoo.com,(267) 461-1712,6707.0,2020-09-28,Snacks,771,Inactivo (1-3 años),False,3.0,2299681.44
+P0420,Orman Kunstmöbel,Cándida del Suárez,scarolan@yahoo.ca,(565) 778-0353,5155.0,2015-06-22,Verduras,2696,Dormido (>3 años),True,0.0,0.0
+P0421,Srl,Arcelia de Palacio,thowell@aol.com,(839) 252-5184,2234.0,2016-12-30,Alimento infantil,2139,Dormido (>3 años),False,1.0,1574431.92
+P0422,Stadt Lyon,Paola del Jaume,william@mac.com,(248) 727-2575,735.0,2014-03-03,Bebida,3172,Dormido (>3 años),False,0.0,0.0
+P0423,Hauptschlüssel,Maricruz Barceló Rebollo,wonderkid@icloud.com,(897) 743-4622,4498.0,2012-09-02,Cereales,3719,Dormido (>3 años),False,0.0,0.0
+P0424,Ph5-Plattform,Reyes Zabaleta Haro,maikelnai@outlook.com,(763) 740-8377,2577.0,2012-06-08,Cosméticos,3805,Dormido (>3 años),False,1.0,1072016.43
+P0425,Kath,Leopoldo Mateu-Villalba,hikoza@yahoo.com,(278) 349-0760,5391.0,2017-09-15,Cuidado personal,1880,Dormido (>3 años),False,2.0,527031.0
+P0426,Jahrhundert Partner,Ildefonso Sola Jordán,mcnihil@live.com,(795) 219-2886,5385.0,2022-03-04,Cárnicos,249,Activo (<1 año),False,1.0,3164779.82
+P0427,Debugger,Esteban Galan Buendía,ninenine@live.com,(541) 250-9163,995.0,2018-10-24,Doméstico,1476,Dormido (>3 años),False,2.0,5122892.76
+P0428,Vitalwagen,Rosaura Conesa Pons,pavel@sbcglobal.net,(904) 603-5289,6823.0,2015-02-04,Frutas,2834,Dormido (>3 años),False,2.0,64141.479999999996
+P0429,4 Kinder geschüttelt,Paca Sanmartín-Baños,denism@icloud.com,(687) 501-6870,1119.0,2013-03-02,Material de oficina,3538,Dormido (>3 años),False,0.0,0.0
+P0430,Ferkussir,Aroa Cazorla-Villar,eurohack@live.com,(315) 329-6251,7684.0,2014-05-06,Ropa,3108,Dormido (>3 años),False,1.0,212495.36000000002
+P0431,Schlüsseltechnologie,Maxi Morán Sureda,skippy@optonline.net,(697) 572-9694,7925.0,2019-06-19,Snacks,1238,Dormido (>3 años),False,0.0,0.0
+P0432,Schlüsselsicherheit,Horacio del Duran,trygstad@comcast.net,(849) 694-8893,4593.0,2013-08-09,Verduras,3378,Dormido (>3 años),False,1.0,393090.39
+P0433,Er aß,Renata Nicolau Peñas,fmerges@msn.com,(338) 634-0393,2404.0,2016-05-14,Alimento infantil,2369,Dormido (>3 años),True,0.0,0.0
+P0434,Anwälte für Alzheimer,Rodolfo Hervia Tolosa,koudas@att.net,(360) 305-6858,5018.0,2020-05-24,Bebida,898,Inactivo (1-3 años),False,0.0,0.0
+P0435,Kingkenny mieten,Jesusa Coll Prats,szymansk@icloud.com,(500) 465-0884,5800.0,2020-11-09,Cereales,729,Inactivo (1-3 años),False,0.0,0.0
+P0436,Superhome-Mode,Ignacia Osuna Bárcena,gknauss@comcast.net,(318) 941-5448,5099.0,2019-05-30,Cosméticos,1258,Dormido (>3 años),False,1.0,732847.3899999999
+P0437,Alles Beddbfty,Custodio Gargallo-Ramis,rfisher@me.com,(589) 271-7321,2437.0,2022-02-21,Cuidado personal,260,Activo (<1 año),False,0.0,0.0
+P0438,Moderne Clothesopolis,José Mari Planas-Ávila,smartfart@optonline.net,(806) 306-8032,7882.0,2016-05-04,Cárnicos,2379,Dormido (>3 años),False,3.0,6907593.29
+P0439,Städtische Möbel,Francisco Jose Mendez,iapetus@verizon.net,(912) 945-2030,5209.0,2021-01-25,Doméstico,652,Inactivo (1-3 años),False,0.0,0.0
+P0440,Kirschholz,Francisco Aznar Becerra,fairbank@hotmail.com,(658) 999-0758,3585.0,2019-02-23,Frutas,1354,Dormido (>3 años),False,1.0,39340.2
+P0441,Woodside-Vermietung,Nydia Ríos-Huguet,wainwrig@aol.com,(473) 452-1046,6310.0,2020-09-04,Material de oficina,795,Inactivo (1-3 años),False,1.0,468789.28
+P0442,Welt von Matsuri,Benito Garcés Landa,smcnabb@aol.com,(715) 608-6247,2956.0,2015-09-27,Ropa,2599,Dormido (>3 años),False,0.0,0.0
+P0443,Scheint Möbel,Osvaldo Andrade Cantón,chrisk@msn.com,(207) 678-6905,4691.0,2015-07-21,Snacks,2667,Dormido (>3 años),False,2.0,700301.28
+P0444,Brante-Glas,Anselmo de Casares,lydia@outlook.com,(354) 492-1823,4897.0,2012-04-12,Verduras,3862,Dormido (>3 años),True,1.0,39190.83
+P0445,Einmalige Rolle,María José Madrid Campillo,tezbo@me.com,(360) 698-7565,6327.0,2016-12-25,Alimento infantil,2144,Dormido (>3 años),False,1.0,1004186.58
+P0446,DC-Möbel,Clímaco Águila Sosa,ducasse@verizon.net,(483) 950-4745,5470.0,2022-02-22,Bebida,259,Activo (<1 año),False,0.0,0.0
+P0447,Café Möbel,Elías Pujol Otero,dkeeler@icloud.com,(225) 277-4513,6631.0,2017-10-18,Cereales,1847,Dormido (>3 años),False,2.0,1574543.9499999997
+P0448,Ahorn-Raguarta,Olegario del Mateos,ghaviv@mac.com,(634) 474-8166,5275.0,2019-11-18,Cosméticos,1086,Inactivo (1-3 años),False,2.0,2095843.4699999997
+P0449,Rüschenkissen,Trinidad Aramburu,psichel@comcast.net,(715) 989-3722,2456.0,2014-07-11,Cuidado personal,3042,Dormido (>3 años),False,0.0,0.0
+P0450,Laborstuhl,Luisa Arellano-Gutiérrez,miyop@verizon.net,(879) 913-3528,4387.0,2015-12-22,Cárnicos,2513,Dormido (>3 años),True,0.0,0.0
+P0451,Goykay-Bauherren,Palmira Gallego Rodríguez,zyghom@comcast.net,(262) 426-5759,1463.0,2018-04-02,Doméstico,1681,Dormido (>3 años),False,0.0,0.0
+P0452,Augenregenschleife,Ciriaco Cristóbal Mayol Quintero,oster@hotmail.com,(639) 520-9390,340.0,2017-04-08,Frutas,2040,Dormido (>3 años),False,2.0,71566.64
+P0453,Atenastische Systeme,Anselmo Ballesteros Rovira,philb@optonline.net,(833) 667-2656,6872.0,2017-04-28,Material de oficina,2020,Dormido (>3 años),False,2.0,5347767.5200000005
+P0454,Der Home-It-Service,Tatiana del Aguado,kannan@yahoo.com,(582) 579-9727,7688.0,2012-07-31,Ropa,3752,Dormido (>3 años),False,1.0,209807.36000000002
+P0455,Grenzenlose Wissenschaft,Abilio Botella-Sierra,iamcal@gmail.com,(629) 547-3694,2814.0,2012-03-13,Snacks,3892,Dormido (>3 años),False,0.0,0.0
+P0456,Datenpuls,Eulalia Salomé Baena Uribe,crimsane@att.net,(527) 682-3383,4042.0,2018-10-05,Verduras,1495,Dormido (>3 años),False,2.0,722620.71
+P0457,Ahiyo-Entwicklung,Adelina Calzada Gárate,kenja@aol.com,(339) 237-9697,990.0,2019-10-03,Alimento infantil,1132,Dormido (>3 años),False,0.0,0.0
+P0458,Arbeitsschleife,Corona Palacio Valle,msherr@verizon.net,(669) 763-7966,3062.0,2020-08-05,Bebida,825,Inactivo (1-3 años),False,3.0,418419.98
+P0459,Schwefel,Ismael Peiró-Gámez,sarahs@mac.com,(413) 869-0477,2345.0,2015-02-14,Cereales,2824,Dormido (>3 años),False,0.0,0.0
+P0460,Vannini-Haus,Elvira Godoy Santana,gbacon@gmail.com,(301) 865-0583,1739.0,2014-04-19,Cosméticos,3125,Dormido (>3 años),False,2.0,3025135.04
+P0461,Industrielle Marmeladenfabrik,Alfredo Piñeiro Malo,dpitts@live.com,(522) 620-0968,7462.0,2017-07-17,Cuidado personal,1940,Dormido (>3 años),True,1.0,54686.55
+P0462,Tambore-Projekt,Juan Bautista Ros Quesada,eidac@live.com,(331) 697-6934,1526.0,2021-08-27,Cárnicos,438,Inactivo (1-3 años),False,1.0,515671.66
+P0463,Ais Effizient,Román del Anglada,agolomsh@verizon.net,(221) 530-9960,4802.0,2017-01-18,Doméstico,2120,Dormido (>3 años),False,0.0,0.0
+P0464,Freude,Pascuala Coronado,camenisch@hotmail.com,(666) 703-9333,523.0,2015-07-13,Frutas,2675,Dormido (>3 años),False,1.0,37637.88
+P0465,Banco-Schleife,Leire Paniagua Acevedo,vlefevre@outlook.com,(569) 677-9695,7540.0,2015-08-18,Material de oficina,2639,Dormido (>3 años),False,2.0,4634346.880000001
+P0466,Großer Backup-Speicherplatz,Sofía Jiménez Soriano,wbarker@hotmail.com,(666) 682-8228,3144.0,2018-11-26,Ropa,1443,Dormido (>3 años),False,6.0,1226552.32
+P0467,Dynamisches Digital,Hector Izaguirre Donoso,mugwump@att.net,(828) 999-4752,1665.0,2012-10-01,Snacks,3690,Dormido (>3 años),True,0.0,0.0
+P0468,Digitale Taktik,Rocío Salgado Palomo,crowl@mac.com,(702) 203-1440,829.0,2013-11-21,Verduras,3274,Dormido (>3 años),False,2.0,1556994.3900000001
+P0469,Summen Digital,Lucho Reguera Heredia,moxfulder@me.com,(905) 288-7767,5290.0,2018-11-01,Alimento infantil,1468,Dormido (>3 años),False,0.0,0.0
+P0470,Digitaler Newsframe,Viviana Bello Alberdi,ribet@hotmail.com,(763) 488-0516,4209.0,2019-12-24,Bebida,1050,Inactivo (1-3 años),False,0.0,0.0
+P0471,Tolle Designs,Esmeralda Simó,sisyphus@aol.com,(780) 794-6628,1372.0,2018-04-05,Cereales,1678,Dormido (>3 años),False,1.0,291018.35
+P0472,Smartworld-Software,Alexandra del Nieto,corrada@gmail.com,(951) 730-8709,1660.0,2013-09-13,Cosméticos,3343,Dormido (>3 años),False,0.0,0.0
+P0473,Kalibratorschmied,Francisca María Rosado Serna,jadavis@aol.com,(366) 439-6689,3211.0,2013-04-03,Cuidado personal,3506,Dormido (>3 años),False,0.0,0.0
+P0474,Adview-Designs,Artemio Martinez-Baeza,aaribaud@mac.com,(600) 908-8973,4697.0,2013-06-08,Cárnicos,3440,Dormido (>3 años),False,2.0,1344976.72
+P0475,Avantiv,Vicenta Grau Naranjo,teverett@me.com,(738) 913-5563,6552.0,2020-08-17,Doméstico,813,Inactivo (1-3 años),False,0.0,0.0
+P0476,Cq es in Katar,Cintia Corbacho Luz,rwelty@att.net,(605) 922-9912,2857.0,2014-03-15,Frutas,3160,Dormido (>3 años),False,4.0,113508.76000000001
+P0477,DV-Beratung,José Manuel Plaza Izaguirre,richard@me.com,(751) 831-5419,4160.0,2017-11-14,Material de oficina,1820,Dormido (>3 años),False,1.0,398969.60000000003
+P0478,Tun Sie dies,Augusto del Corominas,makarow@hotmail.com,(856) 224-1191,3304.0,2014-12-28,Ropa,2872,Dormido (>3 años),False,0.0,0.0
+P0479,IT-Entwicklung auslagern,Néstor Milla,caidaperl@yahoo.com,(630) 967-6558,1738.0,2015-11-10,Snacks,2555,Dormido (>3 años),False,0.0,0.0
+P0480,Tão Fativo,Guadalupe de Peralta,meinkej@gmail.com,(693) 592-1495,6229.0,2020-07-08,Verduras,853,Inactivo (1-3 años),False,2.0,634236.75
+P0481,Controlador,Abraham Espejo,bdthomas@mac.com,(894) 346-5708,638.0,2012-04-14,Alimento infantil,3860,Dormido (>3 años),False,0.0,0.0
+P0482,API de finanças,Nidia Mate Benito,kludge@mac.com,(654) 477-2550,587.0,2013-04-08,Bebida,3501,Dormido (>3 años),True,0.0,0.0
+P0483,Biomotivar,Reyes Córdoba Folch,rafasgj@verizon.net,(563) 743-3428,6565.0,2021-09-13,Cereales,421,Inactivo (1-3 años),False,2.0,1462235.46
+P0484,Metta Status_cru_lumarn,Abraham Torrijos Seco,grdschl@gmail.com,(657) 677-7992,1132.0,2013-04-24,Cosméticos,3485,Dormido (>3 años),False,0.0,0.0
+P0485,Estrada Cidade de Abus,Sabina Baró Ariza,marin@icloud.com,(948) 209-0838,2248.0,2016-08-28,Cuidado personal,2263,Dormido (>3 años),False,1.0,435168.93
+P0486,Jogador,Amado Sarmiento Diez,oracle@msn.com,(219) 204-8527,2583.0,2015-04-25,Cárnicos,2754,Dormido (>3 años),False,2.0,1924469.13
+P0487,Esportes de equipe,Jose Ramón Juan Antonio Macias Pinedo,damian@mac.com,(334) 518-1921,1624.0,2018-01-24,Doméstico,1749,Dormido (>3 años),False,1.0,637220.72
+P0488,Impacto da equipe,Lupe Mas-Cárdenas,josem@hotmail.com,(685) 564-8676,1474.0,2017-08-29,Frutas,1897,Dormido (>3 años),False,2.0,47249.759999999995
+P0489,Software da equipe,Darío Costa Esteban,jkegl@aol.com,(789) 855-5353,7376.0,2020-12-12,Material de oficina,696,Inactivo (1-3 años),False,2.0,8460780.32
+P0490,Teknossistemas,Elisabet Díaz Macías,parsimony@live.com,(597) 557-7524,4824.0,2018-04-18,Ropa,1665,Dormido (>3 años),False,0.0,0.0
+P0491,A montante,Xiomara Jove Tolosa,gamma@aol.com,(378) 349-5882,4098.0,2018-10-09,Snacks,1491,Dormido (>3 años),False,1.0,721445.76
+P0492,Soluções Zenitcom,Pascual del Escudero,fairbank@gmail.com,(286) 942-3369,6751.0,2013-04-22,Verduras,3487,Dormido (>3 años),False,1.0,701524.9500000001
+P0493,2g de Fuji,Vasco Grau Acevedo,danneng@gmail.com,(234) 322-8981,4603.0,2012-02-12,Alimento infantil,3922,Dormido (>3 años),False,1.0,1115780.5799999998
+P0494,Todo Bom Bem Depois do Logo,Cristian Verdugo Carro,ubergeeb@sbcglobal.net,(873) 517-5066,3937.0,2017-11-30,Bebida,1804,Dormido (>3 años),False,2.0,103063.18
+P0495,O outro lado,Emilio Zamorano Arce,amcuri@msn.com,(961) 315-8718,5086.0,2016-11-29,Cereales,2170,Dormido (>3 años),False,1.0,474412.61
+P0496,Madri,Lucho Ramón Romeu Sabater,skythe@comcast.net,(376) 731-9316,3464.0,2021-03-18,Cosméticos,600,Inactivo (1-3 años),False,0.0,0.0
+P0497,Folha de pagamento de Phoenix,Ambrosio Gabriel Aranda Solís,sekiya@outlook.com,(805) 743-3760,6459.0,2022-03-14,Cuidado personal,239,Activo (<1 año),False,1.0,361894.62
+P0498,Laboratórios Generite,Nilda Amaya Guitart,salesgeek@sbcglobal.net,(338) 395-3610,4477.0,2013-12-02,Cárnicos,3263,Dormido (>3 años),False,1.0,2537513.02
+P0499,Lógica de otimização,Clemente Barberá-Cuesta,mddallara@sbcglobal.net,(303) 304-1194,6455.0,2017-05-03,Doméstico,2015,Dormido (>3 años),False,1.0,4592713.0600000005
+P0500,Gestão Caron,Chuy Gutiérrez Batlle,raides@outlook.com,(917) 626-7056,1738.0,2013-04-11,Frutas,3498,Dormido (>3 años),True,0.0,0.0
+P0501,2cv Fábrica,Martirio Manso-Guzman,satch@sbcglobal.net,(590) 697-5599,6073.0,2021-06-30,Material de oficina,496,Inactivo (1-3 años),False,2.0,2732416.8000000003
+P0502,Nova Cultura,Moisés Segarra,grothoff@me.com,(618) 366-6085,6635.0,2019-04-18,Ropa,1300,Dormido (>3 años),True,2.0,355031.04000000004
+P0503,Floresta dos Ventos,Lucas Lara-Losa,msherr@yahoo.com,(245) 937-0041,1124.0,2014-08-06,Snacks,3016,Dormido (>3 años),False,0.0,0.0
+P0504,O Rotary Clube,Amanda Ferrándiz Viana,carreras@icloud.com,(701) 532-7597,3541.0,2017-04-12,Verduras,2036,Dormido (>3 años),False,3.0,1308573.6300000001
+P0505,Transporte on-line,Tito Doménech,danneng@aol.com,(503) 697-2032,6855.0,2020-05-04,Alimento infantil,918,Inactivo (1-3 años),False,1.0,1207606.5
+P0506,Boa mobilidade urbana,Sebastian de Camps,matty@yahoo.ca,(632) 222-8510,3580.0,2015-07-13,Bebida,2675,Dormido (>3 años),False,3.0,357764.66000000003
+P0507,Bt Norte,Encarnita Gilabert Nebot,chinthaka@comcast.net,(873) 402-5342,3571.0,2014-01-18,Cereales,3216,Dormido (>3 años),False,2.0,810752.53
+P0508,Isll Consultoria,Javiera del Aparicio,noticias@me.com,(723) 568-3057,778.0,2013-11-11,Cosméticos,3284,Dormido (>3 años),False,0.0,0.0
+P0509,Trânsito Ferroviário,Plácido Camino Calvet,bjoern@att.net,(584) 739-9716,5835.0,2015-02-28,Cuidado personal,2810,Dormido (>3 años),False,1.0,208885.62
+P0510,Olhos de miçangas,Beatriz Ruperta Borrás Julián,seano@optonline.net,(663) 805-7134,1652.0,2015-09-06,Cárnicos,2620,Dormido (>3 años),False,1.0,2822700.6
+P0511,Outbre de março,Chucho Ortega Varela,crobles@yahoo.ca,(833) 885-2275,6963.0,2022-01-07,Doméstico,305,Activo (<1 año),False,1.0,1507620.0
+P0512,Recursos Csw,Purificación del Gual,zavadsky@me.com,(890) 386-3309,7511.0,2015-02-24,Frutas,2814,Dormido (>3 años),False,0.0,0.0
+P0513,Intercidades,Dionisio Guerrero Castro,tmaek@yahoo.com,(484) 727-8983,1520.0,2015-02-10,Material de oficina,2828,Dormido (>3 años),False,0.0,0.0
+P0514,Carreira por espaço,Francisca Solsona Olmedo,marin@aol.com,(740) 555-9439,4226.0,2014-01-21,Ropa,3213,Dormido (>3 años),True,2.0,428252.16000000003
+P0515,Trammys Austrália,Odalis Santamaria-Cueto,scato@icloud.com,(818) 532-0790,1308.0,2017-03-05,Snacks,2074,Dormido (>3 años),False,2.0,1052059.68
+P0516,Estradas de Ez,Leopoldo del Mulet,carcus@yahoo.ca,(515) 266-5141,1681.0,2021-05-25,Verduras,532,Inactivo (1-3 años),False,2.0,471199.26000000007
+P0517,Passeio inteligente,Ema Requena Villalonga,druschel@outlook.com,(330) 579-6730,2294.0,2021-05-29,Alimento infantil,528,Inactivo (1-3 años),False,3.0,1735286.6999999997
+P0518,Engenheiros Lbr,Teodosio Benet Samper,gamma@live.com,(288) 803-5207,6338.0,2020-07-05,Bebida,856,Inactivo (1-3 años),False,0.0,0.0
+P0519,Sabre Auto Reparação,Gabriel Oliver Peñalver,bdbrown@me.com,(547) 618-4527,7928.0,2017-07-10,Cereales,1947,Dormido (>3 años),False,0.0,0.0
+P0520,Ilha Impacex,Felicia Sonia Sotelo Sánchez,notaprguy@comcast.net,(868) 530-3322,328.0,2020-07-17,Cosméticos,844,Inactivo (1-3 años),True,1.0,389465.06999999995
+P0521,Nós somos seus,Pedro Juan Antonio Arrieta Fábregas,kramulous@yahoo.com,(775) 849-4539,6799.0,2013-03-29,Cuidado personal,3511,Dormido (>3 años),False,1.0,208772.28
+P0522,Anti-Sistemas,Paula Codina Mulet,harpes@verizon.net,(986) 793-4357,651.0,2021-05-14,Cárnicos,543,Inactivo (1-3 años),False,0.0,0.0
+P0523,Autopeças Maverick,Eusebia Sola Ayala,mkearl@gmail.com,(463) 662-6107,8402.0,2018-05-17,Doméstico,1636,Dormido (>3 años),False,0.0,0.0
+P0524,Erva Terrível,Aurelio Campillo Alberola,devphil@me.com,(908) 796-8762,6131.0,2013-05-26,Frutas,3453,Dormido (>3 años),False,0.0,0.0
+P0525,Perfurado,Margarita Rovira Gabaldón,bmidd@verizon.net,(280) 622-6363,960.0,2012-05-28,Material de oficina,3816,Dormido (>3 años),False,1.0,4525680.16
+P0526,Cidade de Revelstoke,Fidel Pascual Fernández,lridener@live.com,(267) 613-8613,5766.0,2016-02-09,Ropa,2464,Dormido (>3 años),False,1.0,66375.68000000001
+P0527,Serviços de garagem,Coral Coca,crowemojo@me.com,(306) 859-1505,4914.0,2012-04-02,Snacks,3872,Dormido (>3 años),False,4.0,1983975.84
+P0528,Administradores,Eustaquio Fabregat,aaribaud@optonline.net,(890) 434-6124,5928.0,2021-01-17,Verduras,660,Inactivo (1-3 años),False,1.0,139941.27000000002
+P0529,Bee Auto Agência,Carina Conesa Romero,blixem@verizon.net,(770) 996-1885,7493.0,2016-11-12,Alimento infantil,2187,Dormido (>3 años),False,3.0,4446383.22
+P0530,Esportes de visão,Bernardino Joaquín Aguirre Carmona,jbailie@msn.com,(534) 235-9071,1720.0,2014-01-27,Bebida,3207,Dormido (>3 años),False,0.0,0.0
+P0531,Lote,Leocadia Valencia-Portillo,emmanuel@yahoo.com,(996) 410-9159,6412.0,2017-07-11,Cereales,1946,Dormido (>3 años),False,0.0,0.0
+P0532,Game Flip (sistemas de ateliê),Adela Goñi Oliva,staffelb@sbcglobal.net,(957) 496-0852,3640.0,2012-02-17,Cosméticos,3917,Dormido (>3 años),False,0.0,0.0
+P0533,Plano de talentos,Tomás Rodriguez Rueda,flavell@outlook.com,(331) 278-5242,2912.0,2018-06-03,Cuidado personal,1619,Dormido (>3 años),False,1.0,366541.56
+P0534,Nova realidade,Alfredo Bravo,oechslin@att.net,(238) 642-4801,5959.0,2014-12-10,Cárnicos,2890,Dormido (>3 años),False,1.0,329315.07
+P0535,Esportes de bicicleta de estrada,Odalys Serafina Conde Lladó,kewley@yahoo.com,(660) 965-6609,596.0,2018-09-12,Doméstico,1518,Dormido (>3 años),False,1.0,3189621.3800000004
+P0536,Técnico Iti,Salomé Bautista Sanabria,satch@verizon.net,(383) 492-8311,6740.0,2017-03-23,Frutas,2056,Dormido (>3 años),False,1.0,6996.12
+P0537,Mudança de opinião,Milagros Casas,bastian@att.net,(741) 803-0434,8452.0,2012-06-23,Material de oficina,3790,Dormido (>3 años),False,2.0,4491032.800000001
+P0538,Núcleo,Ramona Dora Marcos Maestre,retoh@me.com,(293) 469-1962,8016.0,2019-09-05,Ropa,1160,Dormido (>3 años),False,1.0,286899.2
+P0539,Treinamento cruzado,José Leal Pera,andrewik@gmail.com,(290) 775-7285,6854.0,2021-09-01,Snacks,433,Inactivo (1-3 años),False,1.0,840322.5599999999
+P0540,Recodificar global,Belén Cañellas Batalla,fhirsch@hotmail.com,(829) 809-4718,5161.0,2014-04-11,Verduras,3133,Dormido (>3 años),False,1.0,35280.840000000004
+P0541,Admitábi,Armando Aller Infante,bonmots@verizon.net,(538) 922-3412,6413.0,2018-03-20,Alimento infantil,1694,Dormido (>3 años),False,0.0,0.0
+P0542,Sistemas AI,Paco Cortés,marin@aol.com,(209) 732-7435,2446.0,2015-06-28,Bebida,2690,Dormido (>3 años),True,1.0,239823.75999999998
+P0543,Camaleão,Ángela Aramburu Palmer,kalpol@outlook.com,(496) 580-9503,648.0,2021-10-28,Cereales,376,Inactivo (1-3 años),True,2.0,1003398.48
+P0544,Transferir,Prudencia Pareja Requena,dawnsong@verizon.net,(308) 813-2736,3851.0,2015-01-25,Cosméticos,2844,Dormido (>3 años),False,0.0,0.0
+P0545,Tecnologias Ouma,María Carmen Monreal Perez,stakasa@gmail.com,(592) 235-7911,5562.0,2018-04-26,Cuidado personal,1657,Dormido (>3 años),False,0.0,0.0
+P0546,Sistemas Bluefin,Ciro Sales-Lucas,onestab@att.net,(710) 759-3890,5372.0,2017-05-19,Cárnicos,1999,Dormido (>3 años),False,0.0,0.0
+P0547,Engenharia Psi,Epifanio Ariza Barragán,jfmulder@verizon.net,(562) 317-5110,5557.0,2017-04-10,Doméstico,2038,Dormido (>3 años),False,1.0,4791718.9
+P0548,Consultoria Omp,Albert Revilla Lillo,codex@yahoo.com,(503) 492-1018,7258.0,2012-03-06,Frutas,3899,Dormido (>3 años),False,1.0,19984.96
+P0549,Automação residencial,Raúl Torralba Izquierdo,munjal@icloud.com,(593) 699-5294,6178.0,2013-07-12,Material de oficina,3406,Dormido (>3 años),False,1.0,2695669.6
+P0550,Ai Sequencial,Jose Ignacio Vallés Salinas,jipsen@mac.com,(494) 338-7896,1124.0,2017-05-21,Ropa,1997,Dormido (>3 años),False,2.0,331914.24000000005
+P0551,Solução principal,Chuy Briones Martín,kjetilk@comcast.net,(351) 615-4357,8486.0,2012-05-27,Snacks,3817,Dormido (>3 años),False,1.0,503862.24
+P0552,Sistemas Westwise,Griselda de Doménech,barnett@mac.com,(592) 649-2696,2915.0,2021-06-14,Verduras,512,Inactivo (1-3 años),False,2.0,772268.49
+P0553,Móveis Artísticos Orman,Mamen Petrona Briones Llorens,marin@live.com,(536) 857-5249,7447.0,2015-03-20,Alimento infantil,2790,Dormido (>3 años),False,0.0,0.0
+P0554,Cidade de Lyon,Manolo Giralt Vallés,wiseb@att.net,(207) 824-3846,2796.0,2013-06-05,Bebida,3443,Dormido (>3 años),False,1.0,64342.96
+P0555,Chave mestra,Marisela de Goicoechea,wagnerch@me.com,(340) 347-9850,6147.0,2020-08-10,Cereales,820,Inactivo (1-3 años),False,1.0,351447.11
+P0556,Plataforma Ph5,Jose Francisco Esteban Quevedo,miyop@verizon.net,(594) 944-2738,5627.0,2021-02-17,Cosméticos,629,Inactivo (1-3 años),True,3.0,4886088.149999999
+P0557,Catexc,Román del Lago,pjacklam@me.com,(489) 898-9164,4618.0,2019-05-10,Cuidado personal,1278,Dormido (>3 años),False,1.0,132664.47
+P0558,Associados do Século,Macario Godoy Cañizares,fwiles@msn.com,(284) 312-4582,2423.0,2022-01-21,Cárnicos,291,Activo (<1 año),False,1.0,3292786.01
+P0559,Abalou 4 crianças,Valero Rey,rcwil@optonline.net,(455) 474-0513,8224.0,2012-05-14,Doméstico,3830,Dormido (>3 años),False,1.0,1920205.34
+P0560,Tecnologia chave,Noa Álvaro Verdejo,lpalmer@mac.com,(273) 389-4804,3853.0,2014-11-21,Frutas,2909,Dormido (>3 años),False,1.0,53505.44
+P0561,Segurança da chave,Fabricio Prieto,wojciech@outlook.com,(911) 828-5250,6713.0,2019-02-06,Material de oficina,1371,Dormido (>3 años),False,1.0,2741866.08
+P0562,Ele comeu,Ale Gabaldón Estrada,khris@outlook.com,(779) 401-3606,3193.0,2021-07-09,Ropa,487,Inactivo (1-3 años),False,2.0,291880.96
+P0563,Advogados de Alzheimer,Hector del Fuentes,kronvold@gmail.com,(814) 773-0390,1855.0,2013-09-29,Snacks,3327,Dormido (>3 años),False,0.0,0.0
+P0564,Aluguer de Kingkenny,Obdulia Beltrán Coca,noahb@verizon.net,(640) 303-2629,5010.0,2019-11-19,Verduras,1085,Inactivo (1-3 años),False,1.0,593863.8300000001
+P0565,Supercasas de moda,Rufino Cazorla Ribes,inico@yahoo.ca,(468) 316-3431,7919.0,2018-10-27,Alimento infantil,1473,Dormido (>3 años),False,0.0,0.0
+P0566,Tudo Bedbfty,Heriberto Orozco Barba,amimojo@optonline.net,(394) 957-0805,5041.0,2021-06-16,Bebida,510,Inactivo (1-3 años),False,1.0,248629.59
+P0567,Premier Internacional,Asdrubal Esteban Ruano,wayward@verizon.net,(940) 452-5220,6857.0,2019-10-31,Cereales,1104,Dormido (>3 años),False,1.0,336691.25
+P0568,Clothesópolis moderna,Bienvenida Filomena Nuñez Bautista,jramio@comcast.net,(748) 375-3201,2050.0,2018-05-12,Cosméticos,1641,Dormido (>3 años),False,0.0,0.0
+P0569,Mobiliário Urbano,Edmundo Andrés Reig,specprog@aol.com,(745) 203-6599,3388.0,2021-08-16,Cuidado personal,449,Inactivo (1-3 años),False,2.0,530431.2
+P0570,Madeira de cerejeira,Carmelita Peñas Mir,feamster@icloud.com,(912) 902-2405,1441.0,2018-07-28,Cárnicos,1564,Dormido (>3 años),False,1.0,1771299.33
+P0571,Aluguel do Bosque,Ciro Chacón Leal,tromey@yahoo.ca,(511) 323-6772,5456.0,2015-10-10,Doméstico,2586,Dormido (>3 años),False,0.0,0.0
+P0572,Mundo de Matsuri,Jacinta Quesada Grande,gboss@gmail.com,(706) 219-9236,685.0,2019-01-07,Frutas,1401,Dormido (>3 años),True,0.0,0.0
+P0573,Parece Móveis,Édgar Campoy Rico,chrisj@mac.com,(670) 359-0211,5575.0,2022-02-12,Material de oficina,269,Activo (<1 año),True,1.0,2193807.8400000003
+P0574,Vidro Brante,Ruy Priego Oller,keijser@yahoo.ca,(674) 515-5954,532.0,2016-02-16,Ropa,2457,Dormido (>3 años),True,1.0,127267.84000000001
+P0575,Um Rolo,Encarnación Iniesta,uraeus@comcast.net,(553) 332-6141,1167.0,2018-11-21,Snacks,1448,Dormido (>3 años),False,0.0,0.0
+P0576,Móveis DC,José Luis Blázquez Landa,kjetilk@aol.com,(941) 425-9891,7965.0,2019-10-02,Verduras,1133,Dormido (>3 años),False,0.0,0.0
+P0577,Café Móveis,José Colom Redondo,zyghom@optonline.net,(227) 453-2492,7390.0,2016-01-26,Alimento infantil,2478,Dormido (>3 años),False,1.0,966244.6199999999
+P0578,Almofadas com babados,Mamen Eufemia Ortuño Marí,floxy@yahoo.com,(667) 540-4015,2096.0,2019-04-01,Bebida,1317,Dormido (>3 años),False,1.0,198337.81
+P0579,Cadeira de laboratório,Amílcar Valls Sancho,pontipak@icloud.com,(597) 641-1701,3769.0,2015-09-11,Cereales,2615,Dormido (>3 años),False,1.0,1157281.02
+P0580,Construtores de Goykay,Salud Larrea Álvaro,treit@optonline.net,(916) 472-9468,3635.0,2013-01-31,Cosméticos,3568,Dormido (>3 años),False,1.0,558522.9299999999
+P0581,Sistemas Ateniticos,Febe Cornejo Mascaró,bmidd@yahoo.ca,(370) 424-7914,5733.0,2017-02-21,Cuidado personal,2086,Dormido (>3 años),False,0.0,0.0
+P0582,O serviço de casa,Azahar Amigó Mateos,rddesign@sbcglobal.net,(892) 440-9176,6028.0,2020-06-22,Cárnicos,869,Inactivo (1-3 años),False,0.0,0.0
+P0583,Ciência sem limites,Nadia Maite Roldán Sacristán,yfreund@aol.com,(842) 319-7045,267.0,2016-09-11,Doméstico,2249,Dormido (>3 años),False,2.0,3423805.02
+P0584,Desenvolvimento Ahiyo,Valentina Felisa Morillo Cañete,haddawy@att.net,(547) 992-0607,7096.0,2021-12-23,Frutas,320,Activo (<1 año),False,2.0,73781.04000000001
+P0585,Ciclo de trabalho,Camilo Nicolás Canet Farré,wayward@sbcglobal.net,(905) 213-8868,2082.0,2012-02-15,Material de oficina,3919,Dormido (>3 años),False,1.0,786915.04
+P0586,Enxofre,Jimena Llanos Hierro,multiplx@att.net,(403) 940-7594,4404.0,2014-04-24,Ropa,3120,Dormido (>3 años),False,1.0,90711.04000000001
+P0587,Cromática,Saturnina Armengol Juárez,kmiller@outlook.com,(978) 818-9626,3355.0,2013-12-15,Snacks,3250,Dormido (>3 años),False,0.0,0.0
+P0588,Casa Vannini,Asunción Real Vilaplana,uraeus@hotmail.com,(371) 738-9753,7373.0,2016-05-12,Verduras,2371,Dormido (>3 años),False,2.0,1351310.73
+P0589,Fábrica de geleia industrial,Toribio Maestre Cueto,mbrown@sbcglobal.net,(366) 561-0018,6916.0,2012-03-01,Alimento infantil,3904,Dormido (>3 años),False,1.0,1393809.0599999998
+P0590,Projeto Tamboré,Nicolás Olegario Carpio Cordero,microfab@comcast.net,(436) 202-2284,636.0,2014-07-14,Bebida,3039,Dormido (>3 años),False,2.0,217348.23
+P0591,Eficiente,Ezequiel Zamora Alegre,tellis@gmail.com,(308) 898-6409,6435.0,2015-08-05,Cereales,2652,Dormido (>3 años),False,2.0,1337396.2000000002
+P0592,Alegria,Ovidio Piña Gomez,facet@hotmail.com,(245) 477-6795,3897.0,2012-12-13,Cosméticos,3617,Dormido (>3 años),False,0.0,0.0
+P0593,Grande espaço de backup,Toño Acevedo Robles,danny@outlook.com,(405) 569-8173,201.0,2015-03-19,Cuidado personal,2791,Dormido (>3 años),False,0.0,0.0
+P0594,Digital Dinâmico,Natalia Sola Solano,raides@verizon.net,(803) 546-7674,5728.0,2017-05-21,Cárnicos,1997,Dormido (>3 años),False,2.0,4058270.3200000003
+P0595,Digital em Foco,Heliodoro Roura Ángel,richard@sbcglobal.net,(699) 716-9878,2102.0,2012-11-23,Doméstico,3637,Dormido (>3 años),False,1.0,4335915.12
+P0596,Táticas Digitais,Jenny Valderrama Abril,goldberg@yahoo.com,(604) 700-8007,7454.0,2015-07-06,Frutas,2682,Dormido (>3 años),False,1.0,26462.079999999998
+P0597,Zumbido Digital,Adriana Guerrero Gordillo,kwilliams@yahoo.com,(235) 878-0052,5648.0,2017-06-17,Material de oficina,1970,Dormido (>3 años),False,3.0,2568104.3200000003
+P0598,Quadro de notícias digital,Leopoldo Acero,yfreund@msn.com,(918) 832-8086,7104.0,2019-01-03,Ropa,1405,Dormido (>3 años),False,3.0,625838.0800000001
+P0599,Ótimos designs,Eva María Garmendia Lloret,stevelim@sbcglobal.net,(381) 488-1289,6347.0,2016-10-29,Snacks,2201,Dormido (>3 años),False,1.0,922172.16
+P0600,Software Smartworld,Zacarías Aragón,lahvak@live.com,(214) 474-1695,375.0,2018-08-17,Verduras,1544,Dormido (>3 años),False,0.0,0.0
+P0601,ferreiro calibrador,Isabela Noguera,mavilar@mac.com,(804) 936-6456,4997.0,2012-03-08,Alimento infantil,3897,Dormido (>3 años),False,1.0,1008012.6599999999
+P0602,Pense 360,Calixto Losada Gelabert,budinger@att.net,(579) 461-0597,5440.0,2019-07-10,Bebida,1217,Dormido (>3 años),True,0.0,0.0
+P0603,Designs do Adview,Anunciación Peñas,earmstro@att.net,(768) 861-6777,7245.0,2017-12-04,Cereales,1800,Dormido (>3 años),False,2.0,1117112.29
+P0604,Avançada,Fabiola Carpio-Pagès,nachbaur@verizon.net,(830) 731-7426,733.0,2019-09-10,Cosméticos,1155,Dormido (>3 años),False,0.0,0.0
+P0605,Tecnológico Periazzo,Teo Quero Beltrán,webinc@outlook.com,(470) 328-5568,727.0,2015-12-28,Cuidado personal,2507,Dormido (>3 años),False,0.0,0.0
+P0606,Cq It No Catar,Obdulia Ainara Pinedo Bravo,killmenow@yahoo.ca,(473) 245-4520,3370.0,2013-06-26,Cárnicos,3422,Dormido (>3 años),False,1.0,2440505.48
+P0607,Consultoria de desenvolvimento,Reyna Villalobos Oller,jguyer@live.com,(940) 754-1784,3954.0,2012-01-21,Doméstico,3944,Dormido (>3 años),False,0.0,0.0
+P0608,Faça isso,Milagros Gallart Conesa,druschel@yahoo.com,(280) 807-7001,6095.0,2020-08-31,Frutas,799,Inactivo (1-3 años),False,1.0,2172.88
+P0609,Desenvolvimento de TI terceirizado,Adelia Alcaraz Soria,joglo@me.com,(514) 505-4450,3864.0,2019-06-11,Material de oficina,1246,Dormido (>3 años),False,0.0,0.0
+P0610,Tan factiu,Maura de Alba,jwarren@hotmail.com,(860) 664-7885,3531.0,2013-01-19,Ropa,3580,Dormido (>3 años),False,1.0,29209.600000000002
+P0611,Carretera Ciutat d'Abus,Etelvina del Márquez,hling@yahoo.com,(411) 331-6830,3072.0,2017-09-15,Snacks,1880,Dormido (>3 años),False,0.0,0.0
+P0612,Jugador,Cornelio Bauzà Alberola,dunstan@att.net,(548) 526-5186,4961.0,2021-08-26,Verduras,439,Inactivo (1-3 años),False,1.0,615868.89
+P0613,Equip Esports,Heliodoro Aguiló Pardo,jgoerzen@gmail.com,(727) 702-1618,4867.0,2019-01-16,Alimento infantil,1392,Dormido (>3 años),False,0.0,0.0
+P0614,Impacte de l'equip,Nilda Amat Juliá,munge@msn.com,(871) 370-2133,2017.0,2016-09-19,Bebida,2241,Dormido (>3 años),False,2.0,461495.43
+P0615,Programari d'equip,Américo Gilberto Soria Morcillo,mhoffman@comcast.net,(836) 215-3509,1018.0,2013-07-01,Cereales,3417,Dormido (>3 años),True,2.0,306008.43
+P0616,Teknosistemes,Catalina Vazquez Vergara,phish@me.com,(840) 962-1870,4542.0,2013-04-30,Cosméticos,3479,Dormido (>3 años),False,0.0,0.0
+P0617,Riu amunt,Angelino Pozuelo Diéguez,tromey@optonline.net,(383) 291-5866,1780.0,2014-01-24,Cuidado personal,3210,Dormido (>3 años),False,0.0,0.0
+P0618,Solucions Zenitcom,Salomé Mateo Huguet,enintend@att.net,(648) 913-4187,2558.0,2015-04-20,Cárnicos,2759,Dormido (>3 años),True,1.0,1500699.35
+P0619,Fuji de 2 grams,Paloma Alberto Morell,mlewan@outlook.com,(375) 244-3899,7726.0,2016-01-26,Doméstico,2478,Dormido (>3 años),False,2.0,4071579.08
+P0620,Myvitchco,Rufina Tomé Salmerón,mailarc@yahoo.ca,(985) 481-7877,1074.0,2016-03-05,Frutas,2439,Dormido (>3 años),False,1.0,45637.4
+P0621,Tot el logotip de Good Good After,Natalia Baró Cañete,tedrlord@live.com,(980) 463-2254,4383.0,2020-04-01,Material de oficina,951,Inactivo (1-3 años),False,2.0,5945696.960000001
+P0622,Grup Labora,Lorena Robledo,tbmaddux@sbcglobal.net,(760) 644-7997,1581.0,2017-05-29,Ropa,1989,Dormido (>3 años),False,2.0,307005.44000000006
+P0623,L'altra banda,Azucena Arnaiz Beltran,avalon@outlook.com,(531) 815-1151,7933.0,2016-11-04,Snacks,2195,Dormido (>3 años),True,1.0,514385.76
+P0624,Mirgia,Clara Sanjuan Guerrero,pappp@live.com,(914) 720-0136,6433.0,2015-07-18,Verduras,2670,Dormido (>3 años),False,0.0,0.0
+P0625,Casa Robotank,Aránzazu Morillo Berenguer,starstuff@aol.com,(864) 913-4164,1703.0,2012-06-27,Alimento infantil,3786,Dormido (>3 años),False,0.0,0.0
+P0626,Nómina Phoenix,Rosalinda Palmer Palau,fmtbebuck@outlook.com,(984) 626-1861,1314.0,2013-05-13,Bebida,3466,Dormido (>3 años),False,2.0,384054.99
+P0627,Lògica d'optimització,Valeria Caballero Mur,rattenbt@att.net,(233) 441-6017,2036.0,2018-11-09,Cereales,1460,Dormido (>3 años),False,2.0,857010.98
+P0628,Gestió Caron,Xiomara Serna,stewwy@mac.com,(393) 668-4150,6618.0,2022-01-01,Cosméticos,311,Activo (<1 año),False,1.0,499273.68
+P0629,Fàbrica de 2cv,Melchor Barberá Rey,gemmell@msn.com,(679) 282-7817,2165.0,2013-09-05,Cuidado personal,3351,Dormido (>3 años),False,1.0,189447.81
+P0630,Bosc Ventós,Mariana Alvarez-Roca,rcwil@sbcglobal.net,(943) 737-3322,4325.0,2018-08-26,Cárnicos,1535,Dormido (>3 años),False,4.0,7894809.119999999
+P0631,El Rotary Club,Candela de Álvarez,noahb@icloud.com,(340) 833-4316,3159.0,2018-03-31,Doméstico,1683,Dormido (>3 años),False,1.0,2168460.1
+P0632,Transport en línia,Goyo Gomez Garmendia,mleary@sbcglobal.net,(754) 917-2841,5131.0,2017-01-19,Frutas,2119,Dormido (>3 años),False,1.0,47547.32
+P0633,Bona mobilitat a la ciutat,Jesusa Molins,odlyzko@gmail.com,(871) 634-5979,7168.0,2018-07-23,Material de oficina,1569,Dormido (>3 años),False,1.0,3015895.2
+P0634,Trànsit ferroviari,Sosimo Téllez,caidaperl@verizon.net,(255) 735-0363,4685.0,2020-11-24,Ropa,714,Inactivo (1-3 años),False,2.0,205470.72000000003
+P0635,Laboratoris Saatchi,Claudia Amaya Medina,adillon@gmail.com,(743) 547-1331,4648.0,2018-04-16,Snacks,1667,Dormido (>3 años),False,3.0,1266330.24
+P0636,Interciutats,Elba Ferrera Colomer,evilopie@gmail.com,(624) 874-7647,3770.0,2016-09-25,Verduras,2235,Dormido (>3 años),False,1.0,127665.72000000002
+P0637,Carrera per espai,Agustina de Infante,odlyzko@live.com,(534) 558-4441,6278.0,2018-01-03,Alimento infantil,1770,Dormido (>3 años),False,2.0,2507836.0199999996
+P0638,Dinàmica Walna,Julián Ruiz-Badía,jfinke@verizon.net,(913) 528-2635,8243.0,2013-11-30,Bebida,3265,Dormido (>3 años),False,2.0,375153.79
+P0639,Trammys Austràlia,Maxi Celia Salazar Iniesta,scato@comcast.net,(670) 433-7505,6189.0,2021-09-20,Cereales,414,Inactivo (1-3 años),False,1.0,801735.0599999999
+P0640,Carrers Ez,Kike Camino Armengol,rkobes@me.com,(405) 270-3777,1105.0,2018-04-26,Cosméticos,1657,Dormido (>3 años),False,2.0,3138630.27
+P0641,Passeig intel·ligent,Coral Tudela,makarow@verizon.net,(204) 571-0033,1282.0,2019-09-21,Cuidado personal,1144,Dormido (>3 años),False,2.0,500736.12
+P0642,Lbr Enginyers,Rosalía Rubio Donaire,dhwon@icloud.com,(432) 713-0707,649.0,2022-04-06,Cárnicos,216,Activo (<1 año),False,2.0,5718339.199999999
+P0643,Reparació d'automòbils Sabre,Martina Salamanca Arce,tfinniga@me.com,(514) 599-9281,2454.0,2016-11-29,Doméstico,2170,Dormido (>3 años),False,2.0,4079117.1800000006
+P0644,Illa Impacex,Juan Francisco de Morante,intlprog@yahoo.com,(986) 394-6481,336.0,2019-02-13,Frutas,1364,Dormido (>3 años),False,2.0,93980.51999999999
+P0645,Som teus,Tristán Zamorano Alegria,rnelson@live.com,(386) 612-2027,2387.0,2020-12-18,Material de oficina,690,Inactivo (1-3 años),False,1.0,540708.8
+P0646,Antisistemes,Aurora Sola Pavón,danneng@yahoo.ca,(835) 678-6977,5824.0,2017-12-05,Ropa,1799,Dormido (>3 años),False,1.0,208194.56000000003
+P0647,Peces d'automòbils Maverick,Jesús Gomis Nevado,stefano@sbcglobal.net,(292) 292-4616,2307.0,2020-05-11,Snacks,911,Inactivo (1-3 años),False,3.0,1160802.72
+P0648,Ciutat de Revelstoke,Adalberto Ortiz Meléndez,fukuchi@yahoo.com,(775) 733-8457,8472.0,2016-09-10,Verduras,2250,Dormido (>3 años),False,2.0,1375679.9700000002
+P0649,Serveis de garatge,Leocadio Pagès Mendizábal,konst@yahoo.com,(372) 347-8353,4633.0,2020-04-28,Alimento infantil,924,Inactivo (1-3 años),False,1.0,399984.77999999997
+P0650,Direcció Mrzio,Luisina Higueras-Clavero,jshirley@verizon.net,(615) 778-2959,7766.0,2020-03-12,Bebida,971,Inactivo (1-3 años),False,0.0,0.0
+P0651,Administradors,Victoriano Fabra-Viñas,nanop@hotmail.com,(416) 245-3179,5011.0,2022-04-26,Cereales,196,Activo (<1 año),False,1.0,652536.92
+P0652,Agència Bee Auto,Saturnina Parejo Portillo,raides@me.com,(739) 948-0623,4816.0,2020-02-29,Cosméticos,983,Inactivo (1-3 años),False,0.0,0.0
+P0653,Visió esportiva,Nayara Gonzalo Manzanares,jtorkbob@optonline.net,(414) 340-8023,6503.0,2016-12-08,Cuidado personal,2161,Dormido (>3 años),False,3.0,729286.23
+P0654,Nou Vr,Norberto del Peña,skoch@verizon.net,(791) 355-4360,2196.0,2013-04-02,Cárnicos,3507,Dormido (>3 años),False,1.0,1434690.46
+P0655,Esports amb bicicleta de carretera,Pablo Rojas,skaufman@optonline.net,(714) 385-9998,5993.0,2012-10-06,Doméstico,3685,Dormido (>3 años),False,1.0,1257355.08
+P0656,Iti Tècnic,Calixta Pallarès,jamuir@hotmail.com,(990) 448-2648,8365.0,2017-04-28,Frutas,2020,Dormido (>3 años),False,0.0,0.0
+P0657,Canvi de pensament,Trinidad Valencia Pablo,ramollin@msn.com,(970) 709-5227,4944.0,2017-01-05,Material de oficina,2133,Dormido (>3 años),False,0.0,0.0
+P0658,Nucli,Cleto Gargallo Rodrigo,mirod@att.net,(350) 767-0078,2241.0,2021-03-19,Ropa,599,Inactivo (1-3 años),False,0.0,0.0
+P0659,Entrenament creuat,Edelmiro Alcolea Castells,catalog@hotmail.com,(570) 624-3623,5623.0,2018-02-20,Snacks,1722,Dormido (>3 años),False,0.0,0.0
+P0660,Sistemes Ai,Adoración de Carmona,geekgrl@hotmail.com,(785) 593-7104,1345.0,2020-04-26,Verduras,926,Inactivo (1-3 años),False,1.0,330348.69
+P0661,Camaleó,Amor Espinosa Rivas,kingjoshi@verizon.net,(701) 725-6313,4154.0,2013-09-10,Alimento infantil,3346,Dormido (>3 años),False,0.0,0.0
+P0662,Tecnologies Ouma,Vilma de Cabeza,yfreund@sbcglobal.net,(386) 336-0579,7600.0,2020-10-15,Bebida,754,Inactivo (1-3 años),False,1.0,145248.51
+P0663,Sistemes Bluefin,Florina Arrieta Infante,jfreedma@comcast.net,(866) 748-0444,2476.0,2018-09-05,Cereales,1525,Dormido (>3 años),False,6.0,4411650.81
+P0664,Enginyeria Psi,María Amaro Moreno Reyes,leocharre@mac.com,(544) 213-4553,1801.0,2016-03-25,Cosméticos,2419,Dormido (>3 años),False,1.0,112441.90999999999
+P0665,Lògica,María Manuela Sola Jover,agolomsh@live.com,(956) 587-5283,1951.0,2021-01-03,Cuidado personal,674,Inactivo (1-3 años),False,0.0,0.0
+P0666,Domòtica,Regina Rosa Macías,formis@live.com,(476) 955-4567,6545.0,2019-05-10,Cárnicos,1278,Dormido (>3 años),False,1.0,1017120.41
+P0667,Empreses Eilis,Maximino Figueras,ntegrity@hotmail.com,(620) 774-4600,4393.0,2019-09-27,Doméstico,1138,Dormido (>3 años),False,2.0,6951133.28
+P0668,Ai seqüencial,Jose Carlos del Serrano,bbirth@verizon.net,(526) 671-7655,235.0,2017-10-11,Frutas,1854,Dormido (>3 años),False,0.0,0.0
+P0669,Solució bàsica,Atilio Sala Echevarría,rsteiner@outlook.com,(203) 926-5564,8219.0,2019-03-09,Material de oficina,1340,Dormido (>3 años),False,0.0,0.0
+P0670,Sistemes Westwise,Ciro Andres-Bravo,bebing@yahoo.ca,(771) 764-7112,1011.0,2020-04-27,Ropa,925,Inactivo (1-3 años),False,0.0,0.0
+P0671,Mobles d'art Orman,Heraclio Viana Porcel,onestab@msn.com,(366) 582-6034,2535.0,2012-04-02,Snacks,3872,Dormido (>3 años),False,2.0,1108477.44
+P0672,Ciutat de Lió,Anacleto Collado Figueroa,eimear@msn.com,(314) 749-4774,6486.0,2018-04-24,Verduras,1659,Dormido (>3 años),False,2.0,384542.97000000003
+P0673,Clau mestra,Lilia Barriga-Palacio,purvis@yahoo.ca,(428) 578-4074,6098.0,2016-08-25,Alimento infantil,2266,Dormido (>3 años),False,1.0,1033998.1199999999
+P0674,Associats del segle,Alonso Patiño Roselló,stecoop@att.net,(656) 216-4346,2381.0,2013-11-21,Bebida,3274,Dormido (>3 años),True,2.0,267290.31999999995
+P0675,Tecnologia clau,Miguel Ángel de Contreras,drhyde@comcast.net,(881) 452-6436,4207.0,2017-03-27,Cereales,2052,Dormido (>3 años),False,2.0,1864625.42
+P0676,Seguretat de claus,Selena Sales Cerdá,dpitts@live.com,(880) 330-4367,7025.0,2021-08-06,Cosméticos,459,Inactivo (1-3 años),True,0.0,0.0
+P0677,Menjava,Roldán León Mateo Melero,jgmyers@comcast.net,(429) 720-3254,1143.0,2020-02-12,Cuidado personal,1000,Inactivo (1-3 años),False,0.0,0.0
+P0678,Advocats d'Alzheimer,Severiano Llorente Calatayud,ninenine@comcast.net,(655) 684-6687,4446.0,2020-12-20,Cárnicos,688,Inactivo (1-3 años),False,1.0,2479162.62
+P0679,Tot Beddbfty,Maite Mercader Sotelo,uraeus@mac.com,(600) 501-2527,970.0,2014-03-30,Doméstico,3145,Dormido (>3 años),False,3.0,5410848.180000001
+P0680,Primera Internacional,Daniela de Jove,sakusha@yahoo.com,(338) 301-2600,7113.0,2012-12-11,Frutas,3619,Dormido (>3 años),False,1.0,45159.92
+P0681,Roba Moderna,Calixta Fábregas Caballero,mcmillan@yahoo.ca,(666) 419-9076,8412.0,2020-11-02,Material de oficina,736,Inactivo (1-3 años),False,3.0,6097410.4
+P0682,Mobiliari Urbà,Fidela del Águila,gknauss@mac.com,(709) 470-7302,6435.0,2012-11-07,Ropa,3653,Dormido (>3 años),True,0.0,0.0
+P0683,Cirerer,Reynaldo Rosselló Sosa,fairbank@outlook.com,(873) 234-7271,4044.0,2016-07-02,Snacks,2320,Dormido (>3 años),False,0.0,0.0
+P0684,Lloguer de Woodside,Leandra Arranz Viana,ghost@msn.com,(871) 296-7834,3958.0,2015-10-17,Verduras,2579,Dormido (>3 años),False,1.0,232326.15000000002
+P0685,El món de Matsuri,Luis Ángel Montenegro-Cózar,sriha@verizon.net,(635) 321-1365,1685.0,2021-04-08,Alimento infantil,579,Inactivo (1-3 años),False,2.0,995418.4799999999
+P0686,Sembla un moble,Alma del Cantón,teverett@gmail.com,(817) 468-2875,2089.0,2017-08-10,Bebida,1916,Dormido (>3 años),False,0.0,0.0
+P0687,Vidre Brante,Blanca Cal-Alegria,dbanarse@sbcglobal.net,(937) 415-9164,855.0,2020-03-20,Cereales,963,Inactivo (1-3 años),False,1.0,424640.86
+P0688,Dc Mobles,Noemí Gelabert Benítez,tattooman@mac.com,(821) 976-7611,4029.0,2021-03-18,Cosméticos,600,Inactivo (1-3 años),False,0.0,0.0
+P0689,Cafeteria Moble,Desiderio Soto Marin,matty@yahoo.com,(883) 728-6345,851.0,2018-09-20,Cuidado personal,1510,Dormido (>3 años),True,0.0,0.0
+P0690,Raguarta d'auró,Edelmira Serna-Corbacho,hwestiii@yahoo.com,(307) 852-6483,6056.0,2013-08-05,Cárnicos,3382,Dormido (>3 años),False,0.0,0.0
+P0691,Coixins amb volants,Fulgencio Ávila Castellanos,cisugrad@comcast.net,(262) 502-8998,2723.0,2021-11-23,Doméstico,350,Activo (<1 año),False,2.0,5037460.96
+P0692,Constructors Goykay,Noé Leon Iñiguez,parksh@att.net,(467) 295-3488,4857.0,2021-02-11,Frutas,635,Inactivo (1-3 años),False,0.0,0.0
+P0693,Sistemes Atenàstics,Hilario Donaire Zabaleta,chrisj@outlook.com,(617) 413-7787,3218.0,2014-04-21,Material de oficina,3123,Dormido (>3 años),False,1.0,3267876.0
+P0694,El Servei Home It,Antonio Pardo-Bilbao,burniske@sbcglobal.net,(959) 319-5027,8430.0,2019-11-14,Ropa,1090,Inactivo (1-3 años),False,1.0,230487.04
+P0695,Ciència il·limitada,Anna Montoya Dalmau,ranasta@att.net,(984) 436-1146,7189.0,2013-04-16,Snacks,3493,Dormido (>3 años),False,2.0,641252.64
+P0696,Desenvolupament Ahiyo,Estrella Rosalina Riquelme Sevillano,jshirley@outlook.com,(656) 814-0514,6364.0,2020-04-26,Verduras,926,Inactivo (1-3 años),False,0.0,0.0
+P0697,Bucle de treball,María Dolores Mirta Landa Peláez,chrisj@mac.com,(579) 446-8133,5260.0,2018-03-26,Alimento infantil,1688,Dormido (>3 años),True,0.0,0.0
+P0698,Sofre,Ainoa Mesa Sáez,evilopie@mac.com,(874) 564-7324,3110.0,2015-03-10,Bebida,2800,Dormido (>3 años),False,1.0,58080.33
+P0699,Cromàtica,Santiago Benitez Almeida,catalog@aol.com,(397) 510-8053,5139.0,2021-03-29,Cereales,589,Inactivo (1-3 años),False,1.0,327908.0
+P0700,Fàbrica de melmelada industrial,Ariel Álvaro,kjetilk@att.net,(949) 386-4114,3046.0,2018-03-09,Cosméticos,1705,Dormido (>3 años),False,0.0,0.0
+P0701,Projecte Tambore,Octavio de Milla,report@msn.com,(674) 632-3946,5638.0,2012-08-13,Cuidado personal,3739,Dormido (>3 años),False,1.0,538988.37
+P0702,Ais eficient,Artemio Manso Adadia,druschel@msn.com,(355) 310-0684,5684.0,2014-11-16,Cárnicos,2914,Dormido (>3 años),False,1.0,2119942.97
+P0703,Banc Loop,Reinaldo Pol,gknauss@me.com,(363) 527-8562,3869.0,2016-01-14,Doméstico,2490,Dormido (>3 años),False,3.0,10632741.32
+P0704,Gran espai de còpia de seguretat,Sigfrido Delgado Jara,munjal@mac.com,(891) 323-0418,4062.0,2013-10-09,Frutas,3317,Dormido (>3 años),False,0.0,0.0
+P0705,Dinàmica Digital,Estefanía Uribe Agullo,mhassel@att.net,(382) 692-8580,4789.0,2018-05-16,Material de oficina,1637,Dormido (>3 años),True,2.0,7472805.600000001
+P0706,Tàctiques digitals,Julio Morata Llopis,rcwil@outlook.com,(334) 235-3219,4444.0,2021-04-27,Ropa,560,Inactivo (1-3 años),False,1.0,295930.88
+P0707,Notícies digitals,Marcela Uría Peñas,fairbank@me.com,(433) 569-6143,5760.0,2021-03-05,Snacks,613,Inactivo (1-3 años),False,2.0,1154176.8
+P0708,Grans dissenys,Narcisa Camino Sevilla,luebke@aol.com,(561) 989-6966,4107.0,2018-11-09,Verduras,1460,Dormido (>3 años),False,1.0,165310.74000000002
+P0709,Programari Smartworld,Marisa Arnaiz Llobet,jcholewa@hotmail.com,(787) 860-6862,1695.0,2018-09-12,Alimento infantil,1518,Dormido (>3 años),False,1.0,1105258.8599999999
+P0710,Calibrador,Edelmiro Tena Guerrero,crusader@yahoo.ca,(403) 728-9711,6546.0,2012-12-04,Bebida,3626,Dormido (>3 años),False,1.0,285378.83
+P0711,Dissenys Adview,Violeta Buendía Bárcena,djupedal@gmail.com,(697) 851-5459,8137.0,2015-10-01,Cereales,2595,Dormido (>3 años),False,0.0,0.0
+P0712,Avantatge,Victoriano Sancho Llanos,dcoppit@sbcglobal.net,(991) 797-3376,6269.0,2020-11-22,Cosméticos,716,Inactivo (1-3 años),False,1.0,1561546.9
+P0713,Tecnològic Periazzo,José Escamilla Iñiguez,netsfr@verizon.net,(313) 944-3592,4203.0,2017-06-10,Cuidado personal,1977,Dormido (>3 años),False,2.0,535191.48
+P0714,Cq It A Qatar,Leticia Iglesias-Carretero,gfxguy@icloud.com,(378) 904-3784,5904.0,2014-07-08,Cárnicos,3045,Dormido (>3 años),False,1.0,840245.76
+P0715,Consultoria DV,Alejandra Vega Martínez,teverett@mac.com,(656) 295-8917,5168.0,2018-01-05,Doméstico,1768,Dormido (>3 años),False,0.0,0.0
+P0716,Fes-ho,Teófila Prat-Valls,hedwig@outlook.com,(724) 696-0234,7923.0,2012-10-21,Frutas,3670,Dormido (>3 años),False,1.0,3349.2799999999997
+P0717,Externalitzar el desenvolupament,Germán Llopis Aranda,dgatwood@comcast.net,(216) 357-0584,442.0,2021-10-01,Material de oficina,403,Inactivo (1-3 años),False,1.0,2385943.2
+P0718,Così fazioso,Domingo Canet-Llorente,mjewell@optonline.net,(348) 893-2036,2034.0,2018-05-13,Ropa,1640,Dormido (>3 años),False,1.0,104258.56000000001
+P0719,Controllore,Ale España Tejera,jmcnamara@icloud.com,(272) 487-7128,4356.0,2013-02-19,Snacks,3549,Dormido (>3 años),False,1.0,467322.24
+P0720,Finanza Api,Lucio Morata-Villalobos,eurohack@yahoo.ca,(614) 434-5166,2488.0,2016-02-29,Verduras,2444,Dormido (>3 años),False,2.0,1339944.48
+P0721,Biomotivare,Alma Bonet Alberola,lauronen@outlook.com,(654) 381-9880,7138.0,2015-05-03,Alimento infantil,2746,Dormido (>3 años),True,0.0,0.0
+P0722,Città Di Abus Road,Abigaíl Planas Estévez,webteam@yahoo.com,(684) 703-7325,1839.0,2016-01-10,Bebida,2494,Dormido (>3 años),False,1.0,130656.9
+P0723,Giocatore,Primitiva Casares Ruano,timlinux@verizon.net,(609) 359-0433,2850.0,2016-10-02,Cereales,2228,Dormido (>3 años),False,1.0,337511.02
+P0724,Esport di squadra,Haroldo Diéguez Llopis,magusnet@icloud.com,(203) 856-2849,5950.0,2012-12-07,Cosméticos,3623,Dormido (>3 años),False,2.0,2857657.16
+P0725,Impatto di squadra,Marc Pelayo Rovira,aegreene@att.net,(682) 350-8495,6069.0,2022-01-04,Cuidado personal,308,Activo (<1 año),False,1.0,439815.87
+P0726,Software di squadra,Concepción del Montes,miturria@comcast.net,(537) 673-1052,6786.0,2020-04-20,Cárnicos,932,Inactivo (1-3 años),False,0.0,0.0
+P0727,Tecnosistemi,Cecilia Cortes Mendoza,mavilar@yahoo.ca,(567) 349-8068,7014.0,2020-01-03,Doméstico,1040,Inactivo (1-3 años),False,0.0,0.0
+P0728,A monte,Flavio Peña-Arana,pizza@aol.com,(452) 613-6215,5941.0,2021-08-14,Frutas,451,Inactivo (1-3 años),False,2.0,83219.92
+P0729,Soluzioni Zenitcom,Rafael Caro Quevedo,pajas@msn.com,(911) 332-4037,2528.0,2021-09-12,Material de oficina,422,Inactivo (1-3 años),False,2.0,6909523.520000001
+P0730,Fuji da 2 g,Roldán Aparicio Recio,wortmanj@icloud.com,(759) 523-1918,8222.0,2021-10-12,Ropa,392,Inactivo (1-3 años),False,0.0,0.0
+P0731,Myvicco,Gisela Balaguer,msusa@optonline.net,(848) 433-5461,2674.0,2020-12-24,Snacks,684,Inactivo (1-3 años),False,0.0,0.0
+P0732,Ogni buono dopo il logo,Eloísa Infante Requena,drezet@yahoo.com,(378) 599-3981,4220.0,2021-12-10,Verduras,333,Activo (<1 año),False,1.0,437918.88
+P0733,L'altra parte,Guillermo Peñas,steve@me.com,(571) 700-8038,3013.0,2014-01-12,Alimento infantil,3222,Dormido (>3 años),False,1.0,967679.3999999999
+P0734,Casa Robot,Arturo Iborra,natepuri@hotmail.com,(869) 514-3107,1039.0,2021-04-11,Bebida,576,Inactivo (1-3 años),False,1.0,270723.64
+P0735,Il libro paga di Phoenix,Julián Solé Maestre,teverett@optonline.net,(561) 840-0529,7923.0,2020-10-03,Cereales,766,Inactivo (1-3 años),False,0.0,0.0
+P0736,Laboratori generici,Donato Peralta Araujo,neuffer@comcast.net,(741) 565-0687,597.0,2019-05-13,Cosméticos,1275,Dormido (>3 años),False,4.0,5821699.64
+P0737,Logica di ottimizzazione,Marcelo Loreto Zabaleta Coello,ylchang@verizon.net,(323) 410-9851,457.0,2012-08-20,Cuidado personal,3732,Dormido (>3 años),False,2.0,420831.42
+P0738,Gestione Caron,Gustavo Jerónimo Carvajal Sancho,xnormal@live.com,(603) 376-1597,2625.0,2019-01-05,Cárnicos,1403,Dormido (>3 años),False,2.0,3011610.02
+P0739,Aerovan,Victor de Sastre,jrkorson@icloud.com,(835) 472-7119,1184.0,2019-07-08,Doméstico,1219,Dormido (>3 años),False,4.0,10421171.98
+P0740,Fabbrica 2cv,Paco Múñiz Becerra,dpitts@verizon.net,(889) 670-8434,6241.0,2021-03-05,Frutas,613,Inactivo (1-3 años),False,1.0,50356.84
+P0741,Nuova cultura,Vito Torrents Bellido,grady@comcast.net,(686) 629-1665,2902.0,2014-08-22,Material de oficina,3000,Dormido (>3 años),False,1.0,4019618.72
+P0742,Foresta ventosa,Teodoro Osorio Carpio,hllam@outlook.com,(685) 627-4277,8280.0,2012-05-06,Ropa,3838,Dormido (>3 años),False,1.0,242816.00000000003
+P0743,Il Rotary Club,Santiago Díaz Reina,torgox@verizon.net,(871) 754-1460,7943.0,2015-02-17,Snacks,2821,Dormido (>3 años),False,0.0,0.0
+P0744,Trasporto in linea,Graciana Pintor Alba,munson@mac.com,(397) 447-9975,8147.0,2016-04-12,Verduras,2401,Dormido (>3 años),False,2.0,625325.6100000001
+P0745,Buona mobilità cittadina,Máximo Tirado,twoflower@verizon.net,(814) 429-2567,870.0,2020-02-28,Alimento infantil,984,Inactivo (1-3 años),False,1.0,838230.36
+P0746,Isl Consulting,Régulo del Pou,fudrucker@yahoo.com,(917) 707-7038,2567.0,2012-06-20,Bebida,3793,Dormido (>3 años),False,1.0,195731.03
+P0747,Transito ferroviario,María Samper Sedano,boein@sbcglobal.net,(422) 564-7544,6297.0,2017-05-26,Cereales,1992,Dormido (>3 años),False,1.0,98606.62
+P0748,Perline Eyed,Chema Andrade Gabaldón,hling@sbcglobal.net,(972) 833-6845,6328.0,2012-04-30,Cosméticos,3844,Dormido (>3 años),False,1.0,2516381.48
+P0749,Laboratori Saatchi,María José Miranda Llano,scotfl@sbcglobal.net,(906) 742-5904,5781.0,2016-08-07,Cuidado personal,2284,Dormido (>3 años),False,0.0,0.0
+P0750,Marzo Outbre,Hilda Ayllón Batalla,whimsy@msn.com,(721) 948-2183,7004.0,2017-10-30,Cárnicos,1835,Dormido (>3 años),False,3.0,6288714.36
+P0751,Risorse Csw,Armida Vizcaíno Iniesta,codex@optonline.net,(280) 829-1894,1525.0,2018-09-13,Doméstico,1517,Dormido (>3 años),False,0.0,0.0
+P0752,Intercity,Sara Corominas Blanca,wbarker@sbcglobal.net,(852) 210-4614,5591.0,2013-07-24,Frutas,3394,Dormido (>3 años),False,3.0,89164.2
+P0753,Carriera per spazio,Jenny Palomares Baena,stecoop@att.net,(285) 253-9406,1997.0,2020-05-25,Material de oficina,897,Inactivo (1-3 años),True,3.0,4925174.720000001
+P0754,Dinamica Walna,Luciana de Salinas,miami@msn.com,(677) 831-7818,5260.0,2020-06-27,Ropa,864,Inactivo (1-3 años),False,1.0,27023.360000000004
+P0755,Trammy Australia,Nicolasa Arcos Oller,lydia@outlook.com,(628) 745-9180,3788.0,2018-04-17,Snacks,1666,Dormido (>3 años),True,1.0,724563.84
+P0756,Ez Strade,Noa Corbacho Becerra,dalamb@optonline.net,(799) 964-5080,4509.0,2018-05-20,Verduras,1633,Dormido (>3 años),False,0.0,0.0
+P0757,Corsa intelligente,Adán Cabeza Uría,damian@live.com,(431) 296-6737,3935.0,2018-06-19,Alimento infantil,1603,Dormido (>3 años),False,1.0,983143.1399999999
+P0758,Lbr Ingegneri,Marina Sedano Pujadas,mnemonic@yahoo.ca,(830) 227-9693,1033.0,2014-05-01,Bebida,3113,Dormido (>3 años),False,1.0,147346.65
+P0759,Riparazione auto Saber,Carmelita de Vizcaíno,ideguy@yahoo.com,(774) 703-4142,2998.0,2015-05-02,Cereales,2747,Dormido (>3 años),False,0.0,0.0
+P0760,Isola Impacex,Francisco Jose Carnero Noguera,lbaxter@att.net,(386) 909-2525,4765.0,2021-11-07,Cosméticos,366,Inactivo (1-3 años),False,0.0,0.0
+P0761,Siamo tuoi,Jacinto Aranda Ayllón,moxfulder@aol.com,(522) 458-6527,4163.0,2016-10-17,Cuidado personal,2213,Dormido (>3 años),False,0.0,0.0
+P0762,Antisistemi,Fabiola Samper Alfonso,osrin@me.com,(696) 377-6948,5856.0,2021-11-04,Cárnicos,369,Inactivo (1-3 años),False,0.0,0.0
+P0763,Maxlight Motorsport,Balduino Serra,pgottsch@optonline.net,(500) 627-0956,2387.0,2017-04-12,Doméstico,2036,Dormido (>3 años),False,3.0,4128366.1
+P0764,Ricambi auto non conformisti,Pili Pina Pozuelo,rohitm@sbcglobal.net,(224) 693-4039,1594.0,2017-04-06,Frutas,2042,Dormido (>3 años),False,0.0,0.0
+P0765,Erborista terribile,Mariano de Aguilar,plover@comcast.net,(455) 204-3718,2248.0,2014-05-08,Material de oficina,3106,Dormido (>3 años),False,1.0,1796413.12
+P0766,Città di Revelstoke,Ana Belén Martinez Cuéllar,melnik@me.com,(245) 591-6852,3149.0,2014-03-17,Ropa,3158,Dormido (>3 años),False,1.0,256399.36000000002
+P0767,Servizi di garage,Apolonia Rivero Cañas,isotopian@hotmail.com,(433) 212-3868,1427.0,2019-04-24,Snacks,1294,Dormido (>3 años),False,2.0,1162654.08
+P0768,Amministratori,Ricarda Hernando Hoz,mdielmann@msn.com,(495) 275-4852,4527.0,2014-02-14,Verduras,3189,Dormido (>3 años),False,0.0,0.0
+P0769,Agenzia per l'auto delle api,María Fernanda Fuster Artigas,draper@optonline.net,(642) 295-3504,5670.0,2019-04-02,Alimento infantil,1316,Dormido (>3 años),False,1.0,1008969.1799999999
+P0770,Vision Sport,Venceslás Hoyos Palacios,plover@yahoo.com,(946) 962-4147,2776.0,2016-11-13,Bebida,2186,Dormido (>3 años),False,0.0,0.0
+P0771,Lotto,Basilio Royo Elías,odlyzko@me.com,(670) 984-0102,3144.0,2020-02-21,Cereales,991,Inactivo (1-3 años),False,4.0,2391269.09
+P0772,Gioco Flip (sistemi di ateler),Moisés Malo Merino,brainless@aol.com,(650) 489-1262,3453.0,2014-10-24,Cosméticos,2937,Dormido (>3 años),False,2.0,3695573.2199999997
+P0773,Nuovo Vr,Alfonso Vinicio Montoya Diaz,bogjobber@verizon.net,(745) 515-7670,4982.0,2012-01-25,Cuidado personal,3940,Dormido (>3 años),False,1.0,478294.8
+P0774,Sport per bici da strada,Prudencio Herranz,pthomsen@yahoo.com,(418) 982-2387,2155.0,2020-01-30,Cárnicos,1013,Inactivo (1-3 años),False,1.0,2456551.84
+P0775,Iti tecnico,Ascensión Gutiérrez Domínguez,fukuchi@me.com,(399) 276-0829,3334.0,2018-01-26,Doméstico,1747,Dormido (>3 años),False,0.0,0.0
+P0776,Nucleo,Baltasar de Valenciano,starstuff@icloud.com,(485) 996-8883,7810.0,2019-12-13,Frutas,1061,Inactivo (1-3 años),False,3.0,132068.2
+P0777,Nidifica,Fernanda Arcos Tomás,phyruxus@gmail.com,(574) 612-7604,4681.0,2020-11-20,Material de oficina,718,Inactivo (1-3 años),False,0.0,0.0
+P0778,Allenamento incrociato,Bernardo Otero Cabrero,seasweb@att.net,(601) 737-8053,311.0,2014-02-02,Ropa,3201,Dormido (>3 años),False,4.0,667950.0800000001
+P0779,Ricodifica globale,Felicidad Roca Font,crobles@hotmail.com,(464) 792-1295,3913.0,2021-01-17,Snacks,660,Inactivo (1-3 años),False,0.0,0.0
+P0780,Ammetto,Guadalupe del Roldan,augusto@live.com,(548) 720-8452,3009.0,2012-03-09,Verduras,3896,Dormido (>3 años),False,0.0,0.0
+P0781,Ai Sistemi,Aroa Nieto,debest@mac.com,(237) 353-4464,1059.0,2012-05-11,Alimento infantil,3833,Dormido (>3 años),False,0.0,0.0
+P0782,Camaleonte,Pánfilo Villalobos Villar,klaudon@verizon.net,(279) 927-3246,1920.0,2017-07-12,Bebida,1945,Dormido (>3 años),False,0.0,0.0
+P0783,Transgare,Alonso Frías Gámez,arnold@me.com,(683) 987-4695,4419.0,2015-11-25,Cereales,2540,Dormido (>3 años),False,3.0,2037831.1099999999
+P0784,Tecnologie Ouma,Gerardo Aitor Sáenz Martín,hager@live.com,(353) 908-6912,3996.0,2020-03-15,Cosméticos,968,Inactivo (1-3 años),False,1.0,1005657.2699999999
+P0785,Sistemi del tonno rosso,Nadia España-Salazar,ozawa@me.com,(588) 264-0372,4240.0,2016-11-21,Cuidado personal,2178,Dormido (>3 años),False,1.0,367221.60000000003
+P0786,Ingegneria Psi,Bernardo Fabregat Pombo,pajas@yahoo.com,(260) 867-3622,236.0,2012-02-20,Cárnicos,3914,Dormido (>3 años),False,0.0,0.0
+P0787,Consulenza Omp,Pía Perlita Pina Vallés,ilyaz@yahoo.com,(278) 902-7680,1551.0,2018-04-02,Doméstico,1681,Dormido (>3 años),False,1.0,4977156.16
+P0788,Logica,Susanita Cortes Diego,cosimo@msn.com,(809) 353-3010,7704.0,2018-06-08,Frutas,1614,Dormido (>3 años),False,0.0,0.0
+P0789,Domotica,Rosalina Jaume Rovira,weazelman@hotmail.com,(810) 209-1023,6487.0,2017-08-10,Material de oficina,1916,Dormido (>3 años),False,0.0,0.0
+P0790,Eilis Imprese,Gaspar Riba,tangsh@me.com,(512) 430-3539,1105.0,2022-01-05,Ropa,307,Activo (<1 año),False,1.0,107197.44000000002
+P0791,Ai sequenziale,Ismael Colomer Barberá,esbeck@icloud.com,(701) 838-3503,7490.0,2016-03-04,Snacks,2440,Dormido (>3 años),False,0.0,0.0
+P0792,Soluzione centrale,Maricruz Haro,andrei@yahoo.ca,(704) 249-1649,1579.0,2013-06-09,Verduras,3439,Dormido (>3 años),False,1.0,467652.99000000005
+P0793,Sistemi Westwise,Anita Valdés Sarabia,tsuruta@sbcglobal.net,(837) 653-8149,4302.0,2019-04-05,Alimento infantil,1313,Dormido (>3 años),False,1.0,717230.58
+P0794,Mobili d'arte Orman,Teobaldo Cózar Blanch,ateniese@hotmail.com,(584) 982-6760,2891.0,2017-06-21,Bebida,1966,Dormido (>3 años),True,0.0,0.0
+P0795,Città Di Lione,Iris Valera Santiago,biglou@comcast.net,(722) 473-2852,7863.0,2015-10-22,Cereales,2574,Dormido (>3 años),False,1.0,651951.37
+P0796,Chiave maestra,Sonia Isabel Trillo Lasa,muadip@msn.com,(270) 845-9099,2339.0,2014-04-02,Cosméticos,3142,Dormido (>3 años),False,0.0,0.0
+P0797,Piattaforma Ph5,Carmina Bernarda Castro Casado,dwsauder@sbcglobal.net,(939) 623-3386,7285.0,2016-08-08,Cuidado personal,2283,Dormido (>3 años),False,1.0,512466.81
+P0798,Associati Secolo,Guiomar Fabregat Prieto,jfreedma@verizon.net,(790) 765-6974,4666.0,2018-05-18,Cárnicos,1635,Dormido (>3 años),False,1.0,2316875.57
+P0799,Deboover,Artemio Montes Bautista,tubajon@sbcglobal.net,(907) 941-1305,2426.0,2019-02-05,Doméstico,1372,Dormido (>3 años),False,0.0,0.0
+P0800,Ha scosso 4 bambini,Che Manuel Bello,noahb@gmail.com,(644) 823-3636,3959.0,2020-12-10,Frutas,698,Inactivo (1-3 años),False,0.0,0.0
+P0801,Tecnologia chiave,Merche Reguera Plaza,rgiersig@aol.com,(990) 222-4687,5218.0,2012-02-08,Material de oficina,3926,Dormido (>3 años),False,0.0,0.0
+P0802,Sicurezza chiave,María Manuela Sabater Arana,jguyer@gmail.com,(448) 264-8650,3033.0,2021-11-04,Ropa,369,Inactivo (1-3 años),False,1.0,91750.40000000001
+P0803,Ha mangiato,Petrona Luján Corral,dvdotnet@msn.com,(799) 916-0382,4348.0,2013-11-09,Snacks,3286,Dormido (>3 años),False,2.0,542156.1599999999
+P0804,Avvocati di Alzheimer,Modesto de Tena,leviathan@msn.com,(479) 201-0900,1416.0,2018-06-14,Verduras,1608,Dormido (>3 años),False,1.0,750263.43
+P0805,Noleggio Kingkenny,Fernanda Tirado Martin,metzzo@icloud.com,(309) 916-0700,3399.0,2015-12-17,Alimento infantil,2518,Dormido (>3 años),False,1.0,204057.59999999998
+P0806,Xplenticom,Beatriz Infante Almagro,kassiesa@comcast.net,(752) 943-5453,4019.0,2013-07-17,Bebida,3401,Dormido (>3 años),False,1.0,262203.92
+P0807,Moda Supercasa,Fátima Cánovas,jsbach@optonline.net,(932) 523-5964,1121.0,2018-06-23,Cereales,1599,Dormido (>3 años),False,1.0,1018739.89
+P0808,Tutto Beddbfty,Enrique Salamanca Ávila,aglassis@yahoo.ca,(632) 567-0133,1239.0,2017-07-30,Cosméticos,1927,Dormido (>3 años),False,0.0,0.0
+P0809,Premier Internazionale,Pili Estévez-Buendía,balchen@gmail.com,(889) 255-3973,3971.0,2018-06-06,Cuidado personal,1616,Dormido (>3 años),False,2.0,550152.36
+P0810,La moderna Clothesopolis,Nico Ávila,jsnover@att.net,(225) 605-0662,2299.0,2017-05-09,Cárnicos,2009,Dormido (>3 años),False,1.0,1362117.15
+P0811,Arredi urbani,Sofía Guillén-Montero,dwendlan@verizon.net,(602) 351-2564,3476.0,2018-11-06,Doméstico,1463,Dormido (>3 años),False,2.0,3110220.06
+P0812,Legno di ciliegio,Nilo Colom Artigas,telbij@att.net,(645) 933-2526,3812.0,2017-12-26,Frutas,1778,Dormido (>3 años),False,0.0,0.0
+P0813,Affitto Woodside,Itziar Solano Gimenez,chaikin@icloud.com,(973) 758-1168,6562.0,2017-07-09,Material de oficina,1948,Dormido (>3 años),False,1.0,3953473.7600000002
+P0814,Il mondo di Matsuri,José Antonio del Ferrer,lauronen@outlook.com,(304) 287-5009,6994.0,2019-03-21,Ropa,1328,Dormido (>3 años),True,1.0,100387.84000000001
+P0815,Sembra Mobili,Rufino Tudela Soler,jigsaw@msn.com,(666) 411-1960,6878.0,2018-03-09,Snacks,1705,Dormido (>3 años),False,2.0,949065.6
+P0816,Brante vetro,Gabriel del Tomas,mbrown@msn.com,(227) 227-0791,6382.0,2012-03-25,Verduras,3880,Dormido (>3 años),False,2.0,631690.7100000001
+P0817,Una tantum,Jose Carlos de Ocaña,dialworld@sbcglobal.net,(263) 679-4242,3708.0,2020-09-26,Alimento infantil,773,Inactivo (1-3 años),False,0.0,0.0
+P0818,Mobili Dc,Bienvenida Gilabert-Aguilera,benanov@verizon.net,(686) 485-2145,3338.0,2016-08-22,Bebida,2269,Dormido (>3 años),False,1.0,54901.33
+P0819,Arredamento Cafè,Sancho Melero Palma,jnolan@optonline.net,(724) 320-3828,8260.0,2013-09-04,Cereales,3352,Dormido (>3 años),False,1.0,640591.7
+P0820,Raguarta d'acero,Rosenda Planas Pozuelo,sassen@icloud.com,(689) 468-1028,3753.0,2018-01-15,Cosméticos,1758,Dormido (>3 años),False,1.0,1598149.77
+P0821,Cuscini Frilly,Olalla Mendez Chamorro,wbarker@yahoo.ca,(800) 589-1339,7259.0,2021-10-29,Cuidado personal,375,Inactivo (1-3 años),False,0.0,0.0
+P0822,Sedia da lavoro,Candelaria Antón Roda,tellis@hotmail.com,(852) 954-4338,6864.0,2014-05-10,Cárnicos,3104,Dormido (>3 años),False,5.0,6865289.25
+P0823,Costruttori di Goykay,Abraham Mate Moya,kludge@mac.com,(817) 589-6264,262.0,2012-05-09,Doméstico,3835,Dormido (>3 años),True,2.0,5878712.92
+P0824,Occhiello,Graciano Ariño Almansa,gozer@sbcglobal.net,(897) 384-1648,7227.0,2015-07-05,Frutas,2683,Dormido (>3 años),False,2.0,97184.48000000001
+P0825,Sistemi atanastici,Kike Solera Arregui,portele@live.com,(859) 804-1249,3396.0,2017-04-24,Material de oficina,2024,Dormido (>3 años),False,1.0,1749691.6800000002
+P0826,Il servizio a domicilio,Calixto Blas Segarra Galindo,pgottsch@live.com,(376) 936-4911,7312.0,2012-07-25,Ropa,3758,Dormido (>3 años),False,0.0,0.0
+P0827,Scienza senza limiti,Elías Coello Cisneros,crandall@gmail.com,(387) 440-8982,4191.0,2015-05-13,Snacks,2736,Dormido (>3 años),False,2.0,1519966.56
+P0828,Sviluppo Ahiyo,Juan Azcona-Bautista,noneme@optonline.net,(880) 352-9350,2305.0,2012-04-12,Verduras,3862,Dormido (>3 años),False,1.0,688794.75
+P0829,Ciclo di lavoro,Leocadia de Azorin,phizntrg@outlook.com,(485) 294-4054,5754.0,2017-06-19,Alimento infantil,1968,Dormido (>3 años),False,2.0,1247142.66
+P0830,Zolfo,Nilda Ruano Calleja,bmidd@hotmail.com,(791) 605-2725,8260.0,2019-08-02,Bebida,1194,Dormido (>3 años),False,0.0,0.0
+P0831,cromatica,Gilberto Acevedo Vallejo,godeke@yahoo.ca,(987) 837-1560,5700.0,2017-10-23,Cereales,1842,Dormido (>3 años),False,2.0,1772225.6300000001
+P0832,Fabbrica di marmellata industriale,Ezequiel de Sanmiguel,smartfart@msn.com,(905) 829-7998,885.0,2021-01-21,Cosméticos,656,Inactivo (1-3 años),False,1.0,1575503.39
+P0833,Itchlo digitale,Julia Oliveras Borja,report@optonline.net,(991) 660-9687,4343.0,2016-05-12,Cuidado personal,2371,Dormido (>3 años),False,0.0,0.0
+P0834,Progetto Tambore,Crescencia de Nicolau,stellaau@hotmail.com,(982) 244-1518,7098.0,2014-09-02,Cárnicos,2989,Dormido (>3 años),False,0.0,0.0
+P0835,Ai è efficiente,Sarita Rivas Pinilla,cparis@verizon.net,(624) 497-0185,7775.0,2020-01-23,Doméstico,1020,Inactivo (1-3 años),False,3.0,6333511.62
+P0836,Gioia,Bernardino del Cruz,muzzy@yahoo.com,(445) 750-1826,1668.0,2013-07-17,Frutas,3401,Dormido (>3 años),False,1.0,26773.48
+P0837,Grande spazio di backup,Magdalena Morcillo,jlbaumga@icloud.com,(311) 232-8817,8482.0,2018-04-06,Material de oficina,1677,Dormido (>3 años),False,2.0,3014320.3200000003
+P0838,Digitale Dinamico,Roberta Carlota Boada Vara,murty@msn.com,(558) 372-0174,5318.0,2017-06-29,Ropa,1958,Dormido (>3 años),False,0.0,0.0
+P0839,A fuoco digitale,Miriam Martín Casado,jusdisgi@icloud.com,(626) 677-5598,3785.0,2014-07-22,Snacks,3031,Dormido (>3 años),False,2.0,1188378.24
+P0840,Tattiche digitali,Rubén Cañas Lastra,gfxguy@yahoo.com,(501) 272-7008,6035.0,2018-10-25,Verduras,1475,Dormido (>3 años),False,0.0,0.0
+P0841,Buzz digitale,Íñigo Donaire Peiró,hellfire@comcast.net,(912) 710-3258,3352.0,2014-12-02,Alimento infantil,2898,Dormido (>3 años),False,0.0,0.0
+P0842,Newsframe digitale,Pánfilo Camacho-Coll,gozer@yahoo.ca,(540) 819-0448,4020.0,2015-08-15,Bebida,2642,Dormido (>3 años),False,1.0,163559.55
+P0843,Grandi disegni,Gerardo Goicoechea Osorio,haddawy@sbcglobal.net,(731) 654-1893,2247.0,2021-10-12,Cereales,392,Inactivo (1-3 años),False,1.0,53285.05
+P0844,Calibratore,Bibiana del Morán,sartak@outlook.com,(403) 866-6470,7739.0,2021-01-05,Cosméticos,672,Inactivo (1-3 años),False,0.0,0.0
+P0845,Disegni di Adview,Candelario Vallejo-Arteaga,caronni@optonline.net,(785) 212-3308,2043.0,2016-12-10,Cuidado personal,2159,Dormido (>3 años),False,1.0,130341.0
+P0846,Consulenza Dv,Rubén Pino,aglassis@msn.com,(927) 558-1795,3531.0,2021-04-30,Cárnicos,557,Inactivo (1-3 años),False,1.0,3204166.34
+P0847,Fare così,Clarisa Soriano Lumbreras,uncle@yahoo.com,(983) 470-5910,5959.0,2020-05-10,Doméstico,912,Inactivo (1-3 años),False,1.0,4965095.2
+P0848,Esternalizzare lo sviluppo,Milagros Fonseca Mendez,emmanuel@me.com,(843) 518-0566,410.0,2012-11-04,Frutas,3656,Dormido (>3 años),False,3.0,86181.68
+P0849,City Of Guilmet,Trinidad Cobo Mármol,joelw@outlook.com,(512) 604-0806,6091.0,2021-01-22,Material de oficina,655,Inactivo (1-3 años),False,1.0,4247451.36
+P0850,Cat51,Graciana Juan Llorente,pemungkah@gmail.com,(263) 756-4415,8439.0,2012-04-16,Ropa,3858,Dormido (>3 años),False,0.0,0.0
+P0851,Pt2 Services,Sara Girona-Rebollo,bader@outlook.com,(868) 436-1686,2337.0,2019-02-11,Snacks,1366,Dormido (>3 años),False,1.0,561644.16
+P0852,Auk Myanmar,Inmaculada Chaparro-Batlle,kaiser@comcast.net,(484) 896-1490,2363.0,2014-08-18,Verduras,3004,Dormido (>3 años),False,0.0,0.0
+P0853,Homeco Industries,Socorro Pinedo Millán,thaljef@hotmail.com,(790) 702-9364,6007.0,2018-09-04,Alimento infantil,1526,Dormido (>3 años),False,0.0,0.0
+P0854,Nola Studio,Lope Criado Echevarría,grolschie@outlook.com,(857) 452-4995,2617.0,2019-12-24,Bebida,1050,Inactivo (1-3 años),False,1.0,62308.4
+P0855,Onesevenwest,Teo Llopis Piña,dkrishna@msn.com,(541) 613-1873,1998.0,2013-06-30,Cereales,3418,Dormido (>3 años),False,0.0,0.0
+P0856,Kent Packaging,Adela Torrecilla,gtewari@sbcglobal.net,(955) 721-8975,7430.0,2014-01-25,Cosméticos,3209,Dormido (>3 años),False,1.0,860825.7699999999
+P0857,Zentwall,Alcides Porfirio Planas Ureña,pereinar@live.com,(621) 478-0644,7784.0,2020-02-28,Cuidado personal,984,Inactivo (1-3 años),False,1.0,482431.71
+P0858,Creative Solution,Pascuala Linares Manso,mhassel@att.net,(488) 569-4836,8423.0,2020-04-10,Cárnicos,942,Inactivo (1-3 años),True,1.0,3447414.57
+P0859,Just Simple Insurance,Narcisa Franco,chance@outlook.com,(781) 743-7837,1047.0,2017-05-19,Doméstico,1999,Dormido (>3 años),False,2.0,2380531.98
+P0860,Sol Accounting,Yago Zabaleta Catalán,report@gmail.com,(811) 777-4536,6130.0,2014-05-29,Frutas,3085,Dormido (>3 años),False,0.0,0.0
+P0861,Infineramic,Etelvina Clavero Malo,bigmauler@optonline.net,(723) 467-3052,8397.0,2019-04-02,Material de oficina,1316,Dormido (>3 años),False,0.0,0.0
+P0862,Engage Art Productions,Adora del Juárez,nighthawk@att.net,(312) 536-7523,2812.0,2016-09-21,Ropa,2239,Dormido (>3 años),False,1.0,346680.32
+P0863,Digdens Ice Cream,Crescencia Higueras Roldán,elmer@live.com,(964) 794-4304,1226.0,2019-03-01,Snacks,1348,Dormido (>3 años),False,1.0,874524.0
+P0864,North Shore Fusia,Sara Francisco,arathi@gmail.com,(355) 304-5638,1760.0,2018-07-25,Verduras,1567,Dormido (>3 años),False,2.0,906026.5200000001
+P0865,Vittee,Magdalena Barreda Benitez,ngedmond@mac.com,(291) 223-0014,2954.0,2020-06-30,Alimento infantil,861,Inactivo (1-3 años),False,2.0,1528200.1199999999
+P0866,Victorias Bakery,Maribel Moles Campos,noneme@mac.com,(849) 843-5593,1616.0,2019-06-03,Bebida,1254,Dormido (>3 años),False,1.0,4005.54
+P0867,Sonar Of Roma Spa,Eric Saavedra Robledo,nullchar@me.com,(305) 465-5434,4234.0,2018-11-22,Cereales,1447,Dormido (>3 años),False,0.0,0.0
+P0868,Big Pktt Cnc,Ángeles Escribano Abad,jdray@outlook.com,(362) 558-4559,7816.0,2019-05-22,Cosméticos,1266,Dormido (>3 años),False,1.0,1476491.3099999998
+P0869,Shackle Clocks,Armida Muro Miró,carcus@me.com,(960) 493-7585,4423.0,2018-10-04,Cuidado personal,1496,Dormido (>3 años),False,2.0,630283.7400000001
+P0870,Simple Machines,Beatriz Bautista Jiménez,kosact@att.net,(811) 757-4188,6699.0,2018-08-04,Cárnicos,1557,Dormido (>3 años),False,2.0,3425168.4800000004
+P0871,Axis Varsity,Fabián Casals Granados,bahwi@icloud.com,(341) 470-3468,4451.0,2019-05-18,Doméstico,1270,Dormido (>3 años),False,1.0,3464510.7600000002
+P0872,Millwood Wind Prolific,Reinaldo Espejo Casanovas,jfmulder@live.com,(201) 915-6080,3613.0,2020-08-03,Frutas,827,Inactivo (1-3 años),False,0.0,0.0
+P0873,Orsola Oysterbar,Ani Lobato Casas,garland@verizon.net,(761) 458-2063,6644.0,2021-03-27,Material de oficina,591,Inactivo (1-3 años),False,1.0,3503583.04
+P0874,Inca,Lucía Esparza Palomo,fwitness@verizon.net,(200) 651-4382,7299.0,2019-02-08,Ropa,1369,Dormido (>3 años),False,0.0,0.0
+P0875,Transworld House,Francisco Jordá Lamas,seebs@outlook.com,(778) 610-8319,5894.0,2019-07-20,Snacks,1207,Dormido (>3 años),False,0.0,0.0
+P0876,Riteway,Azahar Luján Cámara,dodong@verizon.net,(789) 984-8715,7595.0,2020-12-11,Verduras,697,Inactivo (1-3 años),False,0.0,0.0
+P0877,Lemdevic,Miguela del Sanmartín,caronni@msn.com,(594) 787-2708,6687.0,2017-06-06,Alimento infantil,1981,Dormido (>3 años),False,1.0,1469374.14
+P0878,Impalafactory,Anastasio Sáenz Yáñez,kramulous@hotmail.com,(377) 372-3122,6872.0,2018-07-30,Bebida,1562,Dormido (>3 años),False,0.0,0.0
+P0879,Bk Fencing Club,Concepción Ayuso,gbacon@mac.com,(459) 844-6504,1120.0,2016-01-29,Cereales,2475,Dormido (>3 años),False,0.0,0.0
+P0880,Magentrapt Islands,Édgar Pablo Infante Alsina,gboss@gmail.com,(232) 890-3945,1162.0,2022-01-02,Cosméticos,310,Activo (<1 año),True,0.0,0.0
+P0881,Aiki It Support,Flor Olimpia Gallart Roca,hoangle@verizon.net,(515) 462-4048,3118.0,2017-09-06,Cuidado personal,1889,Dormido (>3 años),False,1.0,343930.23
+P0882,Multilynx,María Del Carmen Calista Cazorla Terrón,crypt@comcast.net,(854) 269-0953,6522.0,2013-08-24,Cárnicos,3363,Dormido (>3 años),False,3.0,7975405.609999999
+P0883,Koncept Usa,Jonatan Eutropio Higueras Rey,daveed@gmail.com,(409) 900-7651,5147.0,2021-06-20,Doméstico,506,Inactivo (1-3 años),False,2.0,6043546.04
+P0884,Inccan,Marciano Quevedo Pacheco,frode@me.com,(570) 285-0298,6413.0,2021-02-17,Frutas,629,Inactivo (1-3 años),False,0.0,0.0
+P0885,Team Solutions,Candelas Fiol-Montes,bbirth@optonline.net,(429) 290-3963,1036.0,2018-08-30,Material de oficina,1531,Dormido (>3 años),False,0.0,0.0
+P0886,Brandovento,Josué Macias Llorens,mailarc@comcast.net,(439) 234-2138,7789.0,2016-05-14,Ropa,2369,Dormido (>3 años),False,1.0,222387.2
+P0887,Alegra Dynamics,Roberta Cobos Baeza,dpitts@msn.com,(666) 532-5881,8473.0,2017-09-02,Snacks,1893,Dormido (>3 años),False,1.0,592337.76
+P0888,Diamond Wine And Spirits,Custodio Agullo Escudero,boomzilla@att.net,(675) 770-6870,7349.0,2020-05-20,Verduras,902,Inactivo (1-3 años),False,1.0,760811.31
+P0889,Videocast,Arcelia Melero Ibarra,caidaperl@yahoo.ca,(940) 385-0336,3899.0,2021-02-14,Alimento infantil,632,Inactivo (1-3 años),False,1.0,1262128.14
+P0890,Digital Mantra,Pascual Manso Roldan,wilsonpm@verizon.net,(494) 349-0559,1860.0,2012-03-15,Bebida,3890,Dormido (>3 años),False,0.0,0.0
+P0891,E2recordscom,Ale Campoy Saura,manuals@msn.com,(546) 756-3514,2088.0,2017-12-06,Cereales,1798,Dormido (>3 años),False,0.0,0.0
+P0892,Pt Teknikasi Study,Javi del Sevillano,jbuchana@yahoo.ca,(826) 835-5206,7973.0,2015-10-04,Cosméticos,2592,Dormido (>3 años),False,0.0,0.0
+P0893,Opentis,Simón del Jaén,scarolan@mac.com,(698) 959-4885,6346.0,2021-08-11,Cuidado personal,454,Inactivo (1-3 años),False,1.0,46696.08
+P0894,Hypergraph,Cintia Neira Salvà,mugwump@att.net,(523) 385-7815,5097.0,2021-02-10,Cárnicos,636,Inactivo (1-3 años),True,0.0,0.0
+P0895,Red Wheel,Heraclio Reyes Espada,hager@sbcglobal.net,(776) 886-0839,5470.0,2020-10-25,Doméstico,744,Inactivo (1-3 años),False,2.0,332178.94
+P0896,Emu Edum,Brígida Guijarro Meléndez,grothoff@me.com,(760) 226-0058,1593.0,2021-07-08,Frutas,488,Inactivo (1-3 años),True,1.0,28323.56
+P0897,Sitefusion,Valentín Artigas Carnero,drezet@aol.com,(793) 605-8949,5799.0,2016-08-25,Material de oficina,2266,Dormido (>3 años),False,1.0,1980149.12
+P0898,Miranda Digitale,Pastor Néstor Villa Bermudez,yfreund@me.com,(359) 852-7301,5316.0,2018-11-15,Ropa,1454,Dormido (>3 años),True,0.0,0.0
+P0899,Hyperlocalis,Ángeles Garriga Garriga,goldberg@comcast.net,(870) 260-9137,4330.0,2018-09-25,Snacks,1505,Dormido (>3 años),False,1.0,737913.12
+P0900,Firebase,Marco de Casal,agolomsh@outlook.com,(661) 540-5655,1720.0,2020-08-21,Verduras,809,Inactivo (1-3 años),False,2.0,544034.1900000001
+P0901,Selagine Digital,Juan Luis Rodrigo-Barceló,rddesign@icloud.com,(705) 559-1026,3762.0,2012-02-22,Alimento infantil,3912,Dormido (>3 años),False,1.0,1232316.5999999999
+P0902,Madcat,Anita Isaura Piña Fonseca,dsugal@icloud.com,(328) 391-4383,6205.0,2019-01-09,Bebida,1399,Dormido (>3 años),False,1.0,21426.46
+P0903,Marisa,Concepción Carreño Moll,ralamosm@verizon.net,(833) 427-2021,4911.0,2015-12-05,Cereales,2530,Dormido (>3 años),False,1.0,577118.08
+P0904,I3i Software,Pepe Cid,grossman@msn.com,(966) 903-0119,4407.0,2017-04-08,Cosméticos,2040,Dormido (>3 años),False,0.0,0.0
+P0905,Gfr Consultands,Florentino Amat Mancebo,twoflower@outlook.com,(331) 737-6554,6120.0,2017-08-29,Cuidado personal,1897,Dormido (>3 años),False,0.0,0.0
+P0906,Zillion,Gilberto Alberola,rbarreira@live.com,(514) 430-8477,6255.0,2021-10-18,Cárnicos,386,Inactivo (1-3 años),False,2.0,2173552.4
+P0907,Stace Digital,Eliana Bejarano Taboada,mbrown@att.net,(734) 741-4297,7854.0,2019-10-30,Doméstico,1105,Dormido (>3 años),False,0.0,0.0
+P0908,It Analytics Team,Chelo Casanova,shazow@aol.com,(243) 506-8282,3041.0,2014-04-10,Frutas,3134,Dormido (>3 años),False,0.0,0.0
+P0909,Servizi Pt2,Ariadna Marí-Hurtado,amcuri@icloud.com,(731) 570-4351,4841.0,2017-02-16,Material de oficina,2091,Dormido (>3 años),False,0.0,0.0
+P0910,Industrie Homeco,Lourdes Renata Izquierdo Núñez,kostas@yahoo.ca,(209) 922-4703,4786.0,2012-02-25,Ropa,3909,Dormido (>3 años),False,1.0,312847.36000000004
+P0911,Studio Nola,Aurelia Gonzalez Pedraza,jespley@yahoo.com,(971) 863-9909,614.0,2013-12-14,Snacks,3251,Dormido (>3 años),False,0.0,0.0
+P0912,Imballaggio Kent,Melchor Feijoo Garrido,knorr@icloud.com,(332) 928-3183,2292.0,2021-02-28,Verduras,618,Inactivo (1-3 años),False,1.0,96113.01000000001
+P0913,Soluzione creativa,Ileana Vicens,wildixon@comcast.net,(668) 800-1739,4672.0,2016-09-08,Alimento infantil,2252,Dormido (>3 años),False,0.0,0.0
+P0914,Solo semplice assicurazione,Silvestre de Figueras,seano@me.com,(794) 945-8589,5145.0,2015-12-28,Bebida,2507,Dormido (>3 años),True,6.0,583505.45
+P0915,Contabilità Sol,Rosalina Castejón Rius,ganter@icloud.com,(457) 717-4549,6667.0,2015-02-24,Cereales,2814,Dormido (>3 años),False,0.0,0.0
+P0916,Infineramico,Ulises de Company,schumer@optonline.net,(992) 904-9998,3769.0,2021-04-03,Cosméticos,584,Inactivo (1-3 años),False,1.0,2562200.9
+P0917,Coinvolgi le produzioni artistiche,Rodrigo Agustín Blanes,rcwil@verizon.net,(583) 971-5741,3701.0,2014-09-28,Cuidado personal,2963,Dormido (>3 años),False,2.0,529921.17
+P0918,Gelato Digdens,Florentino Amor-Varela,uraeus@yahoo.ca,(802) 464-3175,4441.0,2021-07-30,Cárnicos,466,Inactivo (1-3 años),False,1.0,2245761.02
+P0919,Fusia della sponda settentrionale,Martín Arroyo Bermúdez,sartak@me.com,(921) 965-9998,966.0,2017-04-27,Doméstico,2021,Dormido (>3 años),False,2.0,5967662.5
+P0920,Vitteo,Dulce Luna-Ayllón,cosimo@live.com,(670) 816-5091,4173.0,2016-11-08,Frutas,2191,Dormido (>3 años),False,4.0,135908.8
+P0921,Panetteria Vittoria,Mauricio Acedo Llorente,loscar@live.com,(230) 771-4639,5829.0,2021-07-13,Material de oficina,483,Inactivo (1-3 años),False,0.0,0.0
+P0922,Sonar Di Roma Terme,Herberto Mora Pina,netsfr@hotmail.com,(387) 803-4372,6519.0,2022-04-18,Ropa,204,Activo (<1 año),False,1.0,224465.92
+P0923,Orologi a catena,Ágata del Colom,wonderkid@verizon.net,(772) 814-2029,3042.0,2020-06-11,Snacks,880,Inactivo (1-3 años),False,1.0,177828.0
+P0924,Macchine semplici,Ani Tejada Vicente,dogdude@hotmail.com,(926) 375-8929,555.0,2013-04-12,Verduras,3497,Dormido (>3 años),False,0.0,0.0
+P0925,Università dell'Asse,Macario Acosta Salgado,goldberg@aol.com,(977) 980-8271,4379.0,2011-12-29,Alimento infantil,3967,Dormido (>3 años),False,0.0,0.0
+P0926,Millwood vento prolifico,Candelas del Blanca,bastian@me.com,(603) 824-4778,4160.0,2012-11-26,Bebida,3634,Dormido (>3 años),False,2.0,321365.11
+P0927,Orsola Ostrica,Florentina Almansa-Verdugo,animats@optonline.net,(671) 485-8520,6696.0,2019-04-19,Cereales,1299,Dormido (>3 años),False,1.0,70968.66
+P0928,Casa del Transmondo,María Manuela Asensio-Múñiz,claesjac@icloud.com,(656) 307-7278,4430.0,2019-09-03,Cosméticos,1162,Dormido (>3 años),False,3.0,4727300.16
+P0929,Rituale,Conrado Ordóñez Cerro,esokullu@optonline.net,(415) 583-9101,2304.0,2018-01-19,Cuidado personal,1754,Dormido (>3 años),False,0.0,0.0
+P0930,Impalafabbrica,Rafaela de Collado,nacho@yahoo.ca,(692) 768-7903,8118.0,2019-11-22,Cárnicos,1082,Inactivo (1-3 años),False,0.0,0.0
+P0931,Club di scherma Bk,Lucas Ramírez Casado,blixem@att.net,(953) 922-6201,3326.0,2015-11-07,Doméstico,2558,Dormido (>3 años),False,1.0,411077.72000000003
+P0932,Isole Magentrapt,Victor Manuel Fermín Malo Cánovas,agolomsh@gmail.com,(642) 558-6586,5254.0,2012-07-25,Frutas,3758,Dormido (>3 años),False,0.0,0.0
+P0933,Multilince,Rafa Puerta Santiago,ryanvm@me.com,(362) 941-6578,5291.0,2013-03-12,Material de oficina,3528,Dormido (>3 años),False,3.0,3241103.04
+P0934,Soluzioni di squadra,Epifanio Régulo Rovira Morán,timlinux@yahoo.ca,(532) 391-8428,1954.0,2017-08-07,Ropa,1919,Dormido (>3 años),False,1.0,28421.120000000003
+P0935,Dinamica Alegra,Adán Larrea Roig,chinthaka@me.com,(616) 531-6414,6437.0,2017-05-06,Snacks,2012,Dormido (>3 años),False,0.0,0.0
+P0936,Vino e liquori di diamante,Apolonia Cal Ferrando,stern@comcast.net,(875) 974-3374,4963.0,2012-01-15,Verduras,3950,Dormido (>3 años),False,1.0,792818.67
+P0937,Mantra digitale,Sonia Aller-Aparicio,attwood@comcast.net,(209) 382-8964,4008.0,2012-08-24,Alimento infantil,3728,Dormido (>3 años),False,1.0,464071.61999999994
+P0938,Studio Pt Teknikasi,Alex Azorin Cañete,sharon@gmail.com,(612) 865-5924,4239.0,2013-12-08,Bebida,3257,Dormido (>3 años),False,2.0,340280.16
+P0939,Ipergrafo,Ascensión Ugarte Tomas,aardo@mac.com,(544) 527-8533,2850.0,2018-10-24,Cereales,1476,Dormido (>3 años),False,0.0,0.0
+P0940,Ruota Rossa,Pascuala Diego Gomis,dexter@sbcglobal.net,(369) 942-3539,7646.0,2012-09-12,Cosméticos,3709,Dormido (>3 años),False,1.0,546409.75
+P0941,Emù Edum,Camilo del Chico,kawasaki@mac.com,(811) 350-3002,7824.0,2018-09-11,Cuidado personal,1519,Dormido (>3 años),False,1.0,130794.36
+P0942,Iperlocali,Cruz Aroca-Cózar,xtang@mac.com,(333) 321-9130,4804.0,2015-02-17,Cárnicos,2821,Dormido (>3 años),False,0.0,0.0
+P0943,Base di fuoco,Gabriel Valdés,skythe@att.net,(287) 811-5952,1984.0,2021-02-28,Doméstico,618,Inactivo (1-3 años),False,1.0,3695176.62
+P0944,Selagine digitale,Eusebia de Rincón,kourai@gmail.com,(249) 289-5344,1666.0,2019-10-13,Frutas,1122,Dormido (>3 años),True,1.0,64729.68
+P0945,Gatto pazzo,Celestino Matas Iriarte,bowmanbs@hotmail.com,(790) 466-3839,7051.0,2020-10-29,Material de oficina,740,Inactivo (1-3 años),False,1.0,4710991.04
+P0946,Software I3i,Jacinto Lago Clemente,bockelboy@mac.com,(240) 557-7222,6613.0,2012-12-21,Ropa,3609,Dormido (>3 años),False,0.0,0.0
+P0947,Consulenti Gfr,Ezequiel Cortina Jódar,overbom@mac.com,(972) 335-8923,1226.0,2018-04-02,Snacks,1681,Dormido (>3 años),False,1.0,122871.84
+P0948,Stazio Digitale,Cirino Paniagua Gutiérrez,kalpol@outlook.com,(404) 309-6254,2338.0,2021-02-08,Verduras,638,Inactivo (1-3 años),True,1.0,272062.56
+P0949,Team di analisi,Ana Sofía Ojeda-Pozuelo,parrt@msn.com,(899) 628-1144,1338.0,2015-04-08,Alimento infantil,2771,Dormido (>3 años),True,0.0,0.0
+P0950,Kat51,Florencia Sáenz Bas,tokuhirom@msn.com,(212) 369-0661,2421.0,2013-12-23,Bebida,3242,Dormido (>3 años),False,1.0,104430.15
+P0951,Pt2-Dienste,Guadalupe José María Manrique Barriga,thrymm@optonline.net,(892) 894-0671,7142.0,2021-07-31,Cereales,465,Inactivo (1-3 años),False,0.0,0.0
+P0952,Homeco-Industrien,Curro Eugenio Arana Gomez,wilsonpm@gmail.com,(877) 882-8646,3001.0,2017-01-11,Cosméticos,2127,Dormido (>3 años),False,1.0,240156.96
+P0953,Nola-Studio,Jacinto Adelardo Roselló Yuste,bhtower@icloud.com,(834) 243-8075,3834.0,2022-02-02,Cuidado personal,279,Activo (<1 año),False,2.0,356680.98
+P0954,Einssiebenwesten,Herminia Polo Ayllón,avalon@outlook.com,(417) 962-0520,2856.0,2022-03-22,Cárnicos,231,Activo (<1 año),True,0.0,0.0
+P0955,Kent-Verpackung,Celia Acero-Lastra,adhere@me.com,(325) 903-8081,5343.0,2018-07-17,Doméstico,1575,Dormido (>3 años),False,2.0,6454121.22
+P0956,Kreative Lösung,Magdalena Eva María Mosquera Delgado,jguyer@yahoo.ca,(983) 782-8655,2132.0,2017-07-02,Frutas,1955,Dormido (>3 años),False,1.0,57664.36
+P0957,Nur einfache Versicherung,Rita Moles Roca,muzzy@verizon.net,(486) 311-8174,7825.0,2017-11-08,Material de oficina,1826,Dormido (>3 años),False,2.0,4302572.16
+P0958,Sol-Buchhaltung,Baldomero Cabello,knorr@yahoo.com,(322) 961-9701,1826.0,2021-08-01,Ropa,464,Inactivo (1-3 años),False,1.0,137123.84000000003
+P0959,Infineramisch,Rómulo Salmerón Carreño,grossman@yahoo.ca,(663) 632-3871,402.0,2012-05-15,Snacks,3829,Dormido (>3 años),False,1.0,392293.44
+P0960,Beauftragen Sie Kunstproduktionen,Vasco Polo Baños,empathy@msn.com,(351) 219-7886,3186.0,2019-11-21,Verduras,1083,Inactivo (1-3 años),False,4.0,1874249.1600000001
+P0961,Digdens-Eis,Teresita Sobrino Palomares,rogerspl@msn.com,(467) 439-6064,4112.0,2019-02-22,Alimento infantil,1355,Dormido (>3 años),False,2.0,1898532.7799999998
+P0962,Victorias Bäckerei,Arsenio Castejón Zabala,kmself@yahoo.ca,(491) 701-5937,1464.0,2014-08-19,Bebida,3003,Dormido (>3 años),False,1.0,8964.78
+P0963,Sonar von Roma Spa,Ileana Galvez,enintend@verizon.net,(892) 525-1657,1770.0,2018-04-22,Cereales,1661,Dormido (>3 años),False,3.0,2472192.0999999996
+P0964,Bügeluhren,Sabina Iñiguez Alberto,carmena@me.com,(682) 961-8727,6699.0,2012-10-24,Cosméticos,3667,Dormido (>3 años),False,1.0,1878069.5599999998
+P0965,Einfache Maschinen,Ángela Pozo,hutton@hotmail.com,(961) 476-4102,1254.0,2012-07-16,Cuidado personal,3767,Dormido (>3 años),False,1.0,377988.9
+P0966,Achse Varsity,Natividad Castilla Cobos,shang@hotmail.com,(369) 944-1698,1072.0,2019-12-24,Cárnicos,1050,Inactivo (1-3 años),False,1.0,1577284.25
+P0967,Millwood Wind Fruchtbar,Candelario Santos Ferrándiz,firstpr@gmail.com,(477) 311-4086,3159.0,2013-05-18,Doméstico,3461,Dormido (>3 años),False,1.0,2022723.5
+P0968,Orsola Austernbar,Poncio Felix Llamas Folch,cyrus@yahoo.com,(984) 929-2294,1099.0,2016-12-06,Frutas,2163,Dormido (>3 años),False,1.0,31188.44
+P0969,Inka,Juanita Múgica Díez,choset@me.com,(881) 418-9015,7146.0,2012-03-12,Material de oficina,3893,Dormido (>3 años),False,0.0,0.0
+P0970,Transworld-Haus,Cayetana Caballero Huguet,blixem@aol.com,(577) 892-9494,5515.0,2021-08-30,Ropa,435,Inactivo (1-3 años),False,0.0,0.0
+P0971,Impalafabrik,Urbano Gómez Atienza,kourai@verizon.net,(203) 537-4405,3251.0,2022-01-31,Snacks,281,Activo (<1 año),False,2.0,860297.76
+P0972,Bk Fechtverein,Vito Mesa-Ayala,catalog@mac.com,(917) 921-0105,8359.0,2014-12-23,Verduras,2877,Dormido (>3 años),False,0.0,0.0
+P0973,Magenfallen-Inseln,Teo Carreras Prats,wortmanj@yahoo.com,(522) 651-9577,1678.0,2015-01-24,Alimento infantil,2845,Dormido (>3 años),False,0.0,0.0
+P0974,Aiki It-Unterstützung,Gabriela Checa Castrillo,wikinerd@yahoo.ca,(314) 827-4799,5739.0,2016-02-23,Bebida,2450,Dormido (>3 años),False,1.0,226122.27
+P0975,Multiluchs,Francisco Javier del Feijoo,munson@live.com,(609) 403-2608,7063.0,2015-11-30,Cereales,2535,Dormido (>3 años),False,1.0,75770.17
+P0976,Konzept USA,Jenaro del Ferrero,stomv@me.com,(827) 583-0803,980.0,2018-05-09,Cosméticos,1644,Dormido (>3 años),False,0.0,0.0
+P0977,Inckan,Mario del Fonseca,jimxugle@mac.com,(543) 855-9169,7892.0,2012-06-13,Cuidado personal,3800,Dormido (>3 años),False,1.0,423494.91000000003
+P0978,Teamlösungen,Estefanía Llobet Villalba,timlinux@icloud.com,(491) 737-9446,2843.0,2016-04-01,Cárnicos,2412,Dormido (>3 años),True,0.0,0.0
+P0979,Alegra Dynamik,Haroldo Aguilar Monreal,roesch@gmail.com,(427) 734-7146,6294.0,2011-12-26,Doméstico,3970,Dormido (>3 años),False,1.0,4231889.34
+P0980,Diamond Wein und Spirituosen,Cleto Capdevila,kronvold@icloud.com,(464) 753-5716,5211.0,2017-12-21,Frutas,1783,Dormido (>3 años),False,0.0,0.0
+P0981,Digitales Mantra,Ariel Toro Corbacho,fmerges@msn.com,(474) 633-1272,5827.0,2021-02-18,Material de oficina,628,Inactivo (1-3 años),True,0.0,0.0
+P0982,Pt Teknikasi-Studie,Nilda Quintana Nevado,drhyde@mac.com,(392) 759-6919,6729.0,2020-04-04,Ropa,948,Inactivo (1-3 años),False,0.0,0.0
+P0983,Rotes Rad,Rufina Moya Verdú,sburke@live.com,(294) 503-8835,2008.0,2021-12-30,Snacks,313,Activo (<1 año),False,1.0,884170.5599999999
+P0984,Standortfusion,Pili Sánchez Pla,arathi@sbcglobal.net,(248) 392-3472,329.0,2017-10-24,Verduras,1841,Dormido (>3 años),False,1.0,512572.41000000003
+P0985,Hyperlokalis,Rómulo Herranz-Gallart,munge@yahoo.ca,(853) 740-8378,8394.0,2018-10-07,Alimento infantil,1493,Dormido (>3 años),False,1.0,1544620.38
+P0986,Selagin Digital,Benjamín Ceferino Parejo Quintanilla,jmcnamara@mac.com,(824) 278-8055,6929.0,2017-03-08,Bebida,2071,Dormido (>3 años),False,1.0,270755.43
+P0987,Botta Think,Mónica Barco,matty@yahoo.com,(416) 821-7869,1201.0,2014-01-12,Cereales,3222,Dormido (>3 años),True,0.0,0.0
+P0988,Devops,Julián Rivero Barón,noahb@hotmail.com,(506) 870-0278,5527.0,2013-01-08,Cosméticos,3591,Dormido (>3 años),False,4.0,5093855.52
+P0989,2h Studio,Pepe Cepeda Valle,kudra@msn.com,(365) 253-9085,5686.0,2012-03-26,Cuidado personal,3879,Dormido (>3 años),False,0.0,0.0
+P0990,Webstar,Severino Montesinos Benet,jelmer@verizon.net,(671) 566-4211,4046.0,2020-12-23,Cárnicos,685,Inactivo (1-3 años),False,1.0,2311405.22
+P0991,Veasit,Marianela Llorens-Alfaro,joelw@me.com,(982) 429-1581,4573.0,2021-04-12,Doméstico,575,Inactivo (1-3 años),False,0.0,0.0
+P0992,Vivid Design,Teresita Rosa Carrillo Valcárcel,tangsh@verizon.net,(588) 638-5302,3806.0,2021-09-20,Frutas,414,Inactivo (1-3 años),False,1.0,31984.239999999998
+P0993,Digiitera,Godofredo Avilés Hernando,lukka@sbcglobal.net,(851) 361-6359,7018.0,2013-10-03,Material de oficina,3323,Dormido (>3 años),False,0.0,0.0
+P0994,Codigraphics,Luisa Eva María Guitart Expósito,keijser@yahoo.ca,(816) 568-5911,3341.0,2016-09-23,Ropa,2237,Dormido (>3 años),True,0.0,0.0
+P0995,Actenet,Gabriel Arnau,telbij@yahoo.com,(456) 843-7004,7876.0,2017-07-19,Snacks,1938,Dormido (>3 años),False,1.0,531535.2
+P0996,Datawrite,Gala Millán Ribera,payned@mac.com,(655) 690-1559,4703.0,2012-05-22,Verduras,3822,Dormido (>3 años),False,2.0,883657.7400000001
+P0997,Echo Digital,Luis Ángel Llanos Benavente,chrwin@live.com,(444) 586-0540,2786.0,2021-06-01,Alimento infantil,525,Inactivo (1-3 años),False,0.0,0.0
+P0998,Meussicz,Tere Monreal Botella,stellaau@me.com,(752) 359-9358,3442.0,2016-06-28,Bebida,2324,Dormido (>3 años),False,0.0,0.0
+P0999,Learnig,Pepito Catalá-Niño,elmer@verizon.net,(716) 835-7132,2505.0,2021-02-20,Cereales,626,Inactivo (1-3 años),False,1.0,294648.76
