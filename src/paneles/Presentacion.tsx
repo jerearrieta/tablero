@@ -47,13 +47,13 @@ export function Presentacion() {
 
   const diaps: Diap[] = [
     {
-      id: "ventas", eyebrow: "Operativo · Ventas", titulo: "2022 no cae: solo tiene datos hasta el 7 de noviembre",
+      id: "ventas", eyebrow: "Táctico · Ventas", titulo: "2022 no cae: solo tiene datos hasta el 7 de noviembre",
       dato: <>Si comparamos lo mismo (enero a octubre), 2022 vendió <b>más que 2020</b> y un {porc(1 - c.ytd[2].v / c.ytd[1].v, 0)} menos que 2021.</>,
       visual: <BarrasH datos={c.ytd.map((y) => ({ k: `${y.a} (ene–oct)`, v: y.v }))} formato={usd} />,
       decisiones: [
         { tipo: "Operativa", que: "Fijar una meta de venta mensual y compararla siempre contra el mismo mes del año anterior.", quien: "Gerente de ventas", cuando: "Desde este mes", meta: `Volver al nivel de 2021: ${usd(c.ytd[1].v / 10)} por mes` },
       ],
-      ir: { p: "operativo", t: "Ver ventas por año, mes y día" },
+      ir: { p: "tactico", t: "Ver ventas por año, mes y día" },
     },
     {
       id: "envios", eyebrow: "Operativo · Envíos", titulo: "Los pedidos urgentes no salen antes",
@@ -61,9 +61,9 @@ export function Presentacion() {
       visual: <BarrasH datos={PRIORIDADES.map((k) => ({ k, v: c.prio.get(k)!.dias / c.prio.get(k)!.pedidos }))} formato={dias} max={50} />,
       decisiones: [
         { tipo: "Operativa", que: "Despachar primero los pedidos Críticos: máximo 7 días para Crítica y 15 días para Alta.", quien: "Jefe de logística", cuando: "Desde la próxima semana", meta: `Plazo medio de Críticos de ${dias(c.prio.get("Crítica")!.dias / c.prio.get("Crítica")!.pedidos)} a 7 días en 3 meses` },
-        { tipo: "Operativa", que: "Revisar cada mañana la lista de pedidos con alerta del panel Operativo y resolverlos ese día.", quien: "Coordinador de despacho", cuando: "Todos los días", meta: `Pedidos de más de 35 días: de ${porc(c.lentos / c.t.pedidos, 0)} a menos del 5 %` },
+        { tipo: "Operativa", que: "Revisar cada mañana la cola de despacho del panel Operativo y enviar primero los pedidos atrasados.", quien: "Coordinador de despacho", cuando: "Todos los días", meta: `Pedidos de más de 35 días: de ${porc(c.lentos / c.t.pedidos, 0)} a menos del 5 %` },
       ],
-      ir: { p: "operativo", f: { prioridad: "Crítica" }, t: "Ver pedidos críticos" },
+      ir: { p: "operativo", f: { prioridad: "Crítica" }, t: "Ver la cola de pedidos críticos" },
     },
     {
       id: "proveedores", eyebrow: "Táctico · Proveedores", titulo: "3 de cada 4 proveedores llevan más de 3 años sin compras",
