@@ -5,7 +5,7 @@ import { agrupar, CLIENTES, PROVEEDORES, pct, sumar, VENTAS, ESTADOS_PROV } from
 import { usd, num, porc, dias } from "@/lib/formato";
 
 type Tipo = "Operativa" | "Táctica" | "Estratégica";
-type Decision = { que: string; quien: string; cuando: string; meta: string };
+type Decision = { que: string; cuando: string };
 type Ir = { p: Pestana; f?: Partial<Filtros>; t: string };
 type Hallazgo = { cifra: string; texto: string; ir?: Ir };
 type Diap = { tipo: Tipo; eyebrow: string; titulo: string; hallazgos: Hallazgo[]; decisiones: Decision[] };
@@ -57,9 +57,9 @@ export function Presentacion() {
         { cifra: porc(1 - c.ytd[2].v / c.ytd[1].v, 0), texto: "menos vendió 2022 que 2021 de enero a octubre. No es una caída: 2022 solo tiene datos hasta el 7 de noviembre.", ir: { p: "tactico", t: "Ver ventas por año y mes" } },
       ],
       decisiones: [
-        { que: "Despachar primero los Críticos: máximo 7 días para Crítica y 15 para Alta.", quien: "Jefe de logística", cuando: "Desde la próxima semana", meta: `Críticos de ${dias(critDias)} a 7 días en 3 meses` },
-        { que: "Revisar cada mañana la cola de despacho y enviar primero los atrasados.", quien: "Coordinador de despacho", cuando: "Todos los días", meta: `Pedidos de más de 35 días: de ${porc(c.lentos / c.t.pedidos, 0)} a menos del 5 %` },
-        { que: "Fijar una meta de venta mensual y compararla contra el mismo mes del año anterior.", quien: "Gerente de ventas", cuando: "Desde este mes", meta: `${usd(c.ytd[1].v / 10)} por mes (nivel de 2021)` },
+        { que: "Despachar primero los Críticos: máximo 7 días para Crítica y 15 para Alta.", cuando: "Desde la próxima semana" },
+        { que: "Revisar cada mañana la cola de despacho y enviar primero los atrasados.", cuando: "Todos los días" },
+        { que: "Fijar una meta de venta mensual y compararla contra el mismo mes del año anterior.", cuando: "Desde este mes" },
       ],
     },
     {
@@ -70,10 +70,10 @@ export function Presentacion() {
         { cifra: porc(dormido.n / PROVEEDORES.length, 0), texto: `de los proveedores lleva más de 3 años sin compras y aún tiene ${usd(dormido.s)} de saldo.`, ir: { p: "tactico", t: "Ver la lista de saldos" } },
       ],
       decisiones: [
-        { que: `Ofrecer 5 % de descuento en el segundo pedido a los ${num(c.una)} clientes de una sola compra.`, quien: "Marketing", cuando: "Campaña en 2 meses", meta: "Que 1 de cada 10 vuelva en 6 meses" },
-        { que: `Contactar uno por uno a los ${c.nRiesgo} clientes En riesgo y No se pueden perder.`, quien: "Equipo comercial", cuando: "En 3 meses", meta: "Recuperar al menos 20" },
-        { que: `Una vez unificado el código, revisar los ${num(sinCompra)} clientes sin compras y reactivar a los que de verdad estén inactivos.`, quien: "Marketing y equipo comercial", cuando: "Después de unificar el código", meta: "Que 1 de cada 10 haga su primer pedido" },
-        { que: `Conciliar los 100 proveedores dormidos con más saldo (${usd(c.top100)}) y saldar o cerrar la cuenta.`, quien: "Compras y contabilidad", cuando: "En 3 meses", meta: "Las 100 cuentas conciliadas" },
+        { que: `Ofrecer 5 % de descuento en el segundo pedido a los ${num(c.una)} clientes de una sola compra.`, cuando: "Campaña en 2 meses" },
+        { que: `Contactar uno por uno a los ${c.nRiesgo} clientes En riesgo y No se pueden perder.`, cuando: "En 3 meses" },
+        { que: `Una vez unificado el código, revisar los ${num(sinCompra)} clientes sin compras y reactivar a los que de verdad estén inactivos.`, cuando: "Después de unificar el código" },
+        { que: `Conciliar los 100 proveedores dormidos con más saldo (${usd(c.top100)}) y saldar o cerrar la cuenta.`, cuando: "En 3 meses" },
       ],
     },
     {
@@ -85,11 +85,11 @@ export function Presentacion() {
         { cifra: porc(sinCompra / CLIENTES.length, 0), texto: `de los clientes registrados (${num(sinCompra)} de ${num(CLIENTES.length)}) no tiene compras enlazadas. Es una cifra aproximada: ventas y clientes usan códigos distintos y se unieron por los 3 primeros dígitos, así que C0001 a C0099 nunca pueden recibir pedidos.`, ir: { p: "datos", t: "Ver cómo se unieron los datos" } },
       ],
       decisiones: [
-        { que: "Dar más espacio comercial a Ropa, Cereales y Verduras.", quien: "Gerencia comercial", cuando: "Plan a 2 años", meta: `Del ${porc(tresProd, 0)} al 20 % de la venta` },
-        { que: `Evaluar dejar de vender Frutas (${porc(p("Frutas").venta / c.t.venta, 1)} de la venta y poca ganancia).`, quien: "Dirección general", cuando: "Decisión en 6 meses", meta: "Mantener o retirar" },
-        { que: "Concentrar logística y promoción en África y Europa.", quien: "Dirección general", cuando: "Plan a 3 años", meta: `Del ${porc(afEu, 0)} al 60 % de la venta` },
-        { que: "Abrir un plan comercial en Norteamérica.", quien: "Gerencia comercial", cuando: "Plan a 3 años", meta: "Del 2 % al 5 % de la venta" },
-        { que: "Unificar el código de cliente entre ventas y el registro de clientes, para que cada pedido quede ligado a su cliente sin aproximaciones.", quien: "Dirección general y sistemas", cuando: "Plan a 1 año", meta: "100 % de los pedidos con cliente identificado" },
+        { que: "Dar más espacio comercial a Ropa, Cereales y Verduras.", cuando: "Plan a 2 años" },
+        { que: `Evaluar dejar de vender Frutas (${porc(p("Frutas").venta / c.t.venta, 1)} de la venta y poca ganancia).`, cuando: "Decisión en 6 meses" },
+        { que: "Concentrar logística y promoción en África y Europa.", cuando: "Plan a 3 años" },
+        { que: "Abrir un plan comercial en Norteamérica.", cuando: "Plan a 3 años" },
+        { que: "Unificar el código de cliente entre ventas y el registro de clientes, para que cada pedido quede ligado a su cliente sin aproximaciones.", cuando: "Plan a 1 año" },
       ],
     },
   ];
@@ -127,7 +127,7 @@ export function Presentacion() {
           <div style={{ position: "relative", zIndex: 1, maxWidth: 1040 }}>
             <div className="eyebrow" style={{ color: "#ffb79c" }}>Air Transport, Panamá · ventas, clientes y proveedores 2020–2022</div>
             <h2 style={{ fontSize: 40 }}>Qué hacer con lo que dicen los datos</h2>
-            <p style={{ fontSize: 17 }}>Tres diapositivas, una por nivel de decisión: operativa, táctica y estratégica. En cada una, lo que dicen los datos y qué hacer: quién, cuándo y con qué meta.</p>
+            <p style={{ fontSize: 17 }}>Tres diapositivas, una por nivel de decisión: operativa, táctica y estratégica. En cada una, lo que dicen los datos, qué hacer y cuándo.</p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: 12, margin: "26px 0" }}>
               {[[usd(c.t.venta), "vendidos"], [porc(pct(c.t)), "de ganancia"], [num(c.t.pedidos), "pedidos"], [String(c.paises), "países"]].map(([v, t]) => (
                 <div key={t} style={{ background: "rgba(255,255,255,.1)", borderRadius: 12, padding: "12px 14px" }}>
@@ -184,15 +184,13 @@ export function Presentacion() {
           </div>
           <div className="tabla-env">
             <table className="tabla">
-              <thead><tr><th>Tipo</th><th>Qué hacer</th><th>Quién</th><th>Cuándo</th><th>Meta</th></tr></thead>
+              <thead><tr><th>Tipo</th><th>Qué hacer</th><th>Cuándo</th></tr></thead>
               <tbody>
                 {todas.map((x) => (
                   <tr key={x.que}>
                     <td><b style={{ color: COLOR_TIPO[x.tipo] }}>{x.tipo}</b></td>
                     <td style={{ whiteSpace: "normal", minWidth: 260 }}>{x.que}</td>
-                    <td style={{ whiteSpace: "normal" }}>{x.quien}</td>
                     <td style={{ whiteSpace: "normal" }}>{x.cuando}</td>
-                    <td style={{ whiteSpace: "normal", minWidth: 180 }}>{x.meta}</td>
                   </tr>
                 ))}
               </tbody>
@@ -213,9 +211,7 @@ function TarjetaDecision({ d, color }: { d: Decision; color: string }) {
     <div className="decision" style={{ borderLeft: `4px solid ${color}` }}>
       <div style={{ fontSize: 14.5, fontWeight: 600 }}>{d.que}</div>
       <div className="decision-meta">
-        <span><b>Quién:</b> {d.quien}</span>
         <span><b>Cuándo:</b> {d.cuando}</span>
-        <span><b>Meta:</b> {d.meta}</span>
       </div>
     </div>
   );
