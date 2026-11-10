@@ -221,6 +221,17 @@ table.tabla { border-collapse: collapse; width: 100%; font-size: 12.5px; }
 .decision .tipo { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
 .decision .tipo.op { color: var(--s1); } .decision .tipo.ta { color: var(--accent); } .decision .tipo.es { color: var(--s3); }
 .decision div:last-child { font-size: 14px; margin-top: 3px; }
+.diap.nivel { grid-template-columns: 1fr 1fr; align-items: start; }
+.diap.resumen { grid-template-columns: 1fr; align-items: start; }
+@media (max-width: 900px) { .diap.nivel { grid-template-columns: 1fr; } }
+.hallazgos { display: grid; gap: 14px; margin-top: 6px; }
+.hallazgo { display: grid; grid-template-columns: 116px 1fr; gap: 12px; align-items: start; }
+.hallazgo .cifra { font-size: 26px; font-weight: 750; line-height: 1.1; letter-spacing: -0.02em; overflow-wrap: anywhere; }
+.hallazgo p { margin: 0; font-size: 14.5px; }
+.hallazgo .btn-link { margin-top: 4px; font-size: 13px; }
+.diap.nivel .decision { margin-top: 10px; }
+.decision .decision-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; color: var(--text-2); margin-top: 6px; }
+.decision .decision-meta b { color: var(--text-3); font-weight: 600; }
 .pres-nav { display: flex; align-items: center; justify-content: space-between; margin: 14px 0; gap: 10px; flex-wrap: wrap; }
 .puntos { display: flex; gap: 6px; flex-wrap: wrap; }
 .puntos button { width: 9px; height: 9px; border-radius: 99px; border: 0; padding: 0; background: var(--muted-mark); cursor: pointer; }
