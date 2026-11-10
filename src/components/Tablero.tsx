@@ -39,7 +39,8 @@ function Shell() {
     return () => window.removeEventListener("hashchange", onHash);
   }, [irA]);
 
-  const conFiltros = pestana === "operativo" || pestana === "tactico" || pestana === "estrategico";
+  // El panel operativo tiene su propia barra (jornada, prioridad, destino) y no muestra indicadores de venta
+  const conFiltros = pestana === "tactico" || pestana === "estrategico";
   return (
     <>
       <header className="cab">
