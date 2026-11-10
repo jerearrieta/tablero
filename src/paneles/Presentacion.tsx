@@ -5,10 +5,9 @@ import { agrupar, CLIENTES, PROVEEDORES, pct, sumar, VENTAS, ESTADOS_PROV } from
 import { usd, num, porc, dias } from "@/lib/formato";
 
 type Tipo = "Operativa" | "Táctica" | "Estratégica";
-type Decision = { que: string; cuando: string };
 type Ir = { p: Pestana; f?: Partial<Filtros>; t: string };
-type Hallazgo = { cifra: string; texto: string; ir?: Ir };
-type Diap = { tipo: Tipo; eyebrow: string; titulo: string; hallazgos: Hallazgo[]; decisiones: Decision[] };
+type Decision = { que: string; por?: string; cuando: string; ir?: Ir };
+type Diap = { tipo: Tipo; eyebrow: string; titulo: string; decisiones: Decision[] };
 
 const COLOR_TIPO: Record<Tipo, string> = { Operativa: "var(--s1)", Táctica: "var(--accent)", Estratégica: "var(--s3)" };
 const PLAZO_TIPO: Record<Tipo, string> = { Operativa: "Este mes", Táctica: "Próximos 3 a 6 meses", Estratégica: "Próximos 2 a 3 años" };
@@ -51,45 +50,28 @@ export function Presentacion() {
   const diaps: Diap[] = [
     {
       tipo: "Operativa", eyebrow: "1 · Operación del día a día", titulo: "Los pedidos urgentes salen igual de lento que los demás",
-      hallazgos: [
-        { cifra: dias(critDias), texto: "tarda en enviarse un pedido Crítico, casi lo mismo que uno de prioridad Baja.", ir: { p: "operativo", f: { prioridad: "Crítica" }, t: "Ver la cola de críticos" } },
-        { cifra: porc(c.lentos / c.t.pedidos, 0), texto: `de los pedidos (${num(c.lentos)}) tardaron más de 35 días en salir.` },
-        { cifra: porc(1 - c.ytd[2].v / c.ytd[1].v, 0), texto: "menos vendió 2022 que 2021 de enero a octubre. No es una caída: 2022 solo tiene datos hasta el 7 de noviembre.", ir: { p: "tactico", t: "Ver ventas por año y mes" } },
-      ],
       decisiones: [
-        { que: "Despachar primero los Críticos: máximo 7 días para Crítica y 15 para Alta.", cuando: "Desde la próxima semana" },
-        { que: "Revisar cada mañana la cola de despacho y enviar primero los atrasados.", cuando: "Todos los días" },
+        { que: "Despachar primero los Críticos: máximo 7 días para Crítica y 15 para Alta.", por: `Hoy un pedido Crítico tarda ${dias(critDias)}, casi lo mismo que uno de prioridad Baja.`, cuando: "Desde la próxima semana", ir: { p: "operativo", f: { prioridad: "Crítica" }, t: "Ver la cola de críticos" } },
+        { que: "Revisar cada mañana la cola de despacho y enviar primero los atrasados.", por: `El ${porc(c.lentos / c.t.pedidos, 0)} de los pedidos tardó más de 35 días en salir.`, cuando: "Todos los días" },
         { que: "Fijar una meta de venta mensual y compararla contra el mismo mes del año anterior.", cuando: "Desde este mes" },
       ],
     },
     {
       tipo: "Táctica", eyebrow: "2 · Clientes y proveedores", titulo: "Muchos clientes no vuelven y muchos proveedores están parados",
-      hallazgos: [
-        { cifra: porc(c.una / c.conCompra.length, 0), texto: `de los clientes compró una sola vez (${num(c.una)} de ${num(c.conCompra.length)}).` },
-        { cifra: usd(c.riesgo), texto: `vendieron los ${c.nRiesgo} clientes valiosos que dejaron de comprar (${porc(c.riesgo / c.t.venta, 0)} de la venta).`, ir: { p: "estrategico", f: { segmento: "En riesgo" }, t: "Ver clientes en riesgo" } },
-        { cifra: porc(dormido.n / PROVEEDORES.length, 0), texto: `de los proveedores lleva más de 3 años sin compras y aún tiene ${usd(dormido.s)} de saldo.`, ir: { p: "tactico", t: "Ver la lista de saldos" } },
-      ],
       decisiones: [
-        { que: `Ofrecer 5 % de descuento en el segundo pedido a los ${num(c.una)} clientes de una sola compra.`, cuando: "Campaña en 2 meses" },
-        { que: `Contactar uno por uno a los ${c.nRiesgo} clientes En riesgo y No se pueden perder.`, cuando: "En 3 meses" },
-        { que: `Una vez unificado el código, revisar los ${num(sinCompra)} clientes sin compras y reactivar a los que de verdad estén inactivos.`, cuando: "Después de unificar el código" },
-        { que: `Conciliar los 100 proveedores dormidos con más saldo (${usd(c.top100)}) y saldar o cerrar la cuenta.`, cuando: "En 3 meses" },
+        { que: `Ofrecer 5 % de descuento en el segundo pedido a los clientes de una sola compra.`, por: `El ${porc(c.una / c.conCompra.length, 0)} de los clientes (${num(c.una)}) compró una sola vez.`, cuando: "Campaña en 2 meses" },
+        { que: `Contactar uno por uno a los clientes En riesgo y No se pueden perder.`, por: `Son ${c.nRiesgo} clientes valiosos que dejaron de comprar y que vendieron ${usd(c.riesgo)}.`, cuando: "En 3 meses", ir: { p: "estrategico", f: { segmento: "En riesgo" }, t: "Ver clientes en riesgo" } },
+        { que: `Conciliar los 100 proveedores dormidos con más saldo y saldar o cerrar la cuenta.`, por: `El ${porc(dormido.n / PROVEEDORES.length, 0)} de los proveedores lleva más de 3 años sin compras; los 100 con más saldo deben ${usd(c.top100)}.`, cuando: "En 3 meses", ir: { p: "tactico", t: "Ver la lista de saldos" } },
       ],
     },
     {
       tipo: "Estratégica", eyebrow: "3 · Productos y mercados", titulo: "Vendemos mucho de lo que menos gana, en mercados dispersos",
-      hallazgos: [
-        { cifra: porc(tresProd, 0), texto: "de la venta son Ropa, Cereales y Verduras, los únicos que ganan más del 40 %.", ir: { p: "estrategico", t: "Ver ganancia por producto" } },
-        { cifra: porc(afEu, 0), texto: `de la venta viene de África y Europa. Vendemos en ${c.paises} países y ninguno llega al 2 %.`, ir: { p: "estrategico", t: "Ver el mapa" } },
-        { cifra: "2 %", texto: "de la venta es de Norteamérica, donde vive la mayoría de los clientes registrados." },
-        { cifra: porc(sinCompra / CLIENTES.length, 0), texto: `de los clientes registrados (${num(sinCompra)} de ${num(CLIENTES.length)}) no tiene compras enlazadas. Es una cifra aproximada: ventas y clientes usan códigos distintos y se unieron por los 3 primeros dígitos, así que C0001 a C0099 nunca pueden recibir pedidos.`, ir: { p: "datos", t: "Ver cómo se unieron los datos" } },
-      ],
       decisiones: [
-        { que: "Dar más espacio comercial a Ropa, Cereales y Verduras.", cuando: "Plan a 2 años" },
-        { que: `Evaluar dejar de vender Frutas (${porc(p("Frutas").venta / c.t.venta, 1)} de la venta y poca ganancia).`, cuando: "Decisión en 6 meses" },
-        { que: "Concentrar logística y promoción en África y Europa.", cuando: "Plan a 3 años" },
-        { que: "Abrir un plan comercial en Norteamérica.", cuando: "Plan a 3 años" },
-        { que: "Unificar el código de cliente entre ventas y el registro de clientes, para que cada pedido quede ligado a su cliente sin aproximaciones.", cuando: "Plan a 1 año" },
+        { que: "Dar más espacio comercial a Ropa, Cereales y Verduras.", por: `Son los únicos que ganan más del 40 % y apenas el ${porc(tresProd, 0)} de la venta.`, cuando: "Plan a 2 años", ir: { p: "estrategico", t: "Ver ganancia por producto" } },
+        { que: "Evaluar dejar de vender Frutas.", por: `Es el ${porc(p("Frutas").venta / c.t.venta, 1)} de la venta y gana poco.`, cuando: "Decisión en 6 meses" },
+        { que: "Concentrar logística y promoción en África y Europa.", por: `Juntas son el ${porc(afEu, 0)} de la venta; ninguno de los ${c.paises} países llega al 2 %.`, cuando: "Plan a 3 años", ir: { p: "estrategico", t: "Ver el mapa" } },
+        { que: "Abrir un plan comercial en Norteamérica.", por: "Allí vive la mayoría de los clientes registrados, pero es solo el 2 % de la venta.", cuando: "Plan a 3 años" },
+        { que: "Unificar el código de cliente entre ventas y el registro de clientes.", por: `Hoy se unen de forma aproximada: el ${porc(sinCompra / CLIENTES.length, 0)} de los clientes (${num(sinCompra)}) queda sin compras enlazadas.`, cuando: "Plan a 1 año", ir: { p: "datos", t: "Ver cómo se unieron los datos" } },
       ],
     },
   ];
@@ -152,25 +134,13 @@ export function Presentacion() {
       {i > 0 && i <= diaps.length && (() => {
         const d = diaps[i - 1];
         return (
-          <div className="diap nivel">
+          <div className="diap resumen">
             <div>
               <div className="eyebrow">{d.eyebrow} · <span style={{ color: COLOR_TIPO[d.tipo] }}>Decisiones {d.tipo.toLowerCase()}s</span></div>
               <h2>{d.titulo}</h2>
-              <div className="hallazgos">
-                {d.hallazgos.map((h) => (
-                  <div key={h.texto} className="hallazgo">
-                    <div className="cifra" style={{ color: COLOR_TIPO[d.tipo] }}>{h.cifra}</div>
-                    <div>
-                      <p>{h.texto}</p>
-                      {h.ir && <button className="btn-link" onClick={() => irA(h.ir!.p, h.ir!.f)}>{h.ir.t} →</button>}
-                    </div>
-                  </div>
-                ))}
-              </div>
             </div>
-            <div>
-              <div className="eyebrow" style={{ color: "var(--text-3)" }}>Qué hacer · {PLAZO_TIPO[d.tipo].toLowerCase()}</div>
-              {d.decisiones.map((x) => <TarjetaDecision key={x.que} d={x} color={COLOR_TIPO[d.tipo]} />)}
+            <div className="decisiones">
+              {d.decisiones.map((x) => <TarjetaDecision key={x.que} d={x} color={COLOR_TIPO[d.tipo]} irA={irA} />)}
             </div>
           </div>
         );
@@ -206,12 +176,14 @@ export function Presentacion() {
   );
 }
 
-function TarjetaDecision({ d, color }: { d: Decision; color: string }) {
+function TarjetaDecision({ d, color, irA }: { d: Decision; color: string; irA: (p: Pestana, f?: Partial<Filtros>) => void }) {
   return (
-    <div className="decision" style={{ borderLeft: `4px solid ${color}` }}>
-      <div style={{ fontSize: 14.5, fontWeight: 600 }}>{d.que}</div>
+    <div className="decision" style={{ borderLeft: `4px solid ${color}`, marginTop: 0 }}>
+      <div style={{ fontSize: 15, fontWeight: 600 }}>{d.que}</div>
+      {d.por && <div className="decision-por">{d.por}</div>}
       <div className="decision-meta">
         <span><b>Cuándo:</b> {d.cuando}</span>
+        {d.ir && <button className="btn-link" style={{ margin: 0 }} onClick={() => irA(d.ir!.p, d.ir!.f)}>{d.ir.t} →</button>}
       </div>
     </div>
   );
