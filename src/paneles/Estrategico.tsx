@@ -125,7 +125,7 @@ function Segmentos() {
   const g = agrupar(ventas, (v) => v.segmento);
   const nCli = new Map<string, number>();
   for (const c of CLIENTES) nCli.set(c.segmento, (nCli.get(c.segmento) ?? 0) + 1);
-  const datos = [...SEGMENTOS, ...(m === "clientes" ? ["Sin compras"] : [])].map((k) => ({
+  const datos = SEGMENTOS.map((k) => ({
     k, v: m === "venta" ? g.get(k)?.venta ?? 0 : nCli.get(k) ?? 0,
     sub: m === "venta" ? `${nCli.get(k) ?? 0} clientes` : undefined,
     titulo: `${k}: ${SEGMENTO_DESC[k]}`,
@@ -137,7 +137,7 @@ function Segmentos() {
       extra={<Seg etiqueta="Métrica" valor={m} onChange={setM} opciones={[{ v: "venta", t: "Venta" }, { v: "clientes", t: "Clientes" }]} />}
       insight={<><b>En riesgo</b> y <b>No se pueden perder</b> son 58 clientes que dejaron {porc(riesgo / tot, 0)} de la venta y hace tiempo que no compran.</>}
       nota="Los grupos A–E del archivo de clientes no se usan: los cinco gastan casi lo mismo.">
-      <BarrasH datos={datos} seleccion={f.segmento} onClick={(k) => k !== "Sin compras" && toggle("segmento", k)} formato={m === "venta" ? usd : num} />
+      <BarrasH datos={datos} seleccion={f.segmento} onClick={(k) => toggle("segmento", k)} formato={m === "venta" ? usd : num} />
     </Tarjeta>
   );
 }
