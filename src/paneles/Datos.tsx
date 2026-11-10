@@ -4,7 +4,6 @@ import { num } from "@/lib/formato";
 import { Seccion } from "@/components/ui";
 
 export function Datos() {
-  const antesAlta = CLIENTES.filter((c) => c.antesAlta).length;
   const fuentes = [
     { nombre: "Ventas", detalle: `${num(VENTAS.length)} pedidos, ene 2020 – 7 nov 2022`, csv: "/datos/ventas.csv" },
     { nombre: "Clientes", detalle: `${num(CLIENTES.length)} clientes de EE. UU. y Reino Unido`, csv: "/datos/clientes.csv" },
@@ -44,10 +43,6 @@ export function Datos() {
             <p>{s.p}</p>
           </div>
         ))}
-        <div className="supuesto c12">
-          <h4>Limitaciones</h4>
-          <p>En {antesAlta} clientes el primer pedido es anterior a su alta (efecto del enlace aproximado). Hay emails repetidos y direcciones del Reino Unido incompletas; no cambian los resultados.</p>
-        </div>
       </div>
     </>
   );
