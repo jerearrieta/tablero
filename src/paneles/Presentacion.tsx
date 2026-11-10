@@ -1,16 +1,16 @@
 "use client";
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useFiltros, type Pestana, type Filtros } from "@/lib/filtros";
-import { agrupar, CLIENTES, PRIORIDADES, PROVEEDORES, pct, sumar, VENTAS, ESTADOS_PROV } from "@/lib/datos";
+import { agrupar, CLIENTES, PROVEEDORES, pct, sumar, VENTAS, ESTADOS_PROV } from "@/lib/datos";
 import { usd, num, porc, dias } from "@/lib/formato";
-import { BarrasH, COLOR_ESTADO, Estado } from "@/components/ui";
 
 type Tipo = "Operativa" | "Táctica" | "Estratégica";
-type Decision = { tipo: Tipo; que: string; quien: string; cuando: string; meta: string };
-type Diap = { id: string; eyebrow: string; titulo: string; dato: ReactNode; visual: ReactNode; decisiones: Decision[]; ir: { p: Pestana; f?: Partial<Filtros>; t: string } };
+type Decision = { que: string; quien: string; cuando: string; meta: string };
+type Ir = { p: Pestana; f?: Partial<Filtros>; t: string };
+type Hallazgo = { cifra: string; texto: string; ir?: Ir };
+type Diap = { tipo: Tipo; eyebrow: string; titulo: string; hallazgos: Hallazgo[]; decisiones: Decision[] };
 
 const COLOR_TIPO: Record<Tipo, string> = { Operativa: "var(--s1)", Táctica: "var(--accent)", Estratégica: "var(--s3)" };
-const CLASE_TIPO: Record<Tipo, string> = { Operativa: "op", Táctica: "ta", Estratégica: "es" };
 const PLAZO_TIPO: Record<Tipo, string> = { Operativa: "Este mes", Táctica: "Próximos 3 a 6 meses", Estratégica: "Próximos 2 a 3 años" };
 
 function useCifras() {
@@ -45,74 +45,49 @@ export function Presentacion() {
   const afEu = c.zonas.filter((z) => z.k === "África" || z.k === "Europa").reduce((s, z) => s + z.v, 0) / c.t.venta;
   const dormido = c.est.find((e) => e.e === "Dormido")!;
 
+  const critDias = c.prio.get("Crítica")!.dias / c.prio.get("Crítica")!.pedidos;
+
   const diaps: Diap[] = [
     {
-      id: "ventas", eyebrow: "Táctico · Ventas", titulo: "2022 no cae: solo tiene datos hasta el 7 de noviembre",
-      dato: <>Si comparamos lo mismo (enero a octubre), 2022 vendió <b>más que 2020</b> y un {porc(1 - c.ytd[2].v / c.ytd[1].v, 0)} menos que 2021.</>,
-      visual: <BarrasH datos={c.ytd.map((y) => ({ k: `${y.a} (ene–oct)`, v: y.v }))} formato={usd} />,
-      decisiones: [
-        { tipo: "Operativa", que: "Fijar una meta de venta mensual y compararla siempre contra el mismo mes del año anterior.", quien: "Gerente de ventas", cuando: "Desde este mes", meta: `Volver al nivel de 2021: ${usd(c.ytd[1].v / 10)} por mes` },
+      tipo: "Operativa", eyebrow: "1 · Operación del día a día", titulo: "Los pedidos urgentes salen igual de lento que los demás",
+      hallazgos: [
+        { cifra: dias(critDias), texto: "tarda en enviarse un pedido Crítico, casi lo mismo que uno de prioridad Baja.", ir: { p: "operativo", f: { prioridad: "Crítica" }, t: "Ver la cola de críticos" } },
+        { cifra: porc(c.lentos / c.t.pedidos, 0), texto: `de los pedidos (${num(c.lentos)}) tardaron más de 35 días en salir.` },
+        { cifra: porc(1 - c.ytd[2].v / c.ytd[1].v, 0), texto: "menos vendió 2022 que 2021 de enero a octubre. No es una caída: 2022 solo tiene datos hasta el 7 de noviembre.", ir: { p: "tactico", t: "Ver ventas por año y mes" } },
       ],
-      ir: { p: "tactico", t: "Ver ventas por año, mes y día" },
+      decisiones: [
+        { que: "Despachar primero los Críticos: máximo 7 días para Crítica y 15 para Alta.", quien: "Jefe de logística", cuando: "Desde la próxima semana", meta: `Críticos de ${dias(critDias)} a 7 días en 3 meses` },
+        { que: "Revisar cada mañana la cola de despacho y enviar primero los atrasados.", quien: "Coordinador de despacho", cuando: "Todos los días", meta: `Pedidos de más de 35 días: de ${porc(c.lentos / c.t.pedidos, 0)} a menos del 5 %` },
+        { que: "Fijar una meta de venta mensual y compararla contra el mismo mes del año anterior.", quien: "Gerente de ventas", cuando: "Desde este mes", meta: `${usd(c.ytd[1].v / 10)} por mes (nivel de 2021)` },
+      ],
     },
     {
-      id: "envios", eyebrow: "Operativo · Envíos", titulo: "Los pedidos urgentes no salen antes",
-      dato: <>Un pedido <b>Crítico</b> tarda {dias(c.prio.get("Crítica")!.dias / c.prio.get("Crítica")!.pedidos)} en enviarse, casi igual que uno de prioridad Baja. {num(c.lentos)} pedidos ({porc(c.lentos / c.t.pedidos, 0)}) tardaron más de 35 días.</>,
-      visual: <BarrasH datos={PRIORIDADES.map((k) => ({ k, v: c.prio.get(k)!.dias / c.prio.get(k)!.pedidos }))} formato={dias} max={50} />,
-      decisiones: [
-        { tipo: "Operativa", que: "Despachar primero los pedidos Críticos: máximo 7 días para Crítica y 15 días para Alta.", quien: "Jefe de logística", cuando: "Desde la próxima semana", meta: `Plazo medio de Críticos de ${dias(c.prio.get("Crítica")!.dias / c.prio.get("Crítica")!.pedidos)} a 7 días en 3 meses` },
-        { tipo: "Operativa", que: "Revisar cada mañana la cola de despacho del panel Operativo y enviar primero los pedidos atrasados.", quien: "Coordinador de despacho", cuando: "Todos los días", meta: `Pedidos de más de 35 días: de ${porc(c.lentos / c.t.pedidos, 0)} a menos del 5 %` },
+      tipo: "Táctica", eyebrow: "2 · Clientes y proveedores", titulo: "Muchos clientes no vuelven y muchos proveedores están parados",
+      hallazgos: [
+        { cifra: porc(c.una / c.conCompra.length, 0), texto: `de los clientes compró una sola vez (${num(c.una)} de ${num(c.conCompra.length)}).` },
+        { cifra: usd(c.riesgo), texto: `vendieron los ${c.nRiesgo} clientes valiosos que dejaron de comprar (${porc(c.riesgo / c.t.venta, 0)} de la venta).`, ir: { p: "estrategico", f: { segmento: "En riesgo" }, t: "Ver clientes en riesgo" } },
+        { cifra: porc(dormido.n / PROVEEDORES.length, 0), texto: `de los proveedores lleva más de 3 años sin compras y aún tiene ${usd(dormido.s)} de saldo.`, ir: { p: "tactico", t: "Ver la lista de saldos" } },
       ],
-      ir: { p: "operativo", f: { prioridad: "Crítica" }, t: "Ver la cola de pedidos críticos" },
+      decisiones: [
+        { que: `Ofrecer 5 % de descuento en el segundo pedido a los ${num(c.una)} clientes de una sola compra.`, quien: "Marketing", cuando: "Campaña en 2 meses", meta: "Que 1 de cada 10 vuelva en 6 meses" },
+        { que: `Contactar uno por uno a los ${c.nRiesgo} clientes En riesgo y No se pueden perder.`, quien: "Equipo comercial", cuando: "En 3 meses", meta: "Recuperar al menos 20" },
+        { que: `Conciliar los 100 proveedores dormidos con más saldo (${usd(c.top100)}) y saldar o cerrar la cuenta.`, quien: "Compras y contabilidad", cuando: "En 3 meses", meta: "Las 100 cuentas conciliadas" },
+        { que: `Renegociar el coste de Cárnicos (gana ${porc(p("Cárnicos").p, 0)}) y Material de oficina (${porc(p("Material de oficina").p, 0)}).`, quien: "Compras", cuando: "Próximo ciclo de compras", meta: "Ganancia del 20 % o más" },
+      ],
     },
     {
-      id: "proveedores", eyebrow: "Táctico · Proveedores", titulo: "3 de cada 4 proveedores llevan más de 3 años sin compras",
-      dato: <>Esos {num(dormido.n)} proveedores todavía tienen <b>{usd(dormido.s)}</b> de saldo pendiente, el {porc(dormido.s / c.saldo, 0)} del total.</>,
-      visual: (
-        <div>
-          {c.est.map((e) => (
-            <div key={e.e} style={{ marginBottom: 14 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13 }}><Estado e={e.e} /><span><b>{num(e.n)}</b> proveedores · {usd(e.s)}</span></div>
-              <div style={{ height: 10, background: "var(--grid)", borderRadius: 5, marginTop: 5 }}><div style={{ width: `${(e.n / PROVEEDORES.length) * 100}%`, height: "100%", background: COLOR_ESTADO[e.e], borderRadius: 5 }} /></div>
-            </div>
-          ))}
-        </div>
-      ),
-      decisiones: [
-        { tipo: "Táctica", que: `Llamar a los 100 proveedores dormidos con más saldo (${usd(c.top100)}) para conciliar la cuenta y saldarla o cerrarla.`, quien: "Compras y contabilidad", cuando: "En los próximos 3 meses", meta: "Las 100 cuentas conciliadas antes de fin de trimestre" },
-        { tipo: "Táctica", que: `Renegociar el coste unitario de Cárnicos (gana ${porc(p("Cárnicos").p, 0)}) y Material de oficina (${porc(p("Material de oficina").p, 0)}) con sus proveedores.`, quien: "Compras", cuando: "Antes del próximo ciclo de compras", meta: "Subir la ganancia de ambos productos al 20 % o más" },
+      tipo: "Estratégica", eyebrow: "3 · Productos y mercados", titulo: "Vendemos mucho de lo que menos gana, en mercados dispersos",
+      hallazgos: [
+        { cifra: porc(tresProd, 0), texto: "de la venta son Ropa, Cereales y Verduras, los únicos que ganan más del 40 %.", ir: { p: "estrategico", t: "Ver ganancia por producto" } },
+        { cifra: porc(afEu, 0), texto: `de la venta viene de África y Europa. Vendemos en ${c.paises} países y ninguno llega al 2 %.`, ir: { p: "estrategico", t: "Ver el mapa" } },
+        { cifra: "2 %", texto: "de la venta es de Norteamérica, donde vive la mayoría de los clientes registrados." },
       ],
-      ir: { p: "tactico", t: "Ver la lista de saldos" },
-    },
-    {
-      id: "clientes", eyebrow: "Táctico · Clientes", titulo: `${porc(c.una / c.conCompra.length, 0)} de los clientes compró una sola vez`,
-      dato: <>De {num(c.conCompra.length)} clientes con compras, {num(c.una)} no volvieron. Y hay {c.nRiesgo} clientes valiosos que dejaron de comprar: generaron <b>{usd(c.riesgo)}</b> ({porc(c.riesgo / c.t.venta, 0)} de la venta).</>,
-      visual: <BarrasH datos={[1, 2, 3, 4].map((n) => ({ k: n === 4 ? "4 o más pedidos" : `${n} pedido${n > 1 ? "s" : ""}`, v: c.conCompra.filter((x) => (n === 4 ? x.frecuencia >= 4 : x.frecuencia === n)).length }))} formato={num} />,
       decisiones: [
-        { tipo: "Táctica", que: `Enviar a los ${num(c.una)} clientes de una sola compra un 5 % de descuento en su segundo pedido.`, quien: "Marketing", cuando: "Campaña en los próximos 2 meses", meta: "Que 1 de cada 10 vuelva a comprar en 6 meses" },
-        { tipo: "Táctica", que: `Contactar uno por uno a los ${c.nRiesgo} clientes de los segmentos En riesgo y No se pueden perder.`, quien: "Equipo comercial", cuando: "En los próximos 3 meses", meta: "Recuperar al menos 20 de ellos" },
+        { que: "Dar más espacio comercial a Ropa, Cereales y Verduras.", quien: "Gerencia comercial", cuando: "Plan a 2 años", meta: `Del ${porc(tresProd, 0)} al 20 % de la venta` },
+        { que: `Evaluar dejar de vender Frutas (${porc(p("Frutas").venta / c.t.venta, 1)} de la venta y poca ganancia).`, quien: "Dirección general", cuando: "Decisión en 6 meses", meta: "Mantener o retirar" },
+        { que: "Concentrar logística y promoción en África y Europa.", quien: "Dirección general", cuando: "Plan a 3 años", meta: `Del ${porc(afEu, 0)} al 60 % de la venta` },
+        { que: "Abrir un plan comercial en Norteamérica.", quien: "Gerencia comercial", cuando: "Plan a 3 años", meta: "Del 2 % al 5 % de la venta" },
       ],
-      ir: { p: "estrategico", f: { segmento: "En riesgo" }, t: "Ver clientes en riesgo" },
-    },
-    {
-      id: "productos", eyebrow: "Estratégico · Productos", titulo: "Los productos que más venden no son los que más ganan",
-      dato: <>Cárnicos y Material de oficina están entre los que más venden, pero ganan solo {porc(p("Cárnicos").p, 0)} y {porc(p("Material de oficina").p, 0)}. Ropa, Cereales y Verduras ganan más del 40 % y son apenas el {porc(tresProd, 0)} de la venta.</>,
-      visual: <BarrasH datos={[...c.prod].sort((a, b) => b.p - a.p).map((x) => ({ k: x.k, v: x.p }))} formato={(x) => porc(x, 0)} max={1} />,
-      decisiones: [
-        { tipo: "Estratégica", que: "Dar más espacio comercial a Ropa, Cereales y Verduras, los productos que más ganan por dólar vendido.", quien: "Gerencia comercial", cuando: "Plan a 2 años", meta: `Subir su parte de la venta del ${porc(tresProd, 0)} al 20 %` },
-        { tipo: "Estratégica", que: `Evaluar dejar de vender Frutas: es el ${porc(p("Frutas").venta / c.t.venta, 1)} de la venta y gana poco.`, quien: "Dirección general", cuando: "Decisión en 6 meses", meta: "Decidir si se mantiene o se retira" },
-      ],
-      ir: { p: "estrategico", t: "Ver ganancia por producto" },
-    },
-    {
-      id: "mercados", eyebrow: "Estratégico · Mercados", titulo: `Vendemos en ${c.paises} países, pero ninguno es fuerte`,
-      dato: <>Ningún país llega al 2 % de la venta. África y Europa juntas son el {porc(afEu, 0)}. Norteamérica, donde vive la mayoría de los clientes registrados, es apenas el 2 %.</>,
-      visual: <BarrasH datos={c.zonas.map((z) => ({ k: z.k, v: z.v }))} formato={usd} />,
-      decisiones: [
-        { tipo: "Estratégica", que: "Elegir África y Europa como zonas principales y concentrar ahí la logística y la promoción.", quien: "Dirección general", cuando: "Plan a 3 años", meta: `Subir su parte de la venta del ${porc(afEu, 0)} al 60 %` },
-        { tipo: "Estratégica", que: "Abrir un plan comercial en Norteamérica, donde ya están la mayoría de los clientes registrados.", quien: "Gerencia comercial", cuando: "Plan a 3 años", meta: "Pasar del 2 % al 5 % de la venta" },
-      ],
-      ir: { p: "estrategico", t: "Ver el mapa" },
     },
   ];
   const total = diaps.length + 2; // portada + diapositivas + resumen
@@ -128,7 +103,7 @@ export function Presentacion() {
     return () => window.removeEventListener("keydown", k);
   }, [total]);
 
-  const todas = diaps.flatMap((d) => d.decisiones);
+  const todas = diaps.flatMap((d) => d.decisiones.map((x) => ({ ...x, tipo: d.tipo })));
   const titulos = ["Portada", ...diaps.map((d) => d.titulo), "Resumen de decisiones"];
 
   return (
@@ -149,7 +124,7 @@ export function Presentacion() {
           <div style={{ position: "relative", zIndex: 1, maxWidth: 1040 }}>
             <div className="eyebrow" style={{ color: "#ffb79c" }}>Air Transport, Panamá · ventas, clientes y proveedores 2020–2022</div>
             <h2 style={{ fontSize: 40 }}>Qué hacer con lo que dicen los datos</h2>
-            <p style={{ fontSize: 17 }}>Seis hallazgos y, para cada uno, decisiones concretas: qué hacer, quién lo hace, cuándo y cómo medir si funcionó.</p>
+            <p style={{ fontSize: 17 }}>Tres diapositivas, una por nivel de decisión: operativa, táctica y estratégica. En cada una, lo que dicen los datos y qué hacer: quién, cuándo y con qué meta.</p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: 12, margin: "26px 0" }}>
               {[[usd(c.t.venta), "vendidos"], [porc(pct(c.t)), "de ganancia"], [num(c.t.pedidos), "pedidos"], [String(c.paises), "países"]].map(([v, t]) => (
                 <div key={t} style={{ background: "rgba(255,255,255,.1)", borderRadius: 12, padding: "12px 14px" }}>
@@ -174,23 +149,32 @@ export function Presentacion() {
       {i > 0 && i <= diaps.length && (() => {
         const d = diaps[i - 1];
         return (
-          <div className="diap" style={{ gridTemplateColumns: "1fr 1fr", alignItems: "start" }}>
+          <div className="diap nivel">
             <div>
-              <div className="eyebrow">{d.eyebrow}</div>
+              <div className="eyebrow">{d.eyebrow} · <span style={{ color: COLOR_TIPO[d.tipo] }}>Decisiones {d.tipo.toLowerCase()}s</span></div>
               <h2>{d.titulo}</h2>
-              <p>{d.dato}</p>
-              <div style={{ marginTop: 18 }}>{d.visual}</div>
-              <button className="btn-link" onClick={() => irA(d.ir.p, d.ir.f)}>{d.ir.t} en el tablero →</button>
+              <div className="hallazgos">
+                {d.hallazgos.map((h) => (
+                  <div key={h.texto} className="hallazgo">
+                    <div className="cifra" style={{ color: COLOR_TIPO[d.tipo] }}>{h.cifra}</div>
+                    <div>
+                      <p>{h.texto}</p>
+                      {h.ir && <button className="btn-link" onClick={() => irA(h.ir!.p, h.ir!.f)}>{h.ir.t} →</button>}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
             <div>
-              {d.decisiones.map((x) => <TarjetaDecision key={x.que} d={x} />)}
+              <div className="eyebrow" style={{ color: "var(--text-3)" }}>Qué hacer · {PLAZO_TIPO[d.tipo].toLowerCase()}</div>
+              {d.decisiones.map((x) => <TarjetaDecision key={x.que} d={x} color={COLOR_TIPO[d.tipo]} />)}
             </div>
           </div>
         );
       })()}
 
       {i === total - 1 && (
-        <div className="diap" style={{ gridTemplateColumns: "1fr", alignItems: "start" }}>
+        <div className="diap resumen">
           <div>
             <div className="eyebrow">Resumen</div>
             <h2>Plan de acción</h2>
@@ -221,19 +205,15 @@ export function Presentacion() {
   );
 }
 
-function TarjetaDecision({ d }: { d: Decision }) {
-  const fila = (k: string, v: string) => (
-    <div style={{ display: "grid", gridTemplateColumns: "70px 1fr", gap: 8, fontSize: 13, marginTop: 4 }}>
-      <span style={{ color: "var(--text-3)" }}>{k}</span><span>{v}</span>
-    </div>
-  );
+function TarjetaDecision({ d, color }: { d: Decision; color: string }) {
   return (
-    <div className="decision" style={{ borderLeft: `4px solid ${COLOR_TIPO[d.tipo]}`, marginTop: 0, marginBottom: 12 }}>
-      <div className={`tipo ${CLASE_TIPO[d.tipo]}`}>Decisión {d.tipo.toLowerCase()}</div>
-      <div style={{ fontSize: 15, fontWeight: 600, margin: "4px 0 6px" }}>{d.que}</div>
-      {fila("Quién", d.quien)}
-      {fila("Cuándo", d.cuando)}
-      {fila("Meta", d.meta)}
+    <div className="decision" style={{ borderLeft: `4px solid ${color}` }}>
+      <div style={{ fontSize: 14.5, fontWeight: 600 }}>{d.que}</div>
+      <div className="decision-meta">
+        <span><b>Quién:</b> {d.quien}</span>
+        <span><b>Cuándo:</b> {d.cuando}</span>
+        <span><b>Meta:</b> {d.meta}</span>
+      </div>
     </div>
   );
 }
