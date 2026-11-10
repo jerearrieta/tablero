@@ -69,10 +69,6 @@ function Shell() {
         {pestana === "presentacion" && <Presentacion />}
         {pestana === "datos" && <Datos />}
       </main>
-      <footer className="pie">
-        Datos: 1,000 pedidos (ene 2020 – 7 nov 2022), 999 clientes y 999 proveedores de Air Transport. Montos en USD.
-        Los cruces ventas↔clientes y ventas↔proveedores son supuestos de modelado: ver la pestaña <a href="#datos" onClick={(e) => { e.preventDefault(); irA("datos"); }}>Datos</a>.
-      </footer>
     </>
   );
 }
