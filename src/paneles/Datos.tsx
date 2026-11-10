@@ -15,13 +15,12 @@ export function Datos() {
     { t: "Proveedores simulados", p: <>Ventas no dice quién proveyó cada pedido, así que se asignó por categoría de producto. Saldos y fechas de proveedores sí son reales.</> },
     { t: "Zona nueva: Oriente Medio", p: <>15 países de Oriente Medio estaban dentro de «África». Se separaron.</> },
     { t: "2022 está incompleto", p: <>Los datos terminan el 7 de noviembre de 2022. Para comparar años se usa enero a octubre.</> },
-    { t: "Clientes agrupados por RFM", p: <>Cada cliente se agrupa según qué tan reciente, qué tan seguido y cuánto compra. Los grupos A–E del archivo no se usan porque gastan casi lo mismo.</> },
   ];
   return (
     <>
       <div className="intro">
         <div>
-          <h1>Datos y supuestos</h1>
+          <h1>Datos</h1>
           <p>De dónde salen los números y qué hay que tener en cuenta al leerlos.</p>
         </div>
       </div>
@@ -37,7 +36,7 @@ export function Datos() {
         ))}
       </div>
 
-      <Seccion titulo="Supuestos" />
+      <Seccion titulo="A tener en cuenta" />
       <div className="grid">
         {supuestos.map((s, i) => (
           <div key={s.t} className="supuesto c6">
@@ -45,16 +44,9 @@ export function Datos() {
             <p>{s.p}</p>
           </div>
         ))}
-        <div className="supuesto c6">
+        <div className="supuesto c12">
           <h4>Limitaciones</h4>
           <p>En {antesAlta} clientes el primer pedido es anterior a su alta (efecto del enlace aproximado). Hay emails repetidos y direcciones del Reino Unido incompletas; no cambian los resultados.</p>
-        </div>
-      </div>
-
-      <Seccion titulo="Cómo usar el tablero" />
-      <div className="grid">
-        <div className="supuesto c12">
-          <p>Los filtros de arriba y los clics en cualquier gráfico filtran todo a la vez. La × de cada etiqueta naranja quita ese filtro.</p>
         </div>
       </div>
     </>
