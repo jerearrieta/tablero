@@ -45,6 +45,7 @@ export function Presentacion() {
   const afEu = c.zonas.filter((z) => z.k === "África" || z.k === "Europa").reduce((s, z) => s + z.v, 0) / c.t.venta;
   const dormido = c.est.find((e) => e.e === "Dormido")!;
 
+  const sinCompra = CLIENTES.length - c.conCompra.length;
   const critDias = c.prio.get("Crítica")!.dias / c.prio.get("Crítica")!.pedidos;
 
   const diaps: Diap[] = [
@@ -71,6 +72,7 @@ export function Presentacion() {
       decisiones: [
         { que: `Ofrecer 5 % de descuento en el segundo pedido a los ${num(c.una)} clientes de una sola compra.`, quien: "Marketing", cuando: "Campaña en 2 meses", meta: "Que 1 de cada 10 vuelva en 6 meses" },
         { que: `Contactar uno por uno a los ${c.nRiesgo} clientes En riesgo y No se pueden perder.`, quien: "Equipo comercial", cuando: "En 3 meses", meta: "Recuperar al menos 20" },
+        { que: `Una vez unificado el código, revisar los ${num(sinCompra)} clientes sin compras y reactivar a los que de verdad estén inactivos.`, quien: "Marketing y equipo comercial", cuando: "Después de unificar el código", meta: "Que 1 de cada 10 haga su primer pedido" },
         { que: `Conciliar los 100 proveedores dormidos con más saldo (${usd(c.top100)}) y saldar o cerrar la cuenta.`, quien: "Compras y contabilidad", cuando: "En 3 meses", meta: "Las 100 cuentas conciliadas" },
       ],
     },
@@ -80,12 +82,14 @@ export function Presentacion() {
         { cifra: porc(tresProd, 0), texto: "de la venta son Ropa, Cereales y Verduras, los únicos que ganan más del 40 %.", ir: { p: "estrategico", t: "Ver ganancia por producto" } },
         { cifra: porc(afEu, 0), texto: `de la venta viene de África y Europa. Vendemos en ${c.paises} países y ninguno llega al 2 %.`, ir: { p: "estrategico", t: "Ver el mapa" } },
         { cifra: "2 %", texto: "de la venta es de Norteamérica, donde vive la mayoría de los clientes registrados." },
+        { cifra: porc(sinCompra / CLIENTES.length, 0), texto: `de los clientes registrados (${num(sinCompra)} de ${num(CLIENTES.length)}) no tiene compras enlazadas. Es una cifra aproximada: ventas y clientes usan códigos distintos y se unieron por los 3 primeros dígitos, así que C0001 a C0099 nunca pueden recibir pedidos.`, ir: { p: "datos", t: "Ver cómo se unieron los datos" } },
       ],
       decisiones: [
         { que: "Dar más espacio comercial a Ropa, Cereales y Verduras.", quien: "Gerencia comercial", cuando: "Plan a 2 años", meta: `Del ${porc(tresProd, 0)} al 20 % de la venta` },
         { que: `Evaluar dejar de vender Frutas (${porc(p("Frutas").venta / c.t.venta, 1)} de la venta y poca ganancia).`, quien: "Dirección general", cuando: "Decisión en 6 meses", meta: "Mantener o retirar" },
         { que: "Concentrar logística y promoción en África y Europa.", quien: "Dirección general", cuando: "Plan a 3 años", meta: `Del ${porc(afEu, 0)} al 60 % de la venta` },
         { que: "Abrir un plan comercial en Norteamérica.", quien: "Gerencia comercial", cuando: "Plan a 3 años", meta: "Del 2 % al 5 % de la venta" },
+        { que: "Unificar el código de cliente entre ventas y el registro de clientes, para que cada pedido quede ligado a su cliente sin aproximaciones.", quien: "Dirección general y sistemas", cuando: "Plan a 1 año", meta: "100 % de los pedidos con cliente identificado" },
       ],
     },
   ];
