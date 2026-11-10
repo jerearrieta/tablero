@@ -72,7 +72,6 @@ export function Presentacion() {
         { que: `Ofrecer 5 % de descuento en el segundo pedido a los ${num(c.una)} clientes de una sola compra.`, quien: "Marketing", cuando: "Campaña en 2 meses", meta: "Que 1 de cada 10 vuelva en 6 meses" },
         { que: `Contactar uno por uno a los ${c.nRiesgo} clientes En riesgo y No se pueden perder.`, quien: "Equipo comercial", cuando: "En 3 meses", meta: "Recuperar al menos 20" },
         { que: `Conciliar los 100 proveedores dormidos con más saldo (${usd(c.top100)}) y saldar o cerrar la cuenta.`, quien: "Compras y contabilidad", cuando: "En 3 meses", meta: "Las 100 cuentas conciliadas" },
-        { que: `Renegociar el coste de Cárnicos (gana ${porc(p("Cárnicos").p, 0)}) y Material de oficina (${porc(p("Material de oficina").p, 0)}).`, quien: "Compras", cuando: "Próximo ciclo de compras", meta: "Ganancia del 20 % o más" },
       ],
     },
     {
