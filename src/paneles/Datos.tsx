@@ -10,7 +10,7 @@ export function Datos() {
     { nombre: "Proveedores", detalle: `${num(PROVEEDORES.length)} proveedores con saldo y última compra`, csv: "/datos/proveedores.csv" },
   ];
   const supuestos = [
-    { t: "Clientes enlazados por ID aproximado", p: <>Los ID de ventas no coinciden con los de clientes. Se unen por los 3 primeros dígitos (<b>C2421 → C0242</b>).</> },
+    { t: "Clientes enlazados por ID aproximado", p: <>Los ID de ventas no coinciden con los de clientes. Se unen por los 3 primeros dígitos (<b>C2421 → C0242</b>). Así todas las ventas quedan en 580 clientes y 419 (42 %) aparecen sin compras; 99 de ellos (C0001–C0099) nunca pueden recibir un pedido por esta regla. Es una aproximación.</> },
     { t: "Proveedores simulados", p: <>Ventas no dice quién proveyó cada pedido, así que se asignó por categoría de producto. Saldos y fechas de proveedores sí son reales.</> },
     { t: "Zona nueva: Oriente Medio", p: <>15 países de Oriente Medio estaban dentro de «África». Se separaron.</> },
     { t: "2022 está incompleto", p: <>Los datos terminan el 7 de noviembre de 2022. Para comparar años se usa enero a octubre.</> },
