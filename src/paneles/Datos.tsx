@@ -49,8 +49,8 @@ export function Datos() {
           <p>Los datos llegan al 7 de noviembre de 2022. Para comparar años se usa el acumulado enero–octubre. La fecha de corte para recencia y actividad de proveedores es el <b>8 de noviembre de 2022</b>.</p>
         </div>
         <div className="supuesto c12">
-          <h4>Segmentación RFM y grupos A–E</h4>
-          <p><b>R</b> (recencia) y <b>M</b> (monto) se puntúan por quintiles de 1 a 5; <b>F</b> es el número de pedidos (5 = cinco o más). Con esas puntuaciones se forman nueve segmentos (Campeones, Leales, Potenciales leales, Nuevos, Necesitan atención, No se pueden perder, En riesgo, Hibernando, Perdidos). Los grupos A–E vienen del archivo de clientes sin definición; se mantienen como filtro, pero su ticket medio es casi idéntico, así que no se usan para segmentar.</p>
+          <h4>Cómo se agruparon los clientes (RFM)</h4>
+          <p>A cada cliente se le dan tres notas del 1 al 5: <b>R</b>, cuánto hace de su última compra (5 = compró hace poco); <b>F</b>, cuántos pedidos hizo (5 = cinco o más); y <b>M</b>, cuánto gastó en total (5 = de los que más gastaron). Según esas notas, cada cliente cae en un grupo con nombre, como «Campeones» (compran seguido y mucho) o «En riesgo» (eran buenos clientes y dejaron de comprar). Los grupos A–E del archivo original no se usan porque los cinco gastan casi lo mismo.</p>
         </div>
       </div>
 

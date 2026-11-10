@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 import { ProveedorFiltros, useFiltros, type Pestana, type Filtros } from "@/lib/filtros";
-import { ANIOS, CANALES, GRUPOS, MESES, PRIORIDADES, PRODUCTOS, SEGMENTOS, ZONAS, sumar, VENTAS, CLIENTE_POR_ID } from "@/lib/datos";
+import { ANIOS, MESES, PRODUCTOS, SEGMENTOS, ZONAS, sumar, VENTAS, CLIENTE_POR_ID } from "@/lib/datos";
 import { usd, num, porc, dias } from "@/lib/formato";
 import { Kpi } from "./ui";
 import { Operativo } from "@/paneles/Operativo";
@@ -12,10 +12,10 @@ import { Datos } from "@/paneles/Datos";
 
 const PESTANAS: { id: Pestana; t: string; nivel?: string }[] = [
   { id: "presentacion", t: "Presentación" },
-  { id: "operativo", t: "Operativo", nivel: "Corto plazo" },
-  { id: "tactico", t: "Táctico", nivel: "Medio plazo" },
-  { id: "estrategico", t: "Estratégico", nivel: "Largo plazo" },
-  { id: "datos", t: "Datos y supuestos" },
+  { id: "operativo", t: "Operativo", nivel: "Día a día" },
+  { id: "tactico", t: "Táctico", nivel: "Este año" },
+  { id: "estrategico", t: "Estratégico", nivel: "Futuro" },
+  { id: "datos", t: "Datos" },
 ];
 
 export function Tablero() {
@@ -70,7 +70,7 @@ function Shell() {
       </main>
       <footer className="pie">
         Datos: 1,000 pedidos (ene 2020 – 7 nov 2022), 999 clientes y 999 proveedores de Air Transport. Montos en USD.
-        Los cruces ventas↔clientes y ventas↔proveedores son supuestos de modelado: ver <a href="#datos" onClick={(e) => { e.preventDefault(); irA("datos"); }}>Datos y supuestos</a>.
+        Los cruces ventas↔clientes y ventas↔proveedores son supuestos de modelado: ver la pestaña <a href="#datos" onClick={(e) => { e.preventDefault(); irA("datos"); }}>Datos</a>.
       </footer>
     </>
   );
@@ -116,6 +116,9 @@ function BarraFiltros() {
   if (f.trim) pills.push({ k: "trim", t: "Trimestre", v: `T${f.trim}` });
   if (f.mes) pills.push({ k: "mes", t: "Mes", v: MESES[f.mes - 1] });
   if (f.pais) pills.push({ k: "pais", t: "País", v: nombrePais.get(f.pais) ?? f.pais });
+  if (f.canal) pills.push({ k: "canal", t: "Canal", v: f.canal });
+  if (f.prioridad) pills.push({ k: "prioridad", t: "Prioridad", v: f.prioridad });
+  if (f.grupo) pills.push({ k: "grupo", t: "Grupo", v: f.grupo });
   if (f.cliente) pills.push({ k: "cliente", t: "Cliente", v: CLIENTE_POR_ID.get(f.cliente)?.nombre ?? f.cliente });
   const hay = f.anios.length || Object.entries(f).some(([k, v]) => k !== "anios" && v != null);
   return (
@@ -127,10 +130,7 @@ function BarraFiltros() {
         </div>
         <Selector k="zona" etiqueta="Zona" opciones={ZONAS} />
         <Selector k="producto" etiqueta="Producto" opciones={PRODUCTOS} />
-        <Selector k="canal" etiqueta="Canal" opciones={CANALES} />
-        <Selector k="prioridad" etiqueta="Prioridad" opciones={PRIORIDADES} />
-        <Selector k="segmento" etiqueta="Segmento RFM" opciones={SEGMENTOS} />
-        <Selector k="grupo" etiqueta="Grupo" opciones={GRUPOS} />
+        <Selector k="segmento" etiqueta="Clientes" opciones={SEGMENTOS} />
         {hay ? <button className="limpiar" onClick={limpiar}>Limpiar filtros</button> : null}
       </div>
       <div className="activos">
@@ -139,7 +139,7 @@ function BarraFiltros() {
             <button aria-label={`Quitar ${p.t}`} onClick={() => { set(p.k, null as any); if (p.k === "trim") set("mes", null); }}>×</button>
           </span>
         ))}
-        {!pills.length && <span style={{ fontSize: 12, color: "var(--text-3)" }}>Consejo: haga clic en barras, países, celdas o filas para filtrar todo el tablero. * 2022 llega hasta el 7 de noviembre.</span>}
+        {!pills.length && <span style={{ fontSize: 12, color: "var(--text-3)" }}>Haga clic en una barra, un país o una fila para filtrar todo. * 2022 llega hasta el 7 de noviembre.</span>}
       </div>
     </>
   );
@@ -154,12 +154,9 @@ function Kpis() {
   return (
     <div className="kpis">
       <Kpi titulo="Venta" valor={usd(a.venta)} sub={parte < 0.999 ? `${porc(parte)} del total` : "Total del período"} />
-      <Kpi titulo="Margen bruto" valor={usd(a.margen)} sub={`${porc(a.venta ? a.margen / a.venta : 0)} sobre venta`} />
-      <Kpi titulo="Coste" valor={usd(a.coste)} sub={`${porc(a.venta ? a.coste / a.venta : 0)} de la venta`} />
-      <Kpi titulo="Pedidos" valor={num(a.pedidos)} sub={`${num(a.unidades)} unidades`} />
-      <Kpi titulo="Ticket medio" valor={usd(a.pedidos ? a.venta / a.pedidos : 0)} sub="Venta por pedido" />
-      <Kpi titulo="Plazo de envío" valor={dias(a.pedidos ? a.dias / a.pedidos : 0)} sub="Media pedido → envío" />
-      <Kpi titulo="Clientes con compra" valor={num(clientes)} sub="de 999 registrados" />
+      <Kpi titulo="Ganancia (margen)" valor={usd(a.margen)} sub={`${porc(a.venta ? a.margen / a.venta : 0)} de cada venta`} />
+      <Kpi titulo="Pedidos" valor={num(a.pedidos)} sub={`${num(clientes)} clientes distintos`} />
+      <Kpi titulo="Plazo de envío" valor={dias(a.pedidos ? a.dias / a.pedidos : 0)} sub="Media entre pedido y envío" />
     </div>
   );
 }
